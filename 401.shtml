@@ -1,0 +1,6 @@
+<!--#echo var="REMOTE_ADDR" -->
+<hr>Sorry, that folder is restricted.<hr>
+<!--#echo var="REQUEST_URI" -->
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+--> 

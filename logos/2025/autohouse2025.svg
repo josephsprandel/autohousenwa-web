@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="1200"
+   viewBox="0 0 317.49999 317.50001"
+   version="1.1"
+   id="svg5166"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="autohouse2025.svg"
+   inkscape:export-filename="D:\Joseph\pictures\autohouse2025.png"
+   inkscape:export-xdpi="80"
+   inkscape:export-ydpi="80">
+  <defs
+     id="defs5160" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="600"
+     inkscape:cy="531.42857"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5163">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,20.500017)">
+    <g
+       transform="translate(-0.379464,-0.06669015)"
+       id="g4590">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9252"
+         d="m 189.03191,24.428535 -64.02896,73.346676 h 64.72838 V 24.428535 Z m 46.43143,0 v 73.346676 h 55.32557 V 24.428535 Z M 86.287527,142.12431 27.470018,209.50093 H 189.73133 v -67.37662 z m 149.175813,0 v 67.37662 h 55.32557 v -67.37662 z"
+         style="fill:#003a73;fill-opacity:1;stroke:none;stroke-width:0.03775746px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;shape-rendering:crispEdges" />
+      <flowRoot
+         transform="matrix(0.7419833,0,0,0.55960936,-18060.209,118.04242)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:800px;line-height:1;font-family:'Swis721 BlkEx BT';-inkscape-font-specification:'Swis721 BlkEx BT Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:2.04366946px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#003a73;fill-opacity:1;stroke:none;shape-rendering:crispEdges"
+         id="flowRoot4703"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4699"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Swis721 BlkEx BT';-inkscape-font-specification:'Swis721 BlkEx BT Bold';letter-spacing:2.04366946px;fill:#003a73;fill-opacity:1"><rect
+             y="-369.04382"
+             x="24377.143"
+             height="1440.4778"
+             width="5556.5342"
+             id="rect4697"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Swis721 BlkEx BT';-inkscape-font-specification:'Swis721 BlkEx BT Bold';letter-spacing:2.04366946px;fill:#003a73;fill-opacity:1" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:71.19764709px;line-height:0px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';letter-spacing:0.86054796px;fill:#003a73;fill-opacity:1"
+           id="flowPara4701">AutoHouse</flowPara></flowRoot>    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+---
+# cPanel Git Version Control deployment for autohousenwa.com.
+# Deploy = cPanel → Git Version Control → Manage → "Update from Remote",
+# then "Deploy HEAD Commit". Copies the site files into public_html.
+#
+# Copies and overwrites only — it never deletes. Removing a page or folder
+# from the live site is still done by hand in File Manager.
+#
+# Deliberately NOT deployed (host-managed, or not part of the site):
+#   .htaccess, php.ini, .user.ini  — cPanel edits these (MultiPHP INI Editor)
+#   ro/, volvo/, cgi-bin/, audio/  — legacy, not in this repo
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/autohous/public_html/
+    - /bin/cp -f index.php services.php service_details.php contact.php about.php privacy.php terms.php sms-policy.php $DEPLOYPATH
+    - /bin/cp -f favicon.ico 401.shtml 404.shtml 084ce9a124e7ecdbdd51d41edc42a2ba.html $DEPLOYPATH
+    - /bin/cp -Rf includes _img logos $DEPLOYPATH
