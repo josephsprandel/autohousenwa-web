@@ -280,7 +280,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
     <h2>Privacy and Security</h2>
     <p>
-        Your mobile phone number and text message data are protected according to our <a href="privacy.php" style="color: #003366; text-decoration: underline;">Privacy Policy</a>. We do not share your phone number with third parties except our SMS service provider (Bandwidth) who facilitates message delivery. We use industry-standard security measures to protect your information.
+        Your mobile phone number and text message data are protected according to our <a href="privacy.php" style="color: #003366; text-decoration: underline;">Privacy Policy</a>. We do not share your phone number with third parties except our SMS service provider, which delivers the messages. We use industry-standard security measures to protect your information.
     </p>
 
     <h2>Changes to This Policy</h2>

@@ -242,7 +242,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
     <h2>Information Sharing and Disclosure</h2>
     <p>We do not sell, rent, or trade your personal information. We may share your information only in the following limited circumstances:</p>
     <ul>
-        <li><strong>SMS Service Provider (Bandwidth):</strong> To send text message notifications about your vehicle service</li>
+        <li><strong>SMS Service Provider:</strong> To send text message notifications about your vehicle service</li>
         <li><strong>Payment Processors:</strong> To process credit card payments securely</li>
         <li><strong>Parts Suppliers:</strong> To order necessary parts for your vehicle repairs</li>
         <li><strong>Legal Requirements:</strong> When required by law, court order, or government regulation</li>
