@@ -1,18 +1,20 @@
 <?php
 $services = [
-    ['id'=>1,'name'=>'Manufacturer-Spec Oil Service','description'=>'Oil and filter service performed to manufacturer specifications using the correct oil grade and quality components - no shortcuts, no guesswork.','price'=>100,'duration'=>'1 hour'],
-    ['id'=>2,'name'=>'Brake System Service','description'=>'Comprehensive brake inspection and repair focused on safety, performance, and long-term reliability - not just pad replacement.','price'=>250,'duration'=>'2 hours'],
-    ['id'=>3,'name'=>'Advanced Engine Diagnostics','description'=>'Data-driven testing and computer diagnostics to accurately identify engine and drivability issues before repairs begin.','price'=>160,'duration'=>'1-2 hours'],
-    ['id'=>4,'name'=>'Tire Rotation & Brake Wear Inspection','description'=>'Tire rotation combined with a brake wear inspection to promote even tire life and identify issues early.','price'=>40,'duration'=>'30 minutes'],
-    ['id'=>5,'name'=>'Battery & Charging System Service','description'=>'Battery and charging system testing, replacement if needed, and terminal service to prevent starting and electrical issues.','price'=>40,'duration'=>'30 minutes'],
-    ['id'=>6,'name'=>'A/C System Diagnostics & Repair','description'=>'System-level diagnosis and repair of automotive air conditioning systems for reliable cooling and proper operation.','price'=>160,'duration'=>'1-2 hours'],
-    ['id'=>7,'name'=>'Pre-Purchase & Vehicle Inspections','description'=>'Thorough vehicle inspections designed to uncover existing or developing issues before they become expensive repairs.','price'=>160,'duration'=>'1 hour'],
+    ['id'=>1,'name'=>'Manufacturer-Spec Oil Service','description'=>'Oil and filter service performed to manufacturer specifications using the correct oil grade and quality components - no shortcuts, no guesswork.','price'=>'$100–$150','duration'=>'1 hour'],
+    ['id'=>2,'name'=>'Brake System Service','description'=>'Comprehensive brake inspection and repair focused on safety, performance, and long-term reliability - not just pad replacement.','price'=>'$450–$700 per axle','duration'=>'2 hours'],
+    ['id'=>3,'name'=>'Advanced Engine Diagnostics','description'=>'Data-driven testing and computer diagnostics to accurately identify engine and drivability issues before repairs begin.','price'=>'$160–$320','duration'=>'1-2 hours'],
+    ['id'=>4,'name'=>'Tire Rotation & Brake Wear Inspection','description'=>'Tire rotation combined with a brake wear inspection to promote even tire life and identify issues early.','price'=>'$40–$50','duration'=>'30 minutes'],
+    ['id'=>5,'name'=>'Battery & Charging System Service','description'=>'Battery and charging system testing, replacement if needed, and terminal service to prevent starting and electrical issues.','price'=>'$100 testing · $200–$350 replaced','duration'=>'30 minutes – 1 hour'],
+    ['id'=>6,'name'=>'A/C System Diagnostics & Repair','description'=>'System-level diagnosis and repair of automotive air conditioning systems for reliable cooling and proper operation.','price'=>'$160 to diagnose · about $350 for R‑1234yf service','duration'=>'1-2 hours'],
+    ['id'=>7,'name'=>'Pre-Purchase & Vehicle Inspections','description'=>'Thorough vehicle inspections designed to uncover existing or developing issues before they become expensive repairs.','price'=>'$160–$240','duration'=>'1–1.5 hours'],
 ];
 function renderService($s) {
     echo '<div class="service-listing">';
     echo '<h2>' . htmlspecialchars($s['name']) . '</h2>';
     echo '<p>' . htmlspecialchars($s['description']) . '</p>';
-    echo '<p><strong>Starting at:</strong> $' . number_format($s['price']) . '</p>';
+    // A rough idea of cost to avoid sticker shock at pickup — not a quote. Ranges come from
+    // AutoHouse's actual invoices (Sept 2026 review); A/C per Bailey's R-1234yf average.
+    echo '<p><strong>Typical range:</strong> ' . htmlspecialchars($s['price']) . '</p>';
     echo '<p><strong>Estimated Time:</strong> ' . htmlspecialchars($s['duration']) . '</p>';
     echo '<a class="view-details-button" href="service_details.php?id=' . $s['id'] . '">See What\'s Included</a>';
     echo '</div>';
