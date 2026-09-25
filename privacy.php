@@ -247,6 +247,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
         <li><strong>Parts Suppliers:</strong> To order necessary parts for your vehicle repairs</li>
         <li><strong>Legal Requirements:</strong> When required by law, court order, or government regulation</li>
     </ul>
+    <p>
+        <strong>Text messaging:</strong> No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All of the categories above exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+    </p>
 
     <h2>Data Security</h2>
     <p>
