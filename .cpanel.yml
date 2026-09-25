@@ -14,4 +14,4 @@ deployment:
     - export DEPLOYPATH=/home/autohous/public_html/
     - /bin/cp -f index.php services.php service_details.php contact.php about.php privacy.php terms.php sms-policy.php $DEPLOYPATH
     - /bin/cp -f favicon.ico 401.shtml 404.shtml 084ce9a124e7ecdbdd51d41edc42a2ba.html $DEPLOYPATH
-    - /bin/cp -Rf includes _img logos $DEPLOYPATH
+    - /bin/cp -Rf includes _img logos book $DEPLOYPATH
