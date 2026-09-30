@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>R&amp;all — Website Concept</title>
+<meta name="description" content="A design concept for review. Not the live Randall Architecture website.">
+<link rel="icon" href="https://randallarchitecture.com/wp-content/uploads/2025/10/cropped-R_and-Tab-logo-32x32.png">
+<link rel="preconnect" href="https://randallarchitecture.com" crossorigin>
+<style>
+@font-face{font-family:"RD";font-weight:300;font-display:swap;
+  src:url("https://randallarchitecture.com/wp-content/uploads/2025/09/Randall-Display-219.ttf") format("truetype")}
+@font-face{font-family:"RD";font-weight:700;font-display:swap;
+  src:url("https://randallarchitecture.com/wp-content/uploads/2025/09/Randall-Display-569.ttf") format("truetype")}
+
+:root{
+  --navy:#2C2A6D; --ink:#1E1C4E; --lime:#E1E558; --lav:#BBB8DC; --lav-soft:#EDECF6;
+  --paper:#FAF9F6; --grey:#706F6F; --line:#D6D5D5; --white:#fff;
+  --pad:clamp(16px,4vw,56px);
+  --ease:cubic-bezier(.7,0,.2,1);
+  --font:"RD","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);font-weight:300;background:var(--paper);color:var(--navy);
+  font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+b,strong,h1,h2,h3{font-weight:700}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--lime);color:var(--navy)}
+.lbl{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+
+/* ---------- fixed chrome ---------- */
+.progress{position:fixed;inset:0 0 auto 0;height:3px;z-index:60;background:var(--lime);
+  transform-origin:0 50%;transform:scaleX(var(--gp,0))}
+.bar{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:18px var(--pad);color:var(--navy);transition:color .4s}
+body[data-theme=dark] .bar{color:var(--white)}
+.bar{transition:color .4s,background .4s}
+body[data-theme=light]:not(.at-top) .bar{background:rgba(250,249,246,.86);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+body[data-theme=dark]:not(.at-top) .bar{background:rgba(30,28,78,.82);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.mark{font-weight:700;font-size:26px;letter-spacing:-.02em;line-height:1}
+.bar nav{display:flex;gap:28px;font-size:15px}
+.bar nav a{position:relative;padding:4px 0}
+.bar nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--lime);
+  transform:scaleX(0);transform-origin:0 50%;transition:transform .35s var(--ease)}
+.bar nav a:hover::after,.bar nav a[aria-current]::after{transform:scaleX(1)}
+.dots{position:fixed;right:calc(var(--pad) - 6px);top:50%;transform:translateY(-50%);z-index:50;
+  display:flex;flex-direction:column;gap:14px}
+.dots a{display:grid;place-items:center;width:18px;height:18px}
+.dots i{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.35;transition:all .35s var(--ease)}
+.dots a.on i{opacity:1;height:22px;border-radius:4px;background:var(--lime)}
+.dots{color:var(--navy)} body[data-theme=dark] .dots{color:var(--white)}
+.counter{position:fixed;right:var(--pad);bottom:20px;z-index:50;font-size:13px;letter-spacing:.12em;
+  text-transform:uppercase;font-weight:700;display:flex;gap:10px;align-items:baseline;color:var(--navy);transition:color .4s}
+body[data-theme=dark] .counter{color:var(--white)}
+.counter .num{font-variant-numeric:tabular-nums;overflow:hidden;height:1.2em;display:inline-block}
+.counter .num span{display:block;transition:transform .5s var(--ease)}
+.concept{position:fixed;left:var(--pad);bottom:16px;z-index:50;font-size:12px;padding:7px 12px;border-radius:99px;
+  background:var(--lime);color:var(--navy);font-weight:700;letter-spacing:.02em;box-shadow:0 4px 18px rgba(0,0,0,.15)}
+
+/* ---------- 1. hero ---------- */
+#top{height:280vh;background:var(--ink);color:var(--white)}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.hero-img{position:absolute;inset:0;
+  clip-path:inset(var(--cy,32%) var(--cx,30%) var(--cy,32%) var(--cx,30%) round var(--cr,18px))}
+.hero-img img{width:100%;height:100%;object-fit:cover;transform:scale(var(--hs,1.25))}
+.hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,18,56,.72),rgba(20,18,56,0) 55%);
+  opacity:var(--ho,0)}
+.hero-mark{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.hero-mark span{font-weight:700;font-size:min(30vw,52vh);letter-spacing:-.045em;line-height:.8;
+  opacity:var(--mo,1);transform:scale(var(--ms,1));color:var(--white);mix-blend-mode:difference}
+.hero-copy{position:absolute;left:var(--pad);right:var(--pad);bottom:clamp(70px,11vh,120px);
+  opacity:var(--co,0);transform:translateY(calc((1 - var(--co,0)) * 40px))}
+.hero-copy h1{font-weight:700;font-size:clamp(40px,7.4vw,118px);line-height:.95;letter-spacing:-.035em;max-width:11ch}
+.hero-copy h1 em{font-style:normal;color:var(--lime)}
+.hero-copy p{margin-top:18px;font-size:clamp(15px,1.3vw,19px);opacity:.85}
+.cue{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);font-size:12px;letter-spacing:.2em;
+  text-transform:uppercase;opacity:var(--cue,1);display:flex;flex-direction:column;align-items:center;gap:10px}
+.cue i{width:1px;height:38px;background:currentColor;animation:cue 1.8s var(--ease) infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- 2. about ---------- */
+#about{height:220vh;background:var(--paper)}
+#about .stage{display:flex;flex-direction:column;justify-content:center;padding:0 var(--pad)}
+#about .lbl{margin-bottom:28px;display:flex;align-items:center;gap:12px}
+#about .lbl::before{content:"";width:34px;height:2px;background:var(--lime)}
+.intro{font-size:clamp(28px,4.3vw,70px);line-height:1.1;letter-spacing:-.025em;max-width:22ch;font-weight:300}
+.intro .w{opacity:.14;transition:opacity .25s}
+.intro .w.on{opacity:1}
+.intro .w:nth-child(-n+11){font-weight:700}
+
+/* ---------- 3. types ---------- */
+#types{height:520vh;background:var(--lav-soft)}
+#types .stage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:clamp(24px,4vw,72px);
+  padding:clamp(84px,12vh,120px) var(--pad) clamp(56px,9vh,90px)}
+.tleft{display:flex;flex-direction:column;justify-content:space-between;min-height:0}
+.tleft p{max-width:34ch;color:var(--grey);font-size:clamp(15px,1.2vw,18px)}
+.tnav{list-style:none}
+.tnav button{display:flex;align-items:baseline;gap:16px;font-size:clamp(40px,6.4vw,104px);line-height:1.02;
+  letter-spacing:-.035em;font-weight:300;color:var(--lav);transition:color .5s,transform .5s var(--ease);text-align:left}
+.tnav .tn{font-size:13px;letter-spacing:.12em;font-weight:700;width:2.2em;transform:translateY(-.4em);opacity:0;transition:opacity .4s}
+.tnav button.on{color:var(--navy);font-weight:700;transform:translateX(6px)}
+.tnav button.on .tn{opacity:1}
+.tnav button:hover{color:var(--navy)}
+.timgs{position:relative;min-height:0}
+.ti{position:absolute;inset:0;clip-path:inset(100% 0 0 0);transition:clip-path 1s var(--ease);overflow:hidden;border-radius:6px}
+.ti img{width:100%;height:100%;object-fit:cover;transform:scale(1.18);transition:transform 1.4s var(--ease)}
+.ti.on{clip-path:inset(0 0 0 0)} .ti.on img{transform:scale(1)}
+.ti figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px;color:var(--white);display:flex;flex-direction:column;gap:2px;
+  background:linear-gradient(to top,rgba(20,18,56,.8),rgba(20,18,56,0));font-size:14px}
+.ti figcaption b{font-size:20px}
+.ti figcaption span{opacity:.85}
+
+/* ---------- 4. work (horizontal) ---------- */
+#work{background:var(--ink);color:var(--white)}
+#work .stage{display:flex;flex-direction:column;justify-content:center;gap:clamp(20px,4vh,44px)}
+.whead{display:flex;justify-content:space-between;align-items:end;padding:0 var(--pad);gap:20px}
+.whead h2{font-size:clamp(36px,5.2vw,84px);letter-spacing:-.035em;line-height:.95}
+.whead h2 span{color:var(--lime)}
+.wcount{font-size:13px;letter-spacing:.14em;font-weight:700;white-space:nowrap}
+.track{display:flex;gap:clamp(16px,3vw,48px);padding:0 var(--pad);width:max-content;will-change:transform;
+  transform:translate3d(var(--tx,0),0,0)}
+.card{width:min(44vw,680px);flex:none;display:block}
+.cimg{aspect-ratio:3/2;overflow:hidden;border-radius:6px;position:relative}
+.cimg img{position:absolute;top:0;left:-9%;width:118%;height:100%;object-fit:cover;
+  transform:translate3d(var(--px,0),0,0) scale(1.02);transition:filter .4s}
+.card:hover .cimg img{filter:brightness(1.08)}
+.cmeta{display:grid;grid-template-columns:auto 1fr auto;gap:2px 14px;margin-top:16px;align-items:baseline}
+.cmeta .cn{font-size:13px;font-weight:700;color:var(--lime);grid-row:span 2}
+.cmeta b{font-size:clamp(20px,1.8vw,28px);letter-spacing:-.02em}
+.cmeta span:not(.cn){grid-column:2;opacity:.7;font-size:15px}
+.cmeta em{grid-column:3;grid-row:1;font-style:normal;font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  border:1px solid rgba(255,255,255,.35);padding:4px 10px;border-radius:99px}
+.wbar{margin:0 var(--pad);height:2px;background:rgba(255,255,255,.14)}
+.wbar i{display:block;height:100%;background:var(--lime);transform-origin:0 50%;transform:scaleX(var(--wp,0))}
+
+/* ---------- 5. approach (stacking cards) ---------- */
+#approach{background:var(--paper);padding:clamp(110px,16vh,180px) var(--pad) 14vh}
+.ahead{max-width:1200px;margin-bottom:10vh}
+.ahead .lbl{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.ahead .lbl::before{content:"";width:34px;height:2px;background:var(--lime)}
+.ahead h2{isolation:isolate;font-weight:300;font-size:clamp(30px,4.4vw,72px);line-height:1.08;letter-spacing:-.03em;max-width:24ch}
+.ahead h2 b{position:relative;white-space:nowrap}
+.ahead h2 b::after{content:"";position:absolute;left:0;right:0;bottom:.06em;height:.22em;background:var(--lime);z-index:-1}
+.steps{position:relative}
+.step{position:sticky;top:calc(12vh + var(--k) * 26px);height:min(76vh,720px);margin-bottom:12vh;
+  display:grid;grid-template-columns:1fr 1.25fr;border-radius:10px;overflow:hidden;background:var(--white);
+  box-shadow:0 -6px 40px rgba(44,42,109,.10);transform-origin:50% 0;
+  transform:scale(var(--sc,1));filter:brightness(var(--br,1))}
+.step:nth-child(2){background:var(--lav-soft)} .step:nth-child(3){background:var(--navy);color:var(--white)}
+.step:nth-child(4){background:var(--lime)}
+.stxt{padding:clamp(24px,4vw,56px);display:flex;flex-direction:column;justify-content:space-between}
+.sn{font-size:clamp(64px,9vw,150px);font-weight:700;letter-spacing:-.05em;line-height:.8;opacity:.16}
+.step h3{font-size:clamp(34px,4.6vw,76px);letter-spacing:-.035em;line-height:1}
+.stxt p{font-size:14px;opacity:.7;margin-top:10px}
+.simg{position:relative;overflow:hidden}
+.simg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+/* ---------- 6. index ---------- */
+#index{background:var(--lav-soft);padding:clamp(100px,14vh,160px) var(--pad)}
+.ihead{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+.ihead h2{font-size:clamp(40px,6vw,96px);letter-spacing:-.04em;line-height:.9}
+.ihead p{max-width:36ch;color:var(--grey)}
+.rows{list-style:none;border-top:1px solid var(--lav)}
+.rows li{border-bottom:1px solid var(--lav)}
+.rows a,.rows .nolink{display:grid;grid-template-columns:minmax(80px,1fr) 3fr 2fr 40px;align-items:baseline;gap:16px;
+  padding:clamp(12px,1.6vw,20px) 0;position:relative}
+.rt{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.rn{font-size:clamp(20px,2.3vw,34px);letter-spacing:-.02em;transition:transform .45s var(--ease)}
+.rc{color:var(--grey)}
+.ra{text-align:right;font-size:20px;opacity:0;transform:translate(-8px,8px);transition:all .35s var(--ease)}
+.rows a::before{content:"";position:absolute;inset:0;background:var(--lime);transform:scaleY(0);transform-origin:50% 100%;
+  transition:transform .4s var(--ease);z-index:-1}
+.rows a{isolation:isolate}
+.rows a:hover::before{transform:scaleY(1)}
+.rows a:hover .rn{transform:translateX(14px);font-weight:700}
+.rows a:hover .ra{opacity:1;transform:none}
+.nolink .rn{color:var(--grey)}
+.pv{position:fixed;left:0;top:0;width:min(30vw,380px);aspect-ratio:3/2;z-index:40;pointer-events:none;border-radius:6px;overflow:hidden;
+  opacity:0;transform:translate3d(var(--mx,0),var(--my,0),0) scale(.85);transition:opacity .3s,transform .5s cubic-bezier(.2,.8,.2,1);
+  box-shadow:0 20px 50px rgba(30,28,78,.3)}
+.pv.on{opacity:1;transform:translate3d(var(--mx,0),var(--my,0),0) scale(1)}
+.pv img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- 7. studio / contact ---------- */
+#contact{background:var(--ink);color:var(--white);padding:clamp(110px,16vh,180px) var(--pad) 0;overflow:hidden}
+#contact .lbl{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+#contact .lbl::before{content:"";width:34px;height:2px;background:var(--lime)}
+.founding{font-size:clamp(28px,3.8vw,62px);line-height:1.1;letter-spacing:-.028em;max-width:26ch}
+.founding b{color:var(--lime)}
+.founding2{margin-top:28px;max-width:52ch;font-size:clamp(16px,1.3vw,20px);opacity:.8}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:clamp(64px,10vh,120px);
+  border-top:1px solid rgba(255,255,255,.2);padding-top:28px}
+.cgrid .lbl{color:var(--lav);margin-bottom:12px;font-size:12px}
+.cgrid .lbl::before{display:none}
+.cgrid p,.cgrid a.big{font-size:clamp(18px,1.6vw,24px);line-height:1.35}
+.cgrid a.big{border-bottom:2px solid var(--lime)}
+.btn{display:inline-flex;align-items:center;gap:10px;margin-top:16px;padding:12px 20px;border-radius:99px;background:var(--lime);
+  color:var(--navy);font-weight:700;font-size:15px;transition:transform .3s var(--ease)}
+.btn:hover{transform:translateX(4px)}
+.giant{font-weight:700;font-size:39vw;letter-spacing:-.06em;line-height:.74;margin-top:10vh;color:var(--navy);
+  transform:translateY(var(--gy,30%));white-space:nowrap;margin-left:-.04em}
+.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;opacity:.7;
+  padding:22px 0 70px;border-top:1px solid rgba(255,255,255,.15);position:relative}
+
+/* ---------- reveal on enter ---------- */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- small screens ---------- */
+@media (max-width:800px){
+  body{font-size:16px}
+  .bar nav,.dots{display:none}
+  .counter{display:none}
+  .concept{bottom:12px;font-size:11px}
+  #types .stage{grid-template-columns:1fr;grid-template-rows:auto 1fr;gap:18px;padding-top:76px}
+  .tleft p{display:none}
+  .tnav{display:flex;flex-wrap:wrap;gap:4px 16px}
+  .tnav button{font-size:clamp(26px,8vw,40px)}
+  .tnav .tn{display:none}
+  .tnav button.on{transform:none}
+  .card{width:82vw}
+  .whead{align-items:start;flex-direction:column}
+  .step{grid-template-columns:1fr;grid-template-rows:auto 1fr;height:74svh}
+  .stxt{flex-direction:row;align-items:end;justify-content:space-between;gap:12px}
+  .sn{font-size:56px}
+  .rows a,.rows .nolink{grid-template-columns:1fr auto;gap:2px 12px}
+  .rt{grid-column:1/-1}.rt:empty{display:none}
+  .rn{grid-column:1}.rc{grid-column:1;font-size:14px}.ra{grid-row:2/span 2;grid-column:2;opacity:1;transform:none}
+  .pv{display:none}
+  .cgrid{grid-template-columns:1fr}
+}
+
+/* ---------- reduced motion: same page, no scrubbing ---------- */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  #top{height:100svh}.hero-img{clip-path:none}.hero-img img{transform:none}.hero-mark{display:none}
+  .hero-copy{opacity:1;transform:none}.hero-img::after{opacity:1}.cue{display:none}
+  #about{height:auto}#about .stage{position:static;height:auto;padding:18vh var(--pad)}.intro .w{opacity:1}
+  #work{height:auto!important}#work .stage{position:static;height:auto;padding:14vh 0}
+  .track{transform:none!important;width:auto;overflow-x:auto;scroll-snap-type:x mandatory}.card{scroll-snap-align:start}
+  .cimg img{transform:none!important}
+  .step{transform:none!important;filter:none!important}
+  .ti,.ti img,.rv{transition:none}.rv{opacity:1;transform:none}
+  .giant{transform:none!important}
+}
+</style>
+</head>
+<body data-theme="dark" class="at-top">
+<div class="progress" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="mark" href="#top" aria-label="R&amp;all — back to top">R&amp;all</a>
+  <nav aria-label="Sections">
+    <a href="#about">About</a><a href="#work">Projects</a><a href="#approach">Approach</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<nav class="dots" aria-label="Page sections">
+<a href="#top" data-s="top" aria-label="R&amp;all"><i></i></a>
+<a href="#about" data-s="about" aria-label="About"><i></i></a>
+<a href="#types" data-s="types" aria-label="Types"><i></i></a>
+<a href="#work" data-s="work" aria-label="Work"><i></i></a>
+<a href="#approach" data-s="approach" aria-label="Approach"><i></i></a>
+<a href="#index" data-s="index" aria-label="Index"><i></i></a>
+<a href="#contact" data-s="contact" aria-label="Studio"><i></i></a>
+</nav>
+<div class="counter" aria-hidden="true"><span class="num"><span>01</span></span><span>/ 07</span><span class="cname">R&amp;all</span></div>
+<div class="concept">Design concept for review — not the live site</div>
+
+<main>
+<!-- 1 -->
+<section id="top" data-theme="dark" data-name="R&amp;all">
+  <div class="stage">
+    <div class="hero-img"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-1.jpg 1920w" sizes="100vw" alt="Henson House, Fayetteville" fetchpriority=high decoding="async"></div>
+    <div class="hero-mark" aria-hidden="true"><span>R&amp;all</span></div>
+    <div class="hero-copy">
+      <h1>Spaces where <em>life</em> happens.</h1>
+      <p>Randall Architecture · Bentonville, Arkansas · Since 2023</p>
+    </div>
+    <div class="cue" aria-hidden="true">Scroll<i></i></div>
+  </div>
+</section>
+
+<!-- 2 -->
+<section id="about" data-theme="light" data-name="About">
+  <div class="stage">
+    <div class="lbl">About</div>
+    <p class="intro"><span class="w">Our</span> <span class="w">full</span> <span class="w">name</span> <span class="w">is</span> <span class="w">Randall</span> <span class="w">Architecture,</span> <span class="w">but</span> <span class="w">you</span> <span class="w">can</span> <span class="w">call</span> <span class="w">us</span> <span class="w">Randall.</span> <span class="w">We</span> <span class="w">specialize</span> <span class="w">in</span> <span class="w">helping</span> <span class="w">people</span> <span class="w">navigate</span> <span class="w">the</span> <span class="w">architectural</span> <span class="w">process,</span> <span class="w">ensuring</span> <span class="w">that</span> <span class="w">their</span> <span class="w">visions</span> <span class="w">are</span> <span class="w">realized</span> <span class="w">and</span> <span class="w">their</span> <span class="w">expectations</span> <span class="w">are</span> <span class="w">exceeded.</span></p>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="types" data-theme="light" data-name="Types">
+  <div class="stage">
+    <div class="tleft">
+      <p class="lbl" style="color:var(--navy)">What we design</p>
+      <ul class="tnav">
+<li><button type="button" data-i="0"><span class="tn">01</span>Live.</button></li>
+<li><button type="button" data-i="1"><span class="tn">02</span>Work.</button></li>
+<li><button type="button" data-i="2"><span class="tn">03</span>Sell.</button></li>
+<li><button type="button" data-i="3"><span class="tn">04</span>Worship.</button></li>
+<li><button type="button" data-i="4"><span class="tn">05</span>Heal.</button></li>
+      </ul>
+      <p>Our experience is wide, having designed projects and places for corporations, families, communities,
+        congregations, and others. We are capable of creating space for any stage of life.</p>
+    </div>
+    <div class="timgs">
+<figure class="ti" data-i="0"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/12/Roth-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/12/Roth-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/12/Roth-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/12/Roth-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/12/Roth-1.jpg 1920w" sizes="(max-width: 800px) 100vw, 55vw" alt="Roth House — Live" loading=lazy decoding="async"><figcaption><b>Roth House</b><span>14 projects · Henson House, King House, Flyway Landing, Roth House…</span></figcaption></figure>
+<figure class="ti" data-i="1"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Wachter-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Wachter-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Wachter-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Wachter-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Wachter-1.jpg 1920w" sizes="(max-width: 800px) 100vw, 55vw" alt="Wachter Warehouse — Work" loading=lazy decoding="async"><figcaption><b>Wachter Warehouse</b><span>1 project · Wachter Warehouse</span></figcaption></figure>
+<figure class="ti" data-i="2"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-3-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-3-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-3-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-3-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-3.jpg 1920w" sizes="(max-width: 800px) 100vw, 55vw" alt="Parlay on 8th — Sell" loading=lazy decoding="async"><figcaption><b>Parlay on 8th</b><span>4 projects · Blakemans, Moxy, Parlay on 8th, Tazikis</span></figcaption></figure>
+<figure class="ti" data-i="3"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/09/Church-2-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/09/Church-2-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/09/Church-2-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/09/Church-2-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/09/Church-2.jpg 1920w" sizes="(max-width: 800px) 100vw, 55vw" alt="Ministerio Restaurada Mana — Worship" loading=lazy decoding="async"><figcaption><b>Ministerio Restaurada Mana</b><span>2 projects · Oak Haven Outreach, Ministerio Restaurada Mana</span></figcaption></figure>
+<figure class="ti" data-i="4"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/01/Teufel-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/01/Teufel-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/01/Teufel-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/01/Teufel-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/01/Teufel-1.jpg 1920w" sizes="(max-width: 800px) 100vw, 55vw" alt="Teufel Medical Office — Heal" loading=lazy decoding="async"><figcaption><b>Teufel Medical Office</b><span>1 project · Teufel Medical Office</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 4 -->
+<section id="work" data-theme="dark" data-name="Work">
+  <div class="stage">
+    <div class="whead">
+      <h2>Selected<br><span>work</span></h2>
+      <div class="wcount"><span class="wn">01</span> / 9 &nbsp;→</div>
+    </div>
+    <div class="track">
+<a class="card" href="https://randallarchitecture.com/work/parlay-on-8th/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-5-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-5-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-5-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-5-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-5.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Parlay on 8th" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">01</span><b>Parlay on 8th</b><span>Bentonville, AR</span><em>Sell</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/henson/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-3-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-3-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-3-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-3-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-3.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Henson House" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">02</span><b>Henson House</b><span>Fayetteville, AR</span><em>Live</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/blakemans/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-4-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-4-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-4-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-4-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-4.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Blakemans" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">03</span><b>Blakemans</b><span>Rogers, AR</span><em>Sell</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/gladden-house/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Gladden-2-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Gladden-2-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Gladden-2-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Gladden-2-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Gladden-2.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Gladden House" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">04</span><b>Gladden House</b><span>Fayetteville, AR</span><em>Live</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/moxy/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/12/Moxy-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/12/Moxy-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/12/Moxy-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/12/Moxy-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/12/Moxy-1.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Moxy" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">05</span><b>Moxy</b><span>Springdale, AR</span><em>Sell</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/tazikis/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Tazikis-2-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Tazikis-2-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Tazikis-2-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Tazikis-2-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Tazikis-2.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Tazikis" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">06</span><b>Tazikis</b><span>Rogers, AR</span><em>Sell</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/outdoor-living/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Outdoor-4-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Outdoor-4-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Outdoor-4-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Outdoor-4-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Outdoor-4.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Outdoor Living" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">07</span><b>Outdoor Living</b><span>Various Locations</span><em>Live</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/rvk-residence/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/08/VK-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/08/VK-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/08/VK-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/08/VK-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/08/VK-1.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="RVK Residence" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">08</span><b>RVK Residence</b><span>Bentonville, AR</span><em>Live</em></div></a>
+<a class="card" href="https://randallarchitecture.com/work/oak-haven-outreach/" target="_blank" rel="noopener"><div class="cimg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/12/Outreach-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/12/Outreach-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/12/Outreach-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/12/Outreach-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/12/Outreach-1.jpg 1920w" sizes="(max-width: 800px) 82vw, 44vw" alt="Oak Haven Outreach" loading=lazy decoding="async"></div><div class="cmeta"><span class="cn">09</span><b>Oak Haven Outreach</b><span>Siloam Springs, AR</span><em>Worship</em></div></a>
+    </div>
+    <div class="wbar"><i></i></div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section id="approach" data-theme="light" data-name="Approach">
+  <div class="ahead rv">
+    <div class="lbl">Our approach</div>
+    <h2>We know that each and every project has a unique goal and vision. Our approach is simple — we listen, we ask
+      questions, we interpret and imagine, but ultimately, <b>we execute.</b></h2>
+  </div>
+  <div class="steps">
+<article class="step" style="--k:0"><div class="stxt"><span class="sn">01</span><h3>Listen.</h3><p>Arthur Remodel, Fayetteville</p></div><div class="simg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Arthur-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Arthur-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Arthur-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Arthur-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Arthur-1.jpg 1920w" sizes="(max-width: 800px) 100vw, 50vw" alt="Arthur Remodel, Fayetteville" loading=lazy decoding="async"></div></article>
+<article class="step" style="--k:1"><div class="stxt"><span class="sn">02</span><h3>Ask questions.</h3><p>Meadors House, Bentonville</p></div><div class="simg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2026/07/Meadors-3-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2026/07/Meadors-3-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2026/07/Meadors-3-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2026/07/Meadors-3-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2026/07/Meadors-3.jpg 1920w" sizes="(max-width: 800px) 100vw, 50vw" alt="Meadors House, Bentonville" loading=lazy decoding="async"></div></article>
+<article class="step" style="--k:2"><div class="stxt"><span class="sn">03</span><h3>Interpret &amp; imagine.</h3><p>King House, Fayetteville</p></div><div class="simg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/11/King-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/11/King-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/11/King-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/11/King-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/11/King-1.jpg 1920w" sizes="(max-width: 800px) 100vw, 50vw" alt="King House, Fayetteville" loading=lazy decoding="async"></div></article>
+<article class="step" style="--k:3"><div class="stxt"><span class="sn">04</span><h3>Execute.</h3><p>Blakemans, Rogers</p></div><div class="simg"><img class="" src="https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-1-1024x683.jpg" srcset="https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-1-768x512.jpg 768w, https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-1-1024x683.jpg 1024w, https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-1-1536x1024.jpg 1536w, https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-1.jpg 1920w" sizes="(max-width: 800px) 100vw, 50vw" alt="Blakemans, Rogers" loading=lazy decoding="async"></div></article>
+  </div>
+</section>
+
+<!-- 6 -->
+<section id="index" data-theme="light" data-name="Index">
+  <div class="ihead rv">
+    <h2>All projects</h2>
+    <p>Homes, workplaces, shops, restaurants, churches and clinics across Northwest Arkansas.</p>
+  </div>
+  <ul class="rows">
+<li><a href="https://randallarchitecture.com/work/henson/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/11/Henson-1-768x512.jpg"><span class="rt">Live</span><span class="rn">Henson House</span><span class="rc">Fayetteville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/king/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/11/King-1-768x512.jpg"><span class="rt"></span><span class="rn">King House</span><span class="rc">Fayetteville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/flyway/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/11/Flyway-1-768x512.jpg"><span class="rt"></span><span class="rn">Flyway Landing</span><span class="rc">Bentonville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/roth-house/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/12/Roth-1-768x512.jpg"><span class="rt"></span><span class="rn">Roth House</span><span class="rc">Fayetteville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/author-remodel/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Arthur-1-768x512.jpg"><span class="rt"></span><span class="rn">Arthur Remodel</span><span class="rc">Fayetteville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/gladden-house/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Gladden-1-768x512.jpg"><span class="rt"></span><span class="rn">Gladden House</span><span class="rc">Fayetteville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/meadors-house/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Meadors-1-768x512.jpg"><span class="rt"></span><span class="rn">Meadors House</span><span class="rc">Bentonville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/rvk-residence/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/08/VK-1-768x512.jpg"><span class="rt"></span><span class="rn">RVK Residence</span><span class="rc">Bentonville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/silver-leaf/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/12/Silver-Leaf-1-768x512.jpg"><span class="rt"></span><span class="rn">Silver Leaf</span><span class="rc">Bentonville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/outdoor-living/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Outdoor-1-768x512.jpg"><span class="rt"></span><span class="rn">Outdoor Living</span><span class="rc">Various locations</span><span class="ra">↗</span></a></li>
+<li><div class="nolink"><span class="rt"></span><span class="rn">Kansas Ave</span><span class="rc">Bentonville</span><span class="ra"></span></div></li>
+<li><div class="nolink"><span class="rt"></span><span class="rn">Mallard Meadows</span><span class="rc">Bentonville</span><span class="ra"></span></div></li>
+<li><div class="nolink"><span class="rt"></span><span class="rn">Schmidt Cleveland</span><span class="rc">Fayetteville</span><span class="ra"></span></div></li>
+<li><div class="nolink"><span class="rt"></span><span class="rn">Meadors</span><span class="rc">Fayetteville</span><span class="ra"></span></div></li>
+<li><a href="https://randallarchitecture.com/work/wachter/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Wachter-1-768x512.jpg"><span class="rt">Work</span><span class="rn">Wachter Warehouse</span><span class="rc">Lowell</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/parlay-on-8th/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Parlay-5-768x512.jpg"><span class="rt">Sell</span><span class="rn">Parlay on 8th</span><span class="rc">Bentonville</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/blakemans/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/10/Blakemans-1-768x512.jpg"><span class="rt"></span><span class="rn">Blakemans</span><span class="rc">Rogers</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/moxy/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2025/12/Moxy-2-768x512.jpg"><span class="rt"></span><span class="rn">Moxy</span><span class="rc">Springdale</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/tazikis/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/07/Tazikis-4-768x512.jpg"><span class="rt"></span><span class="rn">Tazikis</span><span class="rc">Rogers</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/oak-haven-outreach/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/09/Outreach-2-768x512.jpg"><span class="rt">Worship</span><span class="rn">Oak Haven Outreach</span><span class="rc">Siloam Springs</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/ministerio-restaurada-mana/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/09/Church-1-768x512.jpg"><span class="rt"></span><span class="rn">Ministerio Restaurada Mana</span><span class="rc">Springdale</span><span class="ra">↗</span></a></li>
+<li><a href="https://randallarchitecture.com/work/teufel-medical-office/" target="_blank" rel="noopener" data-pv="https://randallarchitecture.com/wp-content/uploads/2026/01/Teufel-1-768x512.jpg"><span class="rt">Heal</span><span class="rn">Teufel Medical Office</span><span class="rc">Rogers</span><span class="ra">↗</span></a></li>
+  </ul>
+  <div class="pv" aria-hidden="true"><img alt=""></div>
+</section>
+
+<!-- 7 -->
+<section id="contact" data-theme="dark" data-name="Studio">
+  <div class="lbl rv">The studio</div>
+  <p class="founding rv">In <b>2023</b>, Randall Architecture was founded to provide clients with a partner who can create
+    spaces where life happens.</p>
+  <p class="founding2 rv">Our full name is Randall Architecture, but you can call us Randall.</p>
+  <div class="cgrid rv">
+    <div><div class="lbl">Visit</div>
+      <p>204 SE 6th St, Suite 102<br>Bentonville, AR 72712</p>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=204+SE+6th+St+Suite+102+Bentonville+AR+72712" target="_blank" rel="noopener">Get directions →</a></div>
+    <div><div class="lbl">Write</div><a class="big" href="mailto:Info@RandallArchitecture.com">Info@RandallArchitecture.com</a></div>
+    <div><div class="lbl">Call</div><a class="big" href="tel:+14798415541">479-841-5541</a></div>
+  </div>
+  <div class="giant" aria-hidden="true">R&amp;all</div>
+  <div class="foot">
+    <span>© Randall Architecture. Photography and marks belong to Randall Architecture.</span>
+    <span>Design concept for review — not the live website.</span>
+  </div>
+</section>
+</main>
+
+<script>
+(() => {
+  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+  const ease = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  const prog = el => { const r = el.getBoundingClientRect(); const d = r.height - innerHeight; return d > 0 ? clamp(-r.top / d) : (r.top < 0 ? 1 : 0); };
+  const root = document.documentElement;
+
+  const sections = $$('main > section');
+  const hero = $('#top'), heroStage = $('#top .stage');
+  const about = $('#about'), words = $$('#about .w');
+  const types = $('#types'), tBtns = $$('.tnav button'), tImgs = $$('.ti');
+  const work = $('#work'), track = $('.track'), cards = $$('.card'), wn = $('.wn');
+  const steps = $$('.step');
+  const giant = $('.giant');
+  const dots = $$('.dots a'), navLinks = $$('.bar nav a');
+  const counterNum = $('.counter .num span'), counterName = $('.counter .cname');
+
+  // horizontal section height = track overflow + one screen
+  function sizeWork() {
+    if (RM) return;
+    const over = Math.max(0, track.scrollWidth - innerWidth);
+    work.style.height = (over + innerHeight) + 'px';
+    work._over = over;
+  }
+
+  let activeType = -1, activeSec = -1;
+  function setType(i) {
+    if (i === activeType) return; activeType = i;
+    tBtns.forEach((b, k) => b.classList.toggle('on', k === i));
+    tImgs.forEach((f, k) => f.classList.toggle('on', k <= i));
+  }
+
+  function frame() {
+    const H = innerHeight;
+    root.style.setProperty('--gp', clamp(scrollY / (root.scrollHeight - H)));
+
+    // 1. hero: window opens through the wordmark
+    if (!RM) {
+      const p = prog(hero), o = ease(clamp(p / .62));
+      const s = heroStage.style;
+      s.setProperty('--cy', (1 - o) * 30 + '%'); s.setProperty('--cx', (1 - o) * 34 + '%');
+      s.setProperty('--cr', (1 - o) * 18 + 'px'); s.setProperty('--hs', 1.25 - .25 * o);
+      s.setProperty('--mo', clamp(1 - p / .4)); s.setProperty('--ms', 1 + p * 1.6);
+      s.setProperty('--co', clamp((p - .55) / .25)); s.setProperty('--ho', clamp((p - .45) / .3));
+      s.setProperty('--cue', clamp(1 - p * 12));
+    }
+
+    // 2. about: words light up as you scroll
+    if (!RM) {
+      const p = clamp(prog(about) / .8), n = Math.round(p * words.length);
+      words.forEach((w, k) => w.classList.toggle('on', k < n));
+    }
+
+    // 3. types: one verb per screen
+    setType(Math.min(tBtns.length - 1, Math.floor(prog(types) * tBtns.length)));
+
+    // 4. work: vertical scroll drives horizontal track
+    if (!RM) {
+      const p = prog(work);
+      track.style.setProperty('--tx', -(work._over || 0) * p + 'px');
+      work.style.setProperty('--wp', p);
+      const mid = innerWidth / 2;
+      let best = 0, bd = 1e9;
+      cards.forEach((c, k) => {
+        const r = c.getBoundingClientRect(), cx = r.left + r.width / 2;
+        c.style.setProperty('--px', ((mid - cx) / innerWidth) * 7 + '%');
+        const d = Math.abs(cx - mid); if (d < bd) { bd = d; best = k; }
+      });
+      wn.textContent = String(best + 1).padStart(2, '0');
+    }
+
+    // 5. approach: covered cards recede
+    if (!RM) steps.forEach((st, k) => {
+      const next = steps[k + 1]; if (!next) return;
+      const a = st.getBoundingClientRect(), b = next.getBoundingClientRect();
+      const cover = clamp(1 - (b.top - a.top) / a.height);
+      st.style.setProperty('--sc', 1 - cover * .06); st.style.setProperty('--br', 1 - cover * .25);
+    });
+
+    // 7. giant wordmark rises
+    if (!RM) { const r = giant.getBoundingClientRect(); giant.style.setProperty('--gy', clamp((r.top - H * .55) / H, 0, .45) * 100 + '%'); }
+
+    // chrome: which section owns the middle of the screen
+    let cur = 0;
+    sections.forEach((s, k) => { if (s.getBoundingClientRect().top <= H * .5) cur = k; });
+    if (cur !== activeSec) {
+      activeSec = cur; const s = sections[cur];
+      document.body.dataset.theme = s.dataset.theme;
+      document.body.classList.toggle('at-top', cur === 0);
+      dots.forEach((d, k) => d.classList.toggle('on', k === cur));
+      navLinks.forEach(a => a.toggleAttribute('aria-current', a.getAttribute('href') === '#' + s.id));
+      counterNum.style.transform = 'translateY(-110%)';
+      setTimeout(() => { counterNum.textContent = String(cur + 1).padStart(2, '0'); counterName.textContent = s.dataset.name; counterNum.style.transition = 'none'; counterNum.style.transform = 'translateY(110%)';
+        requestAnimationFrame(() => { counterNum.style.transition = ''; counterNum.style.transform = 'none'; }); }, 250);
+    }
+  }
+
+  let ticking = false;
+  const req = () => { if (!ticking) { ticking = true; requestAnimationFrame(() => { ticking = false; frame(); }); } };
+  addEventListener('scroll', req, { passive: true });
+  addEventListener('resize', () => { sizeWork(); req(); });
+  addEventListener('load', () => { sizeWork(); req(); });
+  sizeWork(); frame();
+
+  // clicking a verb jumps to its screen
+  tBtns.forEach((b, k) => b.addEventListener('click', () => {
+    const top = types.offsetTop + (types.offsetHeight - innerHeight) * ((k + .5) / tBtns.length);
+    scrollTo({ top, behavior: RM ? 'auto' : 'smooth' });
+  }));
+
+  // reveal-on-enter
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .15 });
+  $$('.rv').forEach(el => io.observe(el));
+
+  // index hover preview follows the pointer
+  const pv = $('.pv'), pvImg = $('.pv img');
+  if (matchMedia('(hover: hover)').matches) {
+    $$('.rows a[data-pv]').forEach(a => {
+      a.addEventListener('mouseenter', () => { pvImg.src = a.dataset.pv; pv.classList.add('on'); });
+      a.addEventListener('mouseleave', () => pv.classList.remove('on'));
+    });
+    addEventListener('mousemove', e => {
+      pv.style.setProperty('--mx', (e.clientX + 24) + 'px');
+      pv.style.setProperty('--my', (e.clientY - pv.offsetHeight / 2) + 'px');
+    }, { passive: true });
+  }
+})();
+</script>
+</body>
+</html>
