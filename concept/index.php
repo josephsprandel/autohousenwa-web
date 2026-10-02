@@ -98,11 +98,13 @@ header{background:#003366;padding:10px 32px;box-shadow:0 2px 14px #00112255;bord
 .sign-face{border-color:var(--legend)}.sign-meta .number{border-color:var(--legend)}
 /* Highway-sign legends: all caps (sign 1 already was); 42px keeps every heading on its intended lines */
 /* Sign typeface: Overpass (OFL), modelled on the MUTCD FHWA alphabets ("Highway Gothic"); ExtraBold ~ Series E(M).
-   It's far wider than Barlow Condensed: 31px is the largest that keeps "UNDERSTAND THE SYSTEM." on one line. */
+   It's far wider than Barlow Condensed: 32px is the largest that keeps "UNDERSTAND THE SYSTEM" on one line. */
 .sign-face,.sign-face *{font-family:'Overpass','DM Sans',sans-serif}
-.sign-heading h1,.sign-heading h2,.road-sign[data-index="0"] .sign-heading h1{text-transform:uppercase;letter-spacing:0;font-size:31px;font-weight:800;line-height:1.12}
+.sign-heading h1,.sign-heading h2,.road-sign[data-index="0"] .sign-heading h1{text-transform:uppercase;letter-spacing:0;font-size:32px;font-weight:800;line-height:1.12}
 .sign-action{text-transform:uppercase;letter-spacing:.8px;font-weight:800}
 .sign-face .sep{font-family:'DM Sans',sans-serif}
+/* Destination names stay mixed case, as on MUTCD guide signs */
+.sign-heading .dest{text-transform:none}
 /* Header fast lane: hours + tap-to-call beside Schedule Online */
 .header-right{gap:18px}
 .header-hours{color:#d6e2f2;font-size:13px;letter-spacing:.4px;white-space:nowrap}
@@ -167,10 +169,10 @@ html.fly-locked{overflow:hidden}
 const BOOKING_URL='https://autohouse.roengine.com/book';
 const chapters=[
  {name:'Services',label:'NEXT EXIT · FAYETTEVILLE',title:'AutoHouse Services',body:'',foot:'DIAGNOSE ACCURATELY · COMMUNICATE CLEARLY',panels:true},
- {name:'Diagnostics first',label:'STOP 02 · DIAGNOSTICS FIRST',title:'Understand the system.<br>Then repair it.',body:'Modern vehicles are complex systems. A warning light, a drivability issue or routine maintenance: every concern starts with diagnosis, not parts.',foot:'TEST · MEASURE · VERIFY'},
- {name:'Transparency',label:'STOP 03 · TRANSPARENCY',title:'No pressure.<br>Clear answers.',body:'You’ll never be pressured into unnecessary repairs. You’ll always hear what we found, why it matters, and what your options are.',foot:'TRUST IS BUILT THROUGH TRANSPARENCY'},
- {name:'Long-term reliability',label:'STOP 04 · RELIABILITY',title:'Informed decisions.<br>Reliable vehicles.',body:'Maintenance to manufacturer specification, safety-focused brake work and thorough inspections, so your vehicle stays reliable for the long term.',foot:'MAINTENANCE · BRAKES · INSPECTIONS'},
- {name:'Visit AutoHouse',label:'STOP 05 · VISIT AUTOHOUSE',title:'Your next stop:<br>AutoHouse.',body:'432 N Main Ave<br>Fayetteville, AR 72701',foot:'OPEN MONDAY – FRIDAY · 8 TO 6',booking:true,phone:true}
+ {name:'Diagnostics first',label:'STOP 02 · DIAGNOSTICS FIRST',title:'Understand the system<br>Then repair it',body:'Modern vehicles are complex systems. A warning light, a drivability issue or routine maintenance: every concern starts with diagnosis, not parts.',foot:'TEST · MEASURE · VERIFY'},
+ {name:'Transparency',label:'STOP 03 · TRANSPARENCY',title:'No pressure<br>Clear answers',body:'You’ll never be pressured into unnecessary repairs. You’ll always hear what we found, why it matters, and what your options are.',foot:'TRUST IS BUILT THROUGH TRANSPARENCY'},
+ {name:'Long-term reliability',label:'STOP 04 · RELIABILITY',title:'Informed decisions<br>Reliable vehicles',body:'Maintenance to manufacturer specification, safety-focused brake work and thorough inspections, so your vehicle stays reliable for the long term.',foot:'MAINTENANCE · BRAKES · INSPECTIONS'},
+ {name:'Visit AutoHouse',label:'STOP 05 · VISIT AUTOHOUSE',title:'Your next stop<br><span class="dest">AutoHouse</span>',body:'432 N Main Ave<br>Fayetteville, AR 72701',foot:'OPEN MONDAY – FRIDAY · 8 TO 6',booking:true,phone:true}
 ];
 const SVC='https://autohousenwa.com/service_details.php?id=';
 const I=(d)=>`<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
