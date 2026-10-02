@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Design concept (2026-10-02): unlinked, not indexed. Promote to the homepage only with the
+     homepage's title/description and LocalBusiness JSON-LD carried over. -->
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>AutoHouse Automotive · Fayetteville, AR</title>
+<meta name="description" content="AutoHouse Automotive, 432 N Main Ave, Fayetteville, AR. Diagnostics, brakes, maintenance and inspections. Open Monday to Friday, 8 to 6. (479) 301-2880.">
+<link rel="icon" href="/favicon.ico">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap">
+<style>
+
+:root{color-scheme:dark;font-family:'DM Sans',sans-serif;color:#f5f2df;background:#182e34}*{box-sizing:border-box}html{scrollbar-color:#e8c181 #182e34;scrollbar-width:thin}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid #ffdc98;outline-offset:6px}#scene,#world,#cockpit,.atmosphere{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}#world{z-index:0}.atmosphere{background:linear-gradient(90deg,#13262b26,transparent 40%,#13262b0a),linear-gradient(0deg,#08141940,transparent 45%);z-index:1}header{position:fixed;z-index:8;inset:0 0 auto;display:flex;align-items:center;justify-content:space-between;padding:32px 42px;background:linear-gradient(#142a333d,transparent);pointer-events:none}header>*{pointer-events:auto}.wordmark{display:flex;gap:14px;align-items:center;text-decoration:none;color:#fff7df;font-size:14px;letter-spacing:2px;font-weight:700;text-shadow:0 1px 10px #25313844}.mark{display:flex;font-size:22px;border:1px solid #fff5dc8c;border-radius:50%;width:48px;height:48px;align-items:center;justify-content:center;letter-spacing:-1px}.mark span{color:#e7bc7d;padding:0 2px}.wordmark small{display:block;font-size:9px;letter-spacing:2px;opacity:.66;margin-top:7px}.header-right{display:flex;gap:22px;align-items:center}.route-tag{font-size:12px;letter-spacing:2px}#motion{border:1px solid #f9efd54d;background:#233b3d40;border-radius:30px;padding:10px 15px;font-size:12px;backdrop-filter:blur(8px)}#motion[aria-pressed=true]{background:#eed8a4;color:#183331}#journey{height:600vh}#signs{position:fixed;inset:0;z-index:3;pointer-events:none}.road-sign{position:absolute;width:480px;transform-origin:0 0;will-change:transform,opacity;pointer-events:none}.sign-face{background:#24564d;border:3px solid #e3e7ce;border-radius:12px;padding:23px 30px 27px;box-shadow:0 0 0 5px #254a42,4px 7px 0 5px #142e2b,0 20px 35px #152c3133;position:relative;min-height:274px}.sign-face:before,.sign-face:after{content:'';position:absolute;width:7px;height:7px;border-radius:50%;background:#a9b5a4;top:12px;box-shadow:0 244px #a9b5a4}.sign-face:before{left:12px}.sign-face:after{right:12px}.sign-meta{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:600;letter-spacing:2px;color:#ced9c8;border-bottom:1px solid #d9e6cf5c;padding-bottom:12px}.sign-meta .number{border:1px solid #d2dfc5;border-radius:4px;padding:3px 7px;letter-spacing:1px}h1,h2{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-size:51px;line-height:1.02;font-weight:600;margin:19px 0 13px;letter-spacing:.2px}.sign-face p{font-size:17px;line-height:1.55;margin:0;max-width:380px;color:#e0e6d1}.sign-bottom{margin-top:19px;font-size:12px;letter-spacing:2px;color:#bed3bc;display:flex;justify-content:space-between}.sign-bottom b{font-size:23px;font-weight:400;line-height:13px}.posts{display:flex;justify-content:space-between;padding:0 60px;height:56px;position:absolute;top:100%;width:100%;z-index:-1}.posts i{width:12px;background:linear-gradient(90deg,#536364,#b1b5a2 50%,#69787a 52%,#465853);box-shadow:3px 0 0 #142d3033}.road-sign[data-index="4"] .sign-face{background:#754b35}.route-menu{position:fixed;z-index:8;top:25%;left:42px;width:178px}.route-label{font-size:10px;letter-spacing:1.9px;display:flex;justify-content:space-between;margin-bottom:27px;color:#ece8ce}.route-label span{opacity:.65;letter-spacing:1px}nav{display:flex;flex-direction:column;gap:1px;position:relative}nav:before{content:'';position:absolute;left:5px;top:17px;bottom:17px;width:1px;background:#ebe9d93b}nav button{border:0;background:none;display:flex;text-align:left;align-items:center;gap:16px;font-size:13px;padding:12px 0;color:#f4ebdca1;position:relative}nav button .dot{width:11px;height:11px;background:#738479;border:2px solid #d8dfce80;border-radius:50%;flex-shrink:0}nav button[aria-current=step]{color:#fff7df}nav button[aria-current=step] .dot{background:#f7d390;border-color:#ffecd0;box-shadow:0 0 0 5px #edcd8b1c}#cockpit{z-index:5}.dash-info{position:fixed;z-index:6;bottom:11.5%;left:29%;transform:translateX(-50%);display:flex;gap:22px;align-items:center;color:#dcf0db;font-variant-numeric:tabular-nums;text-shadow:0 0 12px #b8e8b733}.gear{font-size:16px;color:#e7bc7d;border:1px solid #e7bc7d60;padding:3px 6px;border-radius:4px}.speed{text-align:center;font-size:37px;line-height:1}.dash-info small{display:block;font-size:8px;letter-spacing:2px;margin-top:7px;opacity:.55}.distance{font-size:17px;letter-spacing:1px}.trip-status{position:fixed;bottom:14%;left:65%;z-index:7;font-size:10px;letter-spacing:1.9px;color:#bec6b9;display:flex;gap:9px;align-items:center}.status-dot{width:5px;height:5px;border-radius:50%;background:#e8c381;box-shadow:0 0 8px #f8d09090}footer{position:fixed;bottom:0;left:0;right:0;z-index:9;display:flex;align-items:center;justify-content:space-between;padding:18px 42px 22px;color:#bac4bf;background:linear-gradient(transparent,#0712177a);font-size:12px}.scroll-hint{display:flex;align-items:center;gap:12px}.mouse{border:1px solid #d4ddcc83;width:14px;height:22px;border-radius:8px;position:relative}.mouse:after{content:'';position:absolute;top:4px;left:5px;height:5px;width:2px;background:#ecd69f}.hint-extra{opacity:.48}.footer-controls{display:flex;align-items:center;gap:17px}.footer-controls button{border:1px solid #c2c8b739;background:#12212a;border-radius:50%;width:32px;height:32px}.footer-controls button:disabled{opacity:.3;cursor:default}.footer-controls span{min-width:100px;text-align:center;font-size:12px}.coordinates{font-size:10px;letter-spacing:2px;opacity:.55}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0)}.no-js{position:fixed;z-index:20;top:40%;left:20%;padding:30px;background:#18332c}
+@media(max-width:700px){header{padding:20px}.wordmark{font-size:12px;gap:10px}.wordmark small{font-size:8px;letter-spacing:1px}.mark{width:39px;height:39px;font-size:18px}.route-tag{display:none}#motion{font-size:10px;padding:8px 10px}.route-menu{left:20px;top:auto;bottom:33%;width:calc(100% - 40px)}.route-label{display:none}nav{flex-direction:row;justify-content:center;gap:20px}nav:before{display:none}nav button{padding:12px 0}nav button .stop-name{display:none}nav button .dot{width:9px;height:9px}.dash-info{left:38%;bottom:12%;gap:12px}.speed{font-size:29px}.distance{font-size:14px}.dash-info small{font-size:7px;letter-spacing:1px}.trip-status{left:auto;right:17px;bottom:17%;max-width:110px;font-size:8px;line-height:1.7;letter-spacing:1px}footer{padding:13px 18px;font-size:10px}.hint-extra,.coordinates{display:none}.footer-controls{gap:9px}.footer-controls span{display:none}.footer-controls button{width:30px;height:30px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media(max-width:700px){.sign-face p{font-size:22px;line-height:1.42}.sign-meta{font-size:15px}.sign-bottom{font-size:15px}}
+/* Instrument text is registered to the photographed dashboard. */
+.cockpit-ready .dash-info{left:var(--cluster-x);top:var(--cluster-y);bottom:auto;transform:translate(-50%,-50%);gap:7px;color:#f3debb;text-shadow:0 0 8px #e3ab642b}
+.cockpit-ready .speed{font-size:var(--gauge-size);font-weight:500}
+.cockpit-ready .dash-info small{font-size:7px;letter-spacing:1.5px;margin-top:4px}
+.cockpit-ready .gear{font-size:10px;border:0;padding:0;color:#d5b98f}
+.trip-display{position:fixed;left:65%;bottom:12%;z-index:7;color:#cbd0c4;pointer-events:none}
+.cockpit-ready .trip-display{left:var(--screen-x);top:var(--screen-y);bottom:auto;transform:translate(-50%,-50%);width:var(--screen-width);text-align:center}
+.display-label{font-size:10px;letter-spacing:3px;color:#d1b386;margin-bottom:7px}
+.trip-display .distance{font-size:18px;letter-spacing:2px;font-variant-numeric:tabular-nums;display:flex;gap:12px;align-items:center;justify-content:center}
+.trip-display small{font-size:8px;letter-spacing:1.4px;opacity:.55}
+.trip-display .trip-status{position:static;font-size:8px;letter-spacing:1.2px;display:flex;align-items:center;justify-content:center;margin-top:9px;max-width:none}
+.trip-display .status-dot{width:4px;height:4px}
+.sign-face{background-image:linear-gradient(115deg,#ffffff0c,transparent 40%,#00000014)}
+@media(max-width:700px){.trip-display{display:none}.cockpit-ready .dash-info{gap:5px}.cockpit-ready .dash-info small{font-size:6px}.cockpit-ready .gear{font-size:8px}}
+#gauges{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:6}
+@media(min-width:701px){footer .coordinates,footer .hint-extra,footer #footer-title{display:none}footer{background:none}.footer-controls{gap:10px}}
+/* AutoHouse branding and real roadside booking links. */
+.header-logo{width:64px;height:64px;object-fit:contain;background:#fff;border-radius:6px;padding:3px;box-shadow:0 4px 16px #112b3333}
+.wordmark{letter-spacing:1.2px}.wordmark small{letter-spacing:1.5px}
+.sign-face{padding:20px 26px 22px}
+.sign-meta{font-size:12px;letter-spacing:1.3px;gap:10px}
+.sign-heading{margin:17px 0 12px}.sign-heading h1,.sign-heading h2{margin:0;font-size:46px}
+.sign-heading.with-logo{display:flex;align-items:center;gap:18px}.with-logo h1,.with-logo h2{font-size:42px}
+.sign-logo{flex:0 0 76px;width:76px;height:76px;object-fit:contain;background:#fff;padding:3px;border-radius:5px}
+.sign-face p{font-size:18px;line-height:1.45}
+.sign-action{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 20px;margin-top:16px;border-radius:5px;background:#f2d093;color:#162f30;font-size:17px;font-weight:700;text-decoration:none;pointer-events:auto;box-shadow:0 2px 0 #152d2b50}
+.sign-action:hover{background:#ffe1a9}.sign-action:focus-visible,.sign-phone:focus-visible{outline:3px solid white;outline-offset:5px}
+.sign-phone{display:block;width:max-content;margin-top:9px;color:#e9eedb;text-decoration:underline;text-underline-offset:3px;font-size:18px;pointer-events:auto}
+.sign-bottom{font-size:11px;letter-spacing:1.2px;margin-top:17px}
+.road-sign[data-index="4"] .sign-face{background-color:#24564d}
+@media(max-width:700px){.header-logo{width:48px;height:48px}.wordmark{font-size:10px;letter-spacing:.7px}.wordmark small{font-size:7px;letter-spacing:.5px}.header-right{gap:0}.sign-face p{font-size:22px;line-height:1.42}.sign-action{min-height:70px;font-size:23px;padding:14px 22px}.sign-phone{font-size:23px}.sign-meta{font-size:14px}.sign-bottom{font-size:13px;letter-spacing:1px}}
+@media(max-width:380px){header{padding:14px}.wordmark>span{max-width:138px;font-size:9px}.wordmark small{font-size:6px}#motion{font-size:9px;padding:8px}}
+
+/* Desktop: keep the top-right corner clear for the signs; motion toggle moves down by the scroll hint. */
+/* AutoHouse navy header bar (#003366, from autohousenwa.com) */
+header{background:#003366;padding:10px 32px;box-shadow:0 2px 14px #00112255;border-bottom:1px solid #ffffff1a}
+.header-logo{width:48px;height:48px}
+.wordmark{color:#fff;text-shadow:none}
+.header-cta{display:inline-flex;align-items:center;min-height:40px;padding:9px 18px;border-radius:5px;background:#f5b301;color:#00264d;font-weight:700;font-size:14px;letter-spacing:.3px;text-decoration:none;box-shadow:0 2px 0 #00000030}
+.header-cta:hover{background:#ffc52e}.header-cta:focus-visible{outline:2px solid #fff;outline-offset:4px}
+#motion{position:fixed;z-index:10;left:190px;bottom:16px;border:1px solid #f9efd54d;background:#233b3d40;border-radius:30px;padding:10px 15px;font-size:12px;backdrop-filter:blur(8px)}
+@media(min-width:701px){.route-menu{top:calc(25% + 20px)}}
+.posts{height:68px}   /* SIGN_BASE x 40 px per metre */
+@media(max-width:700px){header{padding:10px 14px}.header-logo{width:40px;height:40px}.header-cta{min-height:36px;padding:8px 12px;font-size:12px}
+ #motion{left:50%;transform:translateX(-50%);bottom:12px;font-size:10px;padding:7px 10px}}
+@media(max-width:380px){.wordmark>span{display:none}}
+/* Sign 1: MUTCD specific-service sign (blue field, white logo panels) */
+.road-sign[data-index="0"] .sign-face{background-color:#1d4f91;box-shadow:0 0 0 5px #173f73,4px 7px 0 5px #0e2a4f,0 20px 35px #152c3133}
+.road-sign[data-index="0"] .sign-meta{color:#d6e2f2;border-color:#d6e2f25c}
+.road-sign[data-index="0"] .sign-heading{margin:12px 0 12px}
+.road-sign[data-index="0"] .sign-heading h1{font-size:40px;text-transform:uppercase;letter-spacing:.5px}
+.road-sign[data-index="0"] .sign-bottom{color:#c3d4ea}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+.svc{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;aspect-ratio:1.12;background:#fff;color:#003366;border-radius:5px;
+  text-decoration:none;font-weight:700;font-size:12.5px;line-height:1.1;text-align:center;padding:6px 4px;pointer-events:auto;box-shadow:inset 0 0 0 2px #c9d6e6}
+.svc svg{width:44%;height:auto}
+.svc:hover{background:#f5b301;box-shadow:none}.svc:focus-visible{outline:3px solid #f5b301;outline-offset:3px}
+/* Route list: translucent navy panel so it reads over sky and trees */
+@media(min-width:701px){.route-menu{background:#00264d4d;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid #ffffff22;border-radius:10px;padding:18px 18px 10px;width:214px;left:28px;box-shadow:0 10px 30px #00112240}}
+@media(max-width:700px){.svc{font-size:15px;gap:4px}.svc svg{width:40%}.road-sign[data-index="0"] .sign-heading h1{font-size:44px}
+ .route-menu nav{background:#00264d4d;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:20px;padding:0 14px;width:max-content;margin:0 auto}}
+/* MUTCD guide-sign green (FHWA ~ #006B3F) with white legend, replacing the source teal */
+.sign-face,.road-sign[data-index="4"] .sign-face{background-color:#006b3f;border-color:#fff;box-shadow:0 0 0 5px #00552f,4px 7px 0 5px #003a20,0 20px 35px #152c3133}
+.sign-meta{color:#e8f2ea;border-color:#ffffff59}.sign-meta .number{border-color:#fff}
+.sign-face p{color:#f4f8f4}.sign-bottom{color:#d4e7d9}
+.sign-face:before,.sign-face:after{background:#d9e4dc;box-shadow:0 244px #d9e4dc}
+.route-label{white-space:nowrap;gap:10px;letter-spacing:1.4px}
+/* Highway signs: one legend color, a couple shades off pure white */
+:root{--legend:#e4e7e1}
+.sign-face,.sign-face *{color:var(--legend)}
+.sign-meta,.road-sign[data-index="0"] .sign-meta{color:var(--legend);border-color:#ffffff73}
+.sign-bottom,.road-sign[data-index="0"] .sign-bottom{color:var(--legend);opacity:.9}
+.sign-phone{color:var(--legend)}
+.sign-action{background:transparent;color:var(--legend);border:3px solid var(--legend);box-shadow:none}
+.sign-action:hover{background:#ffffff26}
+.svc{background:transparent;color:var(--legend);box-shadow:inset 0 0 0 3px var(--legend)}
+.svc:hover{background:#ffffff26;box-shadow:inset 0 0 0 3px var(--legend)}
+#sky,#ground{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.sign-face{border-color:var(--legend)}.sign-meta .number{border-color:var(--legend)}
+/* Header fast lane: hours + tap-to-call beside Schedule Online */
+.header-right{gap:18px}
+.header-hours{color:#d6e2f2;font-size:13px;letter-spacing:.4px;white-space:nowrap}
+.header-phone{color:#fff;font-weight:700;font-size:15px;text-decoration:none;white-space:nowrap;border-bottom:1px solid #ffffff59;padding-bottom:1px}
+.header-phone:hover{border-color:#fff}.header-phone:focus-visible{outline:2px solid #fff;outline-offset:4px}
+@media(max-width:900px){.header-hours{display:none}}
+@media(max-width:700px){.header-right{gap:12px}.header-phone{font-size:13px}}
+@media(max-width:480px){.wordmark>span{display:none}.header-cta{white-space:nowrap}.header-phone{font-size:14px}}
+</style>
+</head>
+<body>
+
+<div id="scene" aria-hidden="true"><canvas id="sky"></canvas><canvas id="ground"></canvas><canvas id="world"></canvas><div class="atmosphere"></div></div>
+<header><a class="wordmark" href="#" aria-label="AutoHouse Automotive, return to the first sign"><img class="header-logo" src="assets/autohouse-logo.webp" alt="AutoHouse Automotive logo" width="64" height="64"><span>AUTOHOUSE AUTOMOTIVE<small>PRECISION DIAGNOSTICS &amp; REPAIR</small></span></a><div class="header-right"><span class="header-hours">Mon–Fri 8–6</span><a class="header-phone" href="tel:+14793012880" aria-label="Call AutoHouse at (479) 301-2880">(479) 301-2880</a><a class="header-cta" href="https://autohouse.roengine.com/book" target="_blank" rel="noopener noreferrer">Schedule Online</a></div></header><button id="motion" aria-pressed="false" title="Reduce motion">Reduce motion</button>
+<main aria-label="A journey in five roadside stops"><div id="signs"></div><div id="journey"></div><p class="sr-only">A friendly raccoon waves from the right shoulder halfway between the first and second sign.</p></main>
+<div class="route-menu"><div class="route-label">EXPLORE AUTOHOUSE <span id="count">01 / 05</span></div><nav aria-label="Roadside stops" id="stops"></nav></div>
+<canvas id="cockpit" aria-hidden="true"></canvas>
+<canvas id="gauges" aria-hidden="true"></canvas>
+<div class="dash-info" aria-hidden="true"><div class="gear">D</div><div class="speed"><span id="speed">0</span><small>MPH</small></div></div>
+<div class="trip-display" aria-hidden="true"><div class="display-label">AUTOHOUSE</div><div class="distance"><span id="mileage">000.0</span><small>MILES EXPLORED</small></div><div class="trip-status"><span class="status-dot"></span><span id="status">PARKED AT THE FIRST STOP</span></div></div>
+<footer><div class="scroll-hint"><span class="mouse"></span><span>Scroll to drive <span class="hint-extra">· Stop to take it in</span></span></div><div class="footer-controls"><button id="prev" aria-label="Previous stop">←</button><span id="footer-title">AutoHouse</span><button id="next" aria-label="Next stop">→</button></div><span class="coordinates">36° N &nbsp; 94° W</span></footer>
+<p class="sr-only" id="announcement" aria-live="polite"></p>
+<noscript><p class="no-js">AutoHouse Automotive · 432 N Main Ave, Fayetteville, AR 72701 · Mon–Fri 8–6 · <a href="tel:+14793012880" style="color:inherit">(479) 301-2880</a> · <a href="https://autohouse.roengine.com/book" style="color:inherit">Schedule online</a></p></noscript>
+<script>
+'use strict';
+const BOOKING_URL='https://autohouse.roengine.com/book';
+const chapters=[
+ {name:'Services',label:'NEXT EXIT · FAYETTEVILLE',title:'AutoHouse Services',body:'',foot:'DIAGNOSE ACCURATELY · COMMUNICATE CLEARLY',panels:true},
+ {name:'Diagnostics first',label:'STOP 02 · DIAGNOSTICS FIRST',title:'Understand the system.<br>Then repair it.',body:'Modern vehicles are complex systems. A warning light, a drivability issue or routine maintenance: every concern starts with diagnosis, not parts.',foot:'TEST · MEASURE · VERIFY'},
+ {name:'Transparency',label:'STOP 03 · TRANSPARENCY',title:'No pressure.<br>Clear answers.',body:'You’ll never be pressured into unnecessary repairs. You’ll always hear what we found, why it matters, and what your options are.',foot:'TRUST IS BUILT THROUGH TRANSPARENCY'},
+ {name:'Long-term reliability',label:'STOP 04 · RELIABILITY',title:'Informed decisions.<br>Reliable vehicles.',body:'Maintenance to manufacturer specification, safety-focused brake work and thorough inspections, so your vehicle stays reliable for the long term.',foot:'MAINTENANCE · BRAKES · INSPECTIONS'},
+ {name:'Visit AutoHouse',label:'STOP 05 · VISIT AUTOHOUSE',title:'Your next stop:<br>AutoHouse.',body:'432 N Main Ave<br>Fayetteville, AR 72701',foot:'OPEN MONDAY – FRIDAY · 8 TO 6',booking:true,phone:true}
+];
+const SVC='https://autohousenwa.com/service_details.php?id=';
+const I=(d)=>`<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+const PANELS=[
+ {t:'Oil Service',u:SVC+1,i:I('<path d="M6 20h22l10-6 4 3-12 13H10a4 4 0 0 1-4-4z"/><path d="M14 20v-5h8v5"/><path d="M42 26c0 3-2 5-2 5s-2-2-2-5c0-2 2-4 2-4s2 2 2 4z"/>')},
+ {t:'Brakes',u:SVC+2,i:I('<circle cx="24" cy="24" r="16"/><circle cx="24" cy="24" r="5"/><path d="M9 14a18 18 0 0 1 10-7"/><path d="M33 9l5 6-6 5"/>')},
+ {t:'Diagnostics',u:SVC+3,i:I('<rect x="6" y="9" width="36" height="24" rx="3"/><path d="M11 25l6-7 5 5 6-9 6 6"/><path d="M18 41h12M24 33v8"/>')},
+ {t:'Tire Rotation',u:SVC+4,i:I('<circle cx="24" cy="24" r="17"/><circle cx="24" cy="24" r="7"/><path d="M24 7v10M24 31v10M7 24h10M31 24h10"/>')},
+ {t:'Battery',u:SVC+5,i:I('<rect x="5" y="14" width="38" height="24" rx="3"/><path d="M12 14v-4h6v4M30 14v-4h6v4"/><path d="M12 26h6M15 23v6M30 26h6"/>')},
+ {t:'A/C Service',u:SVC+6,i:I('<path d="M24 5v38M7.5 14.5l33 19M7.5 33.5l33-19"/><path d="M19 8l5 4 5-4M19 40l5-4 5 4"/>')},
+ {t:'Inspections',u:SVC+7,i:I('<rect x="10" y="6" width="24" height="34" rx="2"/><path d="M15 15h14M15 22h9"/><circle cx="32" cy="32" r="7"/><path d="M37 37l5 5"/>')},
+ {t:'Schedule',u:BOOKING_URL,i:I('<rect x="6" y="9" width="36" height="32" rx="3"/><path d="M6 18h36M15 5v8M33 5v8"/><path d="M17 29l5 5 9-10"/>')}
+];
+const panelGrid=()=>`<div class="svc-grid">${PANELS.map(p=>`<a class="svc" href="${p.u}" target="_blank" rel="noopener noreferrer">${p.i}<span>${p.t}</span></a>`).join('')}</div>`;
+let canvas=document.getElementById('world'),ctx=canvas.getContext('2d');
+const skyCanvas=document.getElementById('sky'),skyCtx=skyCanvas.getContext('2d'),groundCanvas=document.getElementById('ground');
+const dash=document.getElementById('cockpit'),dc=dash.getContext('2d');
+const gaugeCanvas=document.getElementById('gauges'),gc=gaugeCanvas.getContext('2d');
+let cockpitLayout=null,rpm=900;
+const cockpitImage=new Image(),raccoonImage=new Image(),asphaltImage=new Image(),meadowImage=new Image();
+let asphaltPattern=null,meadowPattern=null;
+cockpitImage.onload=()=>{document.body.classList.add('cockpit-ready');drawCockpit();wake()};
+cockpitImage.src='assets/cockpit.webp';
+raccoonImage.onload=()=>wake();raccoonImage.src='assets/raccoon.webp';
+asphaltImage.onload=()=>{asphaltPattern=ctx.createPattern(asphaltImage,'repeat');wake()};
+meadowImage.onload=()=>{meadowPattern=ctx.createPattern(meadowImage,'repeat');wake()};
+asphaltImage.src='assets/asphalt.webp';
+meadowImage.src='assets/meadow.webp';
+let W=innerWidth,H=innerHeight,dpr=Math.min(devicePixelRatio||1,2),position=0,goal=0,last=0,speed=0,active=0,snapTimer,lastScrollY=scrollY,scrollDirection=0;
+let reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const signLayer=document.getElementById('signs'),nav=document.getElementById('stops');
+chapters.forEach((c,i)=>{
+ const s=document.createElement('section');s.className='road-sign';s.dataset.index=i;
+ s.setAttribute('aria-label',`Stop ${i+1}: ${c.name}`);
+ const heading=i?'h2':'h1';
+ const logo=c.logo?'<img class="sign-logo" src="assets/autohouse-logo.webp" alt="AutoHouse Automotive logo" width="76" height="76">':'';
+ const booking=c.booking?`<a class="sign-action" href="${BOOKING_URL}" target="_blank" rel="noopener noreferrer" aria-label="Schedule service with AutoHouse (opens in a new tab)">Schedule service</a>`:'';
+ const phone=c.phone?'<a class="sign-phone" href="tel:+14793012880">(479) 301-2880</a>':'';
+ s.innerHTML=`<div class="sign-face"><div class="sign-meta"><span>${c.label}</span><span class="number">0${i+1}</span></div><div class="sign-heading ${c.logo?'with-logo':''}">${logo}<${heading}>${c.title}</${heading}></div>${c.body?`<p>${c.body}</p>`:''}${c.panels?panelGrid():''}${phone}${booking}<div class="sign-bottom"><span>${c.foot}</span></div></div><div class="posts" aria-hidden="true"><i></i><i></i></div>`;
+ signLayer.append(s);
+ const b=document.createElement('button');b.innerHTML=`<span class="dot" aria-hidden="true"></span><span class="stop-name">${c.name}</span>`;
+ b.setAttribute('aria-label',`Drive to stop ${i+1}: ${c.name}`);b.onclick=()=>go(i);nav.append(b);
+});
+const signs=[...signLayer.children],buttons=[...nav.children];
+function pageStep(){return (document.documentElement.scrollHeight-innerHeight)/4}
+function go(i){i=Math.max(0,Math.min(4,i));clearTimeout(snapTimer);window.scrollTo({top:i*pageStep(),behavior:reduced?'instant':'smooth'})}
+function setActive(i){active=i;buttons.forEach((b,j)=>j===i?b.setAttribute('aria-current','step'):b.removeAttribute('aria-current'));document.getElementById('count').textContent=`0${i+1} / 05`;document.getElementById('footer-title').textContent=chapters[i].name;document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===4;document.getElementById('announcement').textContent=`Stop ${i+1}: ${chapters[i].name}. ${chapters[i].body.replace(/<br>/g,' ')}`}
+document.getElementById('prev').onclick=()=>go(active-1);document.getElementById('next').onclick=()=>go(active+1);document.querySelector('.wordmark').onclick=e=>{e.preventDefault();go(0)};
+document.getElementById('motion').onclick=()=>{reduced=!reduced;updateMotion();wake()};
+function updateMotion(){document.getElementById('motion').setAttribute('aria-pressed',String(reduced));document.getElementById('motion').textContent=reduced?'Motion reduced':'Reduce motion'}updateMotion();
+// Catch only the next stop in the current travel direction, within its approach zone.
+function approachStop(progress,direction){
+ const candidate=direction>0?Math.ceil(progress):Math.floor(progress);
+ const distance=(candidate-progress)*direction;
+ return direction!==0&&candidate>=0&&candidate<chapters.length&&distance>0&&distance<=.14?candidate:null;
+}
+addEventListener('scroll',()=>{
+ wake();
+ const delta=scrollY-lastScrollY;
+ if(Math.abs(delta)>.1)scrollDirection=Math.sign(delta);
+ lastScrollY=scrollY;goal=scrollY/pageStep()*280;clearTimeout(snapTimer);
+ snapTimer=setTimeout(()=>{
+  const candidate=approachStop(scrollY/pageStep(),scrollDirection);
+  if(candidate!==null&&Math.abs(scrollY-candidate*pageStep())>2)go(candidate);
+ },220);
+},{passive:true});
+addEventListener('keydown',e=>{if(e.target.closest('button,a'))return;if(['ArrowRight','PageDown','ArrowLeft','PageUp','Home','End'].includes(e.key)){e.preventDefault();go(e.key==='Home'?0:e.key==='End'?4:active+(['ArrowRight','PageDown'].includes(e.key)?1:-1))}});
+
+// GPU ground: each pixel works out its own world position, so the whole plane is one draw call.
+let gl=null,GL=false,gProg,gU={},gTex={};
+(function initGround(){
+ try{gl=groundCanvas.getContext('webgl',{antialias:false,alpha:true,premultipliedAlpha:false})}catch(e){}
+ if(!gl)return;
+ // A software WebGL renderer (no GPU) is slower than the 2D path, so fall back to 2D there.
+ const dbg=gl.getExtension('WEBGL_debug_renderer_info'),rend=dbg?String(gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL)):'';
+ if(/swiftshader|llvmpipe|software|basic render/i.test(rend)){gl=null;return}
+ const vs='attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+ const fs=`#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+uniform vec2 res;uniform float dpr,hz,eyeF,F,vc,pos;uniform sampler2D meadow,asphalt;
+void main(){
+ vec2 fc=gl_FragCoord.xy/dpr;float y=res.y-fc.y,dy=y-hz;if(dy<=.5)discard;
+ float z=eyeF/dy,sc=F/z,wx=(fc.x-vc)/sc+1.8,wz=pos+z,aa=1./(sc*dpr);
+ float fade=clamp((dy-res.y*.03)/(res.y*.2),0.,1.),t=clamp(dy/(res.y-hz),0.,1.),ax=abs(wx);
+ vec3 col=mix(vec3(.369,.427,.322),texture2D(meadow,vec2(wx/5.,wz/5.)).rgb,.92*fade);
+ vec3 verge=mix(vec3(.616,.643,.553),vec3(.408,.424,.345),t);
+ col=mix(col,verge,smoothstep(5.6+aa,5.6-aa,ax));
+ vec3 a=t<.28?mix(vec3(.498,.537,.502),vec3(.329,.373,.361),t/.28):mix(vec3(.329,.373,.361),vec3(.145,.184,.196),(t-.28)/.72);
+ a=mix(a,texture2D(asphalt,vec2(wx/3.,wz/3.)).rgb,.82*fade);
+ col=mix(col,a,smoothstep(5.+aa,5.-aa,ax));
+ gl_FragColor=vec4(col,1.);}`;
+ const sh=(t,src)=>{const o=gl.createShader(t);gl.shaderSource(o,src);gl.compileShader(o);if(!gl.getShaderParameter(o,gl.COMPILE_STATUS))throw gl.getShaderInfoLog(o);return o};
+ try{gProg=gl.createProgram();gl.attachShader(gProg,sh(gl.VERTEX_SHADER,vs));gl.attachShader(gProg,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(gProg);
+  if(!gl.getProgramParameter(gProg,gl.LINK_STATUS))throw 'link'}catch(e){console.warn('ground shader',e);gl=null;return}
+ gl.useProgram(gProg);
+ const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+ const loc=gl.getAttribLocation(gProg,'p');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+ ['res','dpr','hz','eyeF','F','vc','pos','meadow','asphalt'].forEach(n=>gU[n]=gl.getUniformLocation(gProg,n));
+ const aniso=gl.getExtension('EXT_texture_filter_anisotropic');
+ const mk=(unit,img,fallback)=>{const t=gl.createTexture();gl.activeTexture(gl.TEXTURE0+unit);gl.bindTexture(gl.TEXTURE_2D,t);
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1,1,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array(fallback));
+  const up=()=>{const c=document.createElement('canvas');c.width=c.height=1024;c.getContext('2d').drawImage(img,0,0,1024,1024);   // power of two for mipmaps
+   gl.activeTexture(gl.TEXTURE0+unit);gl.bindTexture(gl.TEXTURE_2D,t);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,c);gl.generateMipmap(gl.TEXTURE_2D);
+   gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR_MIPMAP_LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.REPEAT);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.REPEAT);
+   if(aniso)gl.texParameterf(gl.TEXTURE_2D,aniso.TEXTURE_MAX_ANISOTROPY_EXT,Math.min(8,gl.getParameter(aniso.MAX_TEXTURE_MAX_ANISOTROPY_EXT)))};
+  if(img.complete&&img.naturalWidth)up();else img.addEventListener('load',up);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);return t};
+ gTex.m=mk(0,meadowImage,[94,109,82,255]);gTex.a=mk(1,asphaltImage,[84,95,92,255]);
+ gl.uniform1i(gU.meadow,0);gl.uniform1i(gU.asphalt,1);GL=true;
+})();
+function drawGround(){
+ gl.uniform2f(gU.res,W,H);gl.uniform1f(gU.dpr,dpr);gl.uniform1f(gU.hz,horizon());gl.uniform1f(gU.eyeF,1.65*F());
+ gl.uniform1f(gU.F,F());gl.uniform1f(gU.vc,viewCenter());gl.uniform1f(gU.pos,position);
+ gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);gl.drawArrays(gl.TRIANGLES,0,3);
+}
+function resize(){W=innerWidth;H=innerHeight;dpr=Math.min(devicePixelRatio||1,2);for(const c of[canvas,dash,gaugeCanvas,skyCanvas,groundCanvas]){c.width=W*dpr;c.height=H*dpr;c.style.width=W+'px';c.style.height=H+'px'}ctx.setTransform(dpr,0,0,dpr,0,0);skyCtx.setTransform(dpr,0,0,dpr,0,0);dc.setTransform(dpr,0,0,dpr,0,0);gc.setTransform(dpr,0,0,dpr,0,0);if(GL){paintSky();gl.viewport(0,0,groundCanvas.width,groundCanvas.height)}drawCockpit();goal=scrollY/pageStep()*280}addEventListener('resize',()=>{resize();wake()});
+// Sign planes and road use the same world coordinates. The shoulder ends at x=5.6.
+const SIGN_LEFT=6.8,SIGN_WIDTH=12,SIGN_BASE=1.7;
+// Longer legs: drop the horizon by the extra leg length so the sign faces stay clear of the header.
+const horizon=()=>H*.54+(SIGN_BASE-.75)*signWidth()/SIGN_WIDTH,F=()=>H*.86;
+const signWidth=()=>Math.min(490,W*.78);
+function viewCenter(){
+ // Frame the roadside on narrow screens without moving signs onto the road.
+ return Math.min(W*.47,W-Math.max(18,W*.03)-(SIGN_LEFT+SIGN_WIDTH-1.8)*signWidth()/SIGN_WIDTH);
+}
+function project(x,y,z){return{x:viewCenter()+(x-1.8)*F()/z,y:horizon()+(1.65-y)*F()/z,s:F()/z}}
+function polygon(points,color){ctx.fillStyle=color;ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y));ctx.closePath();ctx.fill()}
+function quad(x1,x2,z1,z2,color,y=0){polygon([project(x1,y,z1),project(x2,y,z1),project(x2,y,z2),project(x1,y,z2)],color)}
+function mountain(base,amp,color,seed){let pts=[{x:0,y:H},{x:0,y:base}];for(let x=0;x<=W+20;x+=20){const n=Math.sin(x/W*12+seed)*.43+Math.sin(x/W*25+seed*2)*.18+Math.sin(x/W*6+seed)*.39;pts.push({x,y:base-n*amp})}pts.push({x:W,y:H});polygon(pts,color)}
+// Stylized trees, painted once at load: storybook shapes with leaf/needle texture.
+// Light comes from the upper right to match the low sun in the sky.
+function rng(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function paintConifer(seed,o){
+ const r=rng(seed),w=o.w,h=o.h,cx=w/2,c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d');
+ const ground=h*.97;
+ let tg=g.createLinearGradient(cx-w*.04,0,cx+w*.04,0);tg.addColorStop(0,'#3b2a1e');tg.addColorStop(1,'#7a5536');g.fillStyle=tg;g.fillRect(cx-w*.035,h*.78,w*.07,ground-h*.78);
+ const n=o.tiers,paths=[];
+ for(let i=0;i<n;i++){const f=(i+1)/n,yb=h*.1+f*h*.72,yt=i?yb-h*(.2+.1*(1-f)):h*.015,hw=w*.5*o.spread*(.18+.82*Math.pow(f,o.taper));
+  const pth=new Path2D();pth.moveTo(cx+(r()-.5)*4,yt);pth.quadraticCurveTo(cx+hw*.35,yt+(yb-yt)*.55,cx+hw,yb);
+  const z=6+Math.round(hw/14);for(let k=1;k<=z;k++){const x=cx+hw-2*hw*k/z;pth.lineTo(x,yb+(k%2?-(h*.018+r()*h*.012):r()*h*.008))}
+  pth.quadraticCurveTo(cx-hw*.35,yt+(yb-yt)*.55,cx+(r()-.5)*4,yt);paths.push({pth,yt,yb,hw})}
+ for(let i=n-1;i>=0;i--){const {pth,yt,yb,hw}=paths[i];
+  g.save();g.globalCompositeOperation='source-atop';g.translate(0,h*.018);g.fillStyle='rgba(10,24,16,.32)';g.fill(pth);g.restore();          // tier shadow on the one below
+  const gr=g.createLinearGradient(cx-hw,0,cx+hw,0);gr.addColorStop(0,o.c[0]);gr.addColorStop(.55,o.c[1]);gr.addColorStop(1,o.c[2]);g.fillStyle=gr;g.fill(pth);
+  g.save();g.clip(pth);g.lineCap='round';                                                            // needle strokes
+  const cnt=Math.round(hw*(yb-yt)/38);for(let k=0;k<cnt;k++){const x=cx-hw+r()*2*hw,y=yt+r()*(yb-yt),side=x>cx?1:-1,lit=(x-cx)/hw;
+   g.strokeStyle=lit>.25&&r()<.7?o.c[3]:lit<-.2&&r()<.7?o.c[4]:(r()<.5?o.c[1]:o.c[0]);g.globalAlpha=.55+r()*.4;g.lineWidth=1.4+r()*1.4;
+   const l=5+r()*9;g.beginPath();g.moveTo(x,y);g.lineTo(x+side*l*.8,y+l*.55);g.stroke()}
+  g.restore();g.globalAlpha=1}
+ c.rootY=.97;c.hScale=o.hs;return c;
+}
+function paintBroadleaf(seed,o){
+ const r=rng(seed),w=o.w,h=o.h,cx=w/2,c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d');
+ const ground=h*.97,top=o.trunkTop*h;
+ // trunk and a few limbs
+ const tg=g.createLinearGradient(cx-w*.05,0,cx+w*.05,0);tg.addColorStop(0,o.bark[0]);tg.addColorStop(1,o.bark[1]);g.fillStyle=tg;
+ g.beginPath();g.moveTo(cx-w*o.tw,ground);g.quadraticCurveTo(cx-w*o.tw*.5,(ground+top)/2,cx-w*o.tw*.45,top);g.lineTo(cx+w*o.tw*.45,top);g.quadraticCurveTo(cx+w*o.tw*.5,(ground+top)/2,cx+w*o.tw,ground);g.closePath();g.fill();
+ if(o.birch){g.fillStyle='#2b2620';for(let k=0;k<14;k++){const y=top+r()*(ground-top),x=cx+(r()-.5)*w*o.tw*1.4;g.fillRect(x-w*.02,y,w*.02+r()*w*.02,2+r()*3)}}
+ g.strokeStyle=o.bark[0];g.lineCap='round';
+ for(let k=0;k<o.limbs;k++){const a=(k/(o.limbs-1||1)-.5)*1.1,len=h*(.12+r()*.08);g.lineWidth=w*o.tw*.45;g.beginPath();g.moveTo(cx,top+h*.06);g.quadraticCurveTo(cx+Math.sin(a)*len*.5,top,cx+Math.sin(a)*len,top-Math.cos(a)*len*.7);g.stroke()}
+ // canopy clusters
+ const cl=[];for(let k=0;k<o.clusters;k++){const a=r()*Math.PI*2,d=Math.sqrt(r());cl.push({x:cx+Math.cos(a)*d*o.rx*w,y:o.cy*h+Math.sin(a)*d*o.ry*h,rad:w*o.rad*(.7+r()*.5)})}
+ const L={x:.62,y:-.78};
+ cl.sort((a,b)=>(a.x*L.x+a.y*L.y)-(b.x*L.x+b.y*L.y));
+ g.fillStyle=o.c[0];cl.forEach(k=>{g.beginPath();g.arc(k.x-k.rad*.12,k.y+k.rad*.14,k.rad,0,7);g.fill()});  // shadow mass
+ cl.forEach(k=>{const gr=g.createRadialGradient(k.x+k.rad*.35,k.y-k.rad*.45,k.rad*.1,k.x,k.y,k.rad*1.05);
+  gr.addColorStop(0,o.c[3]);gr.addColorStop(.45,o.c[2]);gr.addColorStop(1,o.c[1]);g.fillStyle=gr;g.beginPath();g.arc(k.x,k.y,k.rad,0,7);g.fill();
+  const dabs=Math.round(k.rad*k.rad/22);for(let m=0;m<dabs;m++){const a=r()*Math.PI*2,d=Math.sqrt(r())*k.rad*1.06,dx=Math.cos(a)*d,dy=Math.sin(a)*d,lit=(dx*L.x+dy*L.y)/k.rad;
+   g.fillStyle=lit>.35?(r()<.5?o.c[4]:o.c[3]):lit<-.25?(r()<.6?o.c[0]:o.c[1]):(r()<.5?o.c[2]:o.c[1]);g.globalAlpha=.75+r()*.25;
+   g.beginPath();g.ellipse(k.x+dx,k.y+dy,2.2+r()*3.2,1.4+r()*2,r()*3.14,0,7);g.fill()}
+  g.globalAlpha=1});
+ c.rootY=.97;c.hScale=o.hs;return c;
+}
+const SPRUCE=['#1f3d2e','#2f5a3c','#4f7d4a','#93a85a','#16302a'],FIR=['#223f33','#335f45','#557f52','#a3ae66','#183229'];
+const TREES={conifer:[],broad:[]};
+function buildTrees(){
+ TREES.conifer=[paintConifer(11,{w:300,h:620,tiers:8,spread:.95,taper:.9,c:SPRUCE,hs:1}),
+                paintConifer(29,{w:240,h:640,tiers:10,spread:.85,taper:1.25,c:FIR,hs:1.12})];
+ TREES.broad=[paintBroadleaf(7,{w:520,h:560,trunkTop:.55,tw:.05,limbs:3,clusters:26,cy:.38,rx:.27,ry:.19,rad:.17,bark:['#3d2b1f','#6e4d33'],c:['#203a26','#2e5233','#4c7a3f','#8aa34f','#c9c16a'],hs:.95}),
+              paintBroadleaf(41,{w:300,h:640,trunkTop:.7,tw:.06,limbs:0,clusters:22,cy:.42,rx:.15,ry:.3,rad:.2,bark:['#3d2b1f','#6e4d33'],c:['#22402a','#335a37','#527f42','#93aa55','#cfc670'],hs:1.2}),
+              paintBroadleaf(73,{w:440,h:600,trunkTop:.6,tw:.035,limbs:3,clusters:20,cy:.36,rx:.25,ry:.2,rad:.15,birch:true,bark:['#bdb6a6','#efeadc'],c:['#3c5a2a','#55772f','#7f9b3c','#b4b851','#e1d47a'],hs:1})];
+}
+buildTrees();
+// Pre-shrunk copies (full, 1/2, 1/4, 1/8) as ImageBitmaps: far trees sample a small copy,
+// and bitmaps stay resident on the GPU instead of being re-uploaded from a canvas.
+async function bakeTrees(){for(const set of[TREES.conifer,TREES.broad])for(const c of set){const lv=[];let src=c;
+ for(let k=0;k<4;k++){if(k){const n=document.createElement('canvas');n.width=Math.max(1,src.width>>1);n.height=Math.max(1,src.height>>1);const g=n.getContext('2d');g.imageSmoothingQuality='high';g.drawImage(src,0,0,n.width,n.height);src=n}
+  lv.push(window.createImageBitmap?await createImageBitmap(src):src)}c.levels=lv}}
+bakeTrees();
+function tree(x,z,height,tint,broadleaf=false,variant=0){
+ if(z<2)return;
+ const set=broadleaf?TREES.broad:TREES.conifer,sprite=set[variant%set.length];
+ const p=project(x,0,z),h=height*sprite.hScale*p.s,w=h*sprite.width/sprite.height*(.92+(variant%3)*.08);
+ if(p.x+w/2<0||p.x-w/2>W)return;
+ ctx.save();ctx.fillStyle='#17312038';ctx.beginPath();
+ ctx.ellipse(p.x,p.y,Math.max(.35,p.s*(broadleaf?.55:.32)),Math.max(.18,p.s*.09),0,0,Math.PI*2);ctx.fill();
+ let img=sprite;if(sprite.levels){const need=h*dpr;for(let k=3;k>=0;k--){if(sprite.levels[k].height>=need||k===0){img=sprite.levels[k];break}}}
+ ctx.drawImage(img,p.x-w/2,p.y-h*sprite.rootY,w,h);ctx.restore();   // no mirroring: keeps the light on the sun side
+}
+// Perspective-mapped ground, fixed in world coordinates so details travel under the car.
+function groundTexture(pattern,img,tileMetres,left=-Infinity,right=Infinity,strength=.85){
+ if(!pattern||!img.naturalWidth)return;
+ const h=horizon(),eyeF=1.65*F(),step=3;
+ ctx.save();ctx.fillStyle=pattern;
+ for(let row=Math.ceil(h+H*.03);row<H;row+=step){
+  const sampleY=row+step/2,dy=sampleY-h,z=eyeF/dy,scale=F()/z;
+  const origin=viewCenter()-1.8*scale,x1=Math.max(0,origin+left*scale),x2=Math.min(W,origin+right*scale);
+  if(x2<=x1)continue;
+  const a=scale*tileMetres/img.naturalWidth,d=-dy*dy*tileMetres/(eyeF*img.naturalHeight);
+  // Local texture-row derivative keeps the nearest surface from stretching vertically.
+  const v=((position+z)/tileMetres%1)*img.naturalHeight;
+  pattern.setTransform({a,b:0,c:0,d,e:origin,f:sampleY-d*v});
+  ctx.globalAlpha=strength*Math.min(1,Math.max(0,(dy-H*.03)/(H*.20)));
+  ctx.fillRect(x1,row,x2-x1,Math.min(step,H-row));
+ }
+ ctx.restore();
+}
+function shoulderGravel(){
+ for(let n=0;n<130;n++){
+  const cell=Math.floor(position/.8)+n,z=cell*.8-position+.8;if(z<2)continue;
+  for(const side of[-1,1]){
+   const random=Math.sin(cell*91.7+side)*43758.5,fraction=random-Math.floor(random);
+   const p=project(side*(5.06+fraction*.51),.005,z),radius=Math.min(3,p.s*(.014+fraction*.015));
+   if(p.x<0||p.x>W||p.y>H)continue;
+   ctx.fillStyle=cell%3?'#c3b99a85':'#39433370';ctx.beginPath();ctx.ellipse(p.x,p.y,radius*1.6,radius*.45,0,0,Math.PI*2);ctx.fill();
+  }
+ }
+}
+function skyAndMountains(){let sky=ctx.createLinearGradient(0,0,0,H*.55);sky.addColorStop(0,'#38596a');sky.addColorStop(.45,'#8fa5a5');sky.addColorStop(.77,'#e5c298');sky.addColorStop(1,'#f0d29b');ctx.fillStyle=sky;ctx.fillRect(0,0,W,H);let glow=ctx.createRadialGradient(W*.71,H*.28,1,W*.71,H*.28,H*.26);glow.addColorStop(0,'#fff2c473');glow.addColorStop(1,'#ffe3ad00');ctx.fillStyle=glow;ctx.fillRect(0,0,W,H*.55);ctx.fillStyle='#f7dc9f';ctx.beginPath();ctx.arc(W*.71,H*.28,H*.032,0,Math.PI*2);ctx.fill();mountain(H*.39,H*.12,'#839a98',1.8);mountain(H*.435,H*.11,'#607d7a',3.2);mountain(H*.48,H*.08,'#365955',.6);
+}
+function paintSky(){const keep=ctx;ctx=skyCtx;ctx.clearRect(0,0,W,H);skyAndMountains();ctx=keep}
+function landscape(){
+ if(GL){ctx.clearRect(0,0,W,H);drawGround();shoulderGravel();}
+ else{skyAndMountains(); ctx.fillStyle='#5e6d52';ctx.fillRect(0,horizon(),W,H-horizon());groundTexture(meadowPattern,meadowImage,5,-Infinity,Infinity,.92);const verge=ctx.createLinearGradient(0,horizon(),0,H);verge.addColorStop(0,'#9da48d');verge.addColorStop(1,'#686c58');
+ const asphalt=ctx.createLinearGradient(0,horizon(),0,H);asphalt.addColorStop(0,'#7f8980');asphalt.addColorStop(.28,'#545f5c');asphalt.addColorStop(1,'#252f32');
+ quad(-5.6,5.6,2,2000,verge);quad(-5,5,2,2000,asphalt);
+ groundTexture(asphaltPattern,asphaltImage,3,-5,5,.82);shoulderGravel();}
+ quad(-4.7,-4.58,2,2000,'#d6d3b5');quad(4.58,4.7,2,2000,'#d6d3b5');quad(-.065,.065,2,2000,'#d8b66b');quad(-.24,-.17,2,2000,'#d8b66b');
+ for(let n=60;n>=0;n--){let z=n*14-(position%14)+2;if(z>2){quad(2.37,2.44,z,z+5.5,'#bac1b3');quad(-2.44,-2.37,z,z+5.5,'#bac1b3')}}
+ let objs=[];for(let n=0;n<68;n++){const absolute=Math.floor(position/19)*19+n*19,z=absolute-position+14;const k=Math.floor(absolute/19);objs.push({z,x:-10-(Math.sin(k*19.2)+1)*10,h:6+(Math.sin(k*3.4)+1)*4,t:'#294940',b:k%5===1||k%5===3,v:Math.abs(k)});objs.push({z:z+8,x:15+(Math.sin(k*13.4)+1)*13,h:5+(Math.sin(k*4.9)+1)*4,t:'#345345',b:k%5===0||k%5===2,v:Math.abs(k+1)});}objs.sort((a,b)=>b.z-a.z).forEach(o=>tree(o.x,o.z,o.h,o.t,o.b,o.v));
+ for(let n=30;n>=0;n--){let z=n*22-(position%22)+4;if(z<2)continue;for(let x of[-5.6,5.6]){let p=project(x,.1,z),s=p.s;ctx.fillStyle='#c3c6b0';ctx.fillRect(p.x,s*-.85+p.y,s*.10,s*.85);ctx.fillStyle=x<0?'#c8956b':'#ece5c5';ctx.fillRect(p.x,p.y-s*.85,s*.11,s*.20)}}
+}
+function drawFallbackCockpit(){dc.clearRect(0,0,W,H);const mobile=W<700;dc.save();let grad=dc.createLinearGradient(0,H*.70,0,H);grad.addColorStop(0,'#3b4849');grad.addColorStop(.07,'#202d30');grad.addColorStop(.3,'#142126');grad.addColorStop(1,'#081217');dc.fillStyle=grad;dc.beginPath();dc.moveTo(0,H*.755);dc.quadraticCurveTo(W*.48,H*.685,W,H*.755);dc.lineTo(W,H);dc.lineTo(0,H);dc.closePath();dc.fill();dc.strokeStyle='#87958c55';dc.lineWidth=2;dc.beginPath();dc.moveTo(0,H*.759);dc.quadraticCurveTo(W*.48,H*.689,W,H*.759);dc.stroke();
+ // Instrument binnacle and passenger air vent, part of the fixed cockpit.
+ const cx=W*(mobile?.38:.29),cy=H*1.012,r=Math.min(H*.235,W*(mobile?.43:.22));dc.fillStyle='#0c171b';dc.beginPath();dc.ellipse(cx,H*.862,r*.92,H*.084,0,Math.PI,Math.PI*2);dc.lineTo(cx+r*.92,H*.943);dc.lineTo(cx-r*.92,H*.943);dc.fill();dc.strokeStyle='#43524f';dc.lineWidth=1;dc.stroke();
+ dc.fillStyle='#080f14';dc.fillRect(W*.58,H*.786,W*.29,H*.022);for(let i=0;i<4;i++){dc.fillStyle='#3d4848';dc.fillRect(W*.59,H*(.789+i*.004),W*.27,1)}dc.strokeStyle='#b1a89077';dc.beginPath();dc.moveTo(W*.49,H*.86);dc.lineTo(W*.93,H*.86);dc.stroke();
+ // Steering-wheel rim: lit leather, inset stitching, and metal spokes.
+ dc.shadowColor='#0008';dc.shadowBlur=18;dc.shadowOffsetY=7;dc.strokeStyle='#080e12';dc.lineWidth=r*.20;dc.beginPath();dc.arc(cx,cy,r,0,Math.PI*2);dc.stroke();dc.shadowBlur=0;dc.shadowOffsetY=0;let rim=dc.createLinearGradient(cx-r,cy-r,cx+r,cy+r);rim.addColorStop(0,'#4e5858');rim.addColorStop(.16,'#202d30');rim.addColorStop(.55,'#0e191f');rim.addColorStop(1,'#17272d');dc.strokeStyle=rim;dc.lineWidth=r*.15;dc.beginPath();dc.arc(cx,cy,r,0,Math.PI*2);dc.stroke();dc.strokeStyle='#9c9e8966';dc.lineWidth=1;dc.setLineDash([2,5]);dc.beginPath();dc.arc(cx,cy,r*.953,Math.PI,Math.PI*2);dc.stroke();dc.setLineDash([]);dc.strokeStyle='#8a948a';dc.lineWidth=r*.10;dc.beginPath();dc.moveTo(cx-r*.87,cy-r*.19);dc.lineTo(cx,cy+r*.07);dc.lineTo(cx+r*.87,cy-r*.19);dc.stroke();dc.strokeStyle='#28373d';dc.lineWidth=r*.065;dc.stroke();dc.fillStyle='#18262d';dc.beginPath();dc.ellipse(cx,cy,r*.40,r*.29,0,0,Math.PI*2);dc.fill();dc.strokeStyle='#57635e';dc.lineWidth=1;dc.stroke();dc.restore()}
+// A single world-space character lives halfway between the first two sign planes.
+function drawRaccoon(t){
+ if(!raccoonImage.complete||!raccoonImage.naturalWidth)return;
+ const z=140+F()*SIGN_WIDTH/signWidth()-position;
+ if(z<2||z>260)return;
+ const ground=project(7.9,0,z),height=2.25*ground.s;
+ const width=height*raccoonImage.naturalWidth/raccoonImage.naturalHeight;
+ if(ground.x+width/2<0||ground.x-width/2>W)return;
+ ctx.save();ctx.globalAlpha=Math.min(1,(260-z)/100);
+ ctx.fillStyle='#10271a40';ctx.beginPath();ctx.ellipse(ground.x,ground.y,width*.30,height*.035,0,0,Math.PI*2);ctx.fill();
+ // Very slight sway feels alive without letting its feet leave the ground.
+ const sway=reduced?0:Math.sin(t*.0018)*.018;
+ ctx.translate(ground.x,ground.y);ctx.rotate(sway);
+ ctx.drawImage(raccoonImage,-width/2,-height*.965,width,height);ctx.restore();
+}
+function drawCockpit(){
+ if(!cockpitImage.complete||!cockpitImage.naturalWidth){drawFallbackCockpit();return}
+ dc.clearRect(0,0,W,H);
+ // Preserve the photographed proportions; align the wheel and instrument displays.
+ const mobile=W<700,width=Math.max(W,H*(mobile?.9:1.05));
+ const height=width*cockpitImage.naturalHeight/cockpitImage.naturalWidth;
+ const x=mobile?W*.38-width*.38:(W-width)/2;
+ // On desktop the viewport cuts through the lower third of each main gauge.
+ const y=mobile?Math.min(H*.72-height*.405,H*.875-height*.638):H-(667+83/3)*(width/1536);
+ dc.drawImage(cockpitImage,x,y,width,height);
+ cockpitLayout={x,y,scale:width/1536};
+ const styles=document.documentElement.style;
+ styles.setProperty('--cluster-x',`${x+width*.39}px`);
+ styles.setProperty('--cluster-y',`${y+height*.638}px`);
+ styles.setProperty('--gauge-size',`${Math.max(17,width/1536*26)}px`);
+ styles.setProperty('--screen-x',`${x+width*.823}px`);
+ styles.setProperty('--screen-y',`${y+height*.64}px`);
+ styles.setProperty('--screen-width',`${width*.24}px`);
+
+}
+// Calibrated instruments drawn inside the photograph's original metal bezels.
+const REDLINE=6800,MAX_RPM=8000,MAX_MPH=120;
+function gaugeAngle(value,max){return (135+270*Math.max(0,Math.min(1,value/max)))*Math.PI/180}
+function tachTarget(mph,acceleration,t){
+ const idle=reduced?900:900+28*Math.sin(t*.0017)+12*Math.sin(t*.0031);
+ if(mph<.5)return idle;
+ return Math.min(REDLINE-200,Math.max(idle,1000+mph*48+Math.max(0,acceleration)*16));
+}
+function dial(cx,cy,rx,ry,value,max,tach){
+ gc.save();gc.translate(cx,cy);gc.scale(rx,ry);
+ gc.beginPath();gc.arc(0,0,1,0,Math.PI*2);gc.clip();
+ const face=gc.createRadialGradient(-.3,-.4,.1,0,0,1);face.addColorStop(0,'#182024');face.addColorStop(.8,'#090e12');face.addColorStop(1,'#05090b');
+ gc.fillStyle=face;gc.fillRect(-1,-1,2,2);
+ if(tach){gc.strokeStyle='#e95b3d';gc.lineWidth=.047;gc.beginPath();gc.arc(0,0,.94,gaugeAngle(REDLINE,max),gaugeAngle(max,max));gc.stroke()}
+ const divisions=tach?40:60;
+ for(let i=0;i<=divisions;i++){
+  const major=i%5===0,a=gaugeAngle(i/divisions*max,max),inner=major?.79:.855;
+  gc.strokeStyle=tach&&i/divisions*max>=REDLINE?'#f16c49':'#e9d5b2';gc.lineWidth=major?.022:.011;
+  gc.beginPath();gc.moveTo(Math.cos(a)*inner,Math.sin(a)*inner);gc.lineTo(Math.cos(a)*.925,Math.sin(a)*.925);gc.stroke();
+  if(major&&(tach||i%10===0)){
+   gc.save();gc.translate(Math.cos(a)*.655,Math.sin(a)*.655);gc.scale(1/rx,1/ry);
+   gc.font='500 10px Arial';gc.textAlign='center';gc.textBaseline='middle';gc.fillStyle='#eddbb8';
+   gc.fillText(String(Math.round(i/divisions*max/(tach?1000:1))),0,0);gc.restore();
+  }
+ }
+ gc.save();gc.scale(1/rx,1/ry);gc.fillStyle='#c9b38e';gc.textAlign='center';gc.font='7px Arial';
+ gc.fillText(tach?'RPM ×1000':'MPH',0,-22);gc.restore();
+ const a=gaugeAngle(value,max);gc.rotate(a);
+ gc.shadowColor='#ffb27077';gc.shadowBlur=3;gc.fillStyle='#f0c28a';
+ gc.beginPath();gc.moveTo(.82,0);gc.lineTo(-.14,-.023);gc.lineTo(-.14,.023);gc.closePath();gc.fill();gc.shadowBlur=0;
+ gc.fillStyle='#141c20';gc.beginPath();gc.arc(0,0,.10,0,Math.PI*2);gc.fill();gc.strokeStyle='#a88b5f';gc.lineWidth=.01;gc.stroke();gc.restore();
+}
+function drawInstruments(){
+ gc.clearRect(0,0,W,H);if(!cockpitLayout)return;
+ const {x,y,scale}=cockpitLayout;gc.save();gc.translate(x,y);gc.scale(scale,scale);
+ dial(451,667,81,83,rpm,MAX_RPM,true);
+ dial(752,666,76,82,speed,MAX_MPH,false);
+ // Leave the photographed steering-wheel hub in front of the dial faces.
+ gc.globalCompositeOperation='destination-out';gc.beginPath();gc.moveTo(397,1024);gc.lineTo(397,886);
+ gc.bezierCurveTo(398,780,455,714,557,708);gc.bezierCurveTo(657,695,758,751,785,861);
+ gc.lineTo(800,1024);gc.closePath();gc.fill();gc.restore();
+}
+let sleeping=false,idleSince=0;
+function wake(){if(sleeping){sleeping=false;idleSince=0;last=performance.now();requestAnimationFrame(frame)}}
+function frame(t){let dt=Math.min((t-last)/1000||.016,.05);last=t;let before=position,previousSpeed=speed;position=reduced?goal:position+(goal-position)*(1-Math.exp(-dt*9));if(Math.abs(position-goal)<.015)position=goal;speed+=(Math.min(85,Math.abs(position-before)/dt*.16)-speed)*(1-Math.exp(-dt*7.67));
+ const targetRPM=tachTarget(speed,(speed-previousSpeed)/dt,t);
+ rpm=speed<.5?targetRPM:rpm+(targetRPM-rpm)*(1-Math.exp(-dt*5));
+ landscape();drawRaccoon(t);drawInstruments();
+ let nearest=Math.max(0,Math.min(4,Math.round(position/280)));if(nearest!==active)setActive(nearest);
+ const depth=F()*SIGN_WIDTH/signWidth();
+ signs.forEach((s,i)=>{
+  const z=i*280-position+depth;
+  if(z<3||z>1100){s.style.display='none';s.inert=true;s.setAttribute('aria-hidden','true');return}
+  s.style.display='block';
+  const scale=F()/z*SIGN_WIDTH/480;
+  const faceHeight=s.offsetHeight;
+  const corner=project(SIGN_LEFT,SIGN_BASE+faceHeight*SIGN_WIDTH/480,z);
+  let opacity=Math.min(1,Math.max(0,(1100-z)/550));
+  if(reduced&&i!==nearest)opacity=0;
+  s.style.transform=`translate(${corner.x}px,${corner.y}px) scale(${scale})`;
+  s.style.opacity=opacity;s.style.zIndex=String(100-Math.round(z));
+  s.inert=i!==nearest||z>depth*2||z<depth*.5;
+  s.setAttribute('aria-hidden',String(i!==nearest));
+ });
+ document.getElementById('speed').textContent=String(Math.round(speed));document.getElementById('mileage').textContent=(position/280*.8).toFixed(1).padStart(5,'0');const parked=Math.abs(position-nearest*280)<2&&speed<2;document.getElementById('status').textContent=parked?`STOP 0${nearest+1} · TAKE IT IN`:'ENJOY THE DRIVE';
+ // Parked and settled for 1.5 s: freeze the frame (idle needle/raccoon sway stop) until something moves.
+ if(position===goal&&speed<.05){if(!idleSince)idleSince=t;if(t-idleSince>1500){sleeping=true;return}}else idleSince=0;
+ requestAnimationFrame(frame)}
+resize();setActive(0);requestAnimationFrame(frame);
+
+</script>
+
+</body></html>

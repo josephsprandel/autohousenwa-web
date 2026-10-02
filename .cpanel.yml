@@ -13,9 +13,11 @@
 # ra/ = temporary, unlinked design-concept page for Randall Architecture (review only,
 #   noindex; photos/fonts hot-linked from their site). Remove from here and delete
 #   public_html/ra by hand when the review is over.
+# concept/ = unlinked homepage design concept ("scenic route", 2026-10-02; noindex) at
+#   autohousenwa.com/concept. Same removal rule as ra/ if it isn't adopted.
 deployment:
   tasks:
     - export DEPLOYPATH=/home/autohous/public_html/
     - /bin/cp -f index.php services.php service_details.php contact.php about.php privacy.php terms.php sms-policy.php $DEPLOYPATH
     - /bin/cp -f favicon.ico 401.shtml 404.shtml 084ce9a124e7ecdbdd51d41edc42a2ba.html $DEPLOYPATH
-    - /bin/cp -Rf includes _img logos book ra $DEPLOYPATH
+    - /bin/cp -Rf includes _img logos book ra concept $DEPLOYPATH
