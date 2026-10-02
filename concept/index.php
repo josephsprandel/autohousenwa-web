@@ -96,6 +96,9 @@ header{background:#003366;padding:10px 32px;box-shadow:0 2px 14px #00112255;bord
 .svc:hover{background:#ffffff26;box-shadow:inset 0 0 0 3px var(--legend)}
 #sky,#ground{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
 .sign-face{border-color:var(--legend)}.sign-meta .number{border-color:var(--legend)}
+/* Highway-sign legends: all caps (sign 1 already was); 42px keeps every heading on its intended lines */
+.sign-heading h1,.sign-heading h2{text-transform:uppercase;letter-spacing:.5px;font-size:42px}
+.sign-action{text-transform:uppercase;letter-spacing:.8px}
 /* Header fast lane: hours + tap-to-call beside Schedule Online */
 .header-right{gap:18px}
 .header-hours{color:#d6e2f2;font-size:13px;letter-spacing:.4px;white-space:nowrap}
