@@ -197,7 +197,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 <main>
 <div class="content-card">
     <h1>SMS/Text Messaging Policy</h1>
-    <p class="last-updated">Last Updated: January 7, 2026</p>
+    <p class="last-updated">Last Updated: October 4, 2026</p>
 
     <h2>How We Use Text Messaging</h2>
     <p>
@@ -205,7 +205,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </p>
 
     <h2>Types of Messages You May Receive</h2>
-    <p>When you provide your mobile phone number, you may receive text messages about:</p>
+    <p>If you opt in to text updates (see <a href="#opt-in">How to Opt In</a> below), you may receive text messages about:</p>
     <ul>
         <li><strong>Appointment Confirmations:</strong> Confirming your scheduled service appointment date and time</li>
         <li><strong>Appointment Reminders:</strong> Reminding you of upcoming appointments</li>
@@ -216,17 +216,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
         <li><strong>Payment Confirmations:</strong> Confirming receipt of payment for services</li>
     </ul>
 
-    <h2>Consent to Receive Messages</h2>
+    <h2 id="opt-in">How to Opt In</h2>
     <p>
-        <strong>By providing your mobile phone number to AutoHouse Automotive, you expressly consent to receive text messages from us regarding your vehicle service.</strong> This consent applies to appointment reminders, service updates, repair approvals, and other transactional communications related to your vehicle.
+        Text messages are <strong>opt-in only</strong>. We send texts only to customers who check the optional consent box when they schedule online:
     </p>
+    <ol>
+        <li>On <a href="https://autohousenwa.com">autohousenwa.com</a>, click <strong>Schedule Online</strong> (on any page).</li>
+        <li>The first step is <strong>Text Updates (Optional)</strong>, with an <strong>unchecked</strong> checkbox reading: <em>&ldquo;I agree to receive automated SMS messages from AutoHouse Automotive regarding my appointment and vehicle service. Msg &amp; data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Consent is not a condition of purchase or service.&rdquo;</em> The step also states the message frequency and links to this SMS Policy and our <a href="/privacy.php">Privacy Policy</a>.</li>
+        <li>Check the box to receive texts, or leave it unchecked. Either way, click <strong>Continue to Schedule</strong> and book as usual.</li>
+        <li>The booking form that follows repeats the same optional checkbox, so you can change your choice before you book. Consent is recorded only if the box is checked when the appointment is booked.</li>
+    </ol>
+    <p>This is the opt-in step exactly as it appears on our website:</p>
+    <p><img src="/_img/sms-optin-step.png" alt="The Text Updates (Optional) step on autohousenwa.com: an unchecked consent checkbox with message frequency, message and data rates, STOP and HELP instructions, and links to the SMS Policy and Privacy Policy" style="max-width:100%;height:auto;border:1px solid #ddd;border-radius:8px;"></p>
     <p>
-        Consent is not a condition of purchase. You may still use our services if you choose not to receive text messages by informing us of your preference.
+        Consent is not a condition of purchase or service. You can schedule and receive service without opting in, and you can opt out at any time (see below).
     </p>
 
     <h2>Message Frequency</h2>
     <p>
-        Message frequency varies based on your service visits and vehicle needs. Typically, you may receive 1-5 messages per service visit. Maintenance reminders are sent approximately 2-4 times per year based on your vehicle's recommended service intervals.
+        Message frequency varies. You will receive up to 5 messages per service visit (confirmations, reminders, status updates, approval requests and a ready-for-pickup notice), plus occasional maintenance reminders, typically 2-4 per year, based on your vehicle's recommended service intervals.
     </p>
 
     <h2>How to Opt-Out</h2>
