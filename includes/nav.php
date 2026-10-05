@@ -10,10 +10,10 @@
  */
 $current_page = $current_page ?? '';
 $nav_items = [
-    'home'     => ['index.php', 'Home'],
-    'services' => ['services.php', 'Services'],
-    'contact'  => ['contact.php', 'Contact Us'],
-    'about'    => ['about.php', 'About Us'],
+    'home'     => ['/', 'Home'],
+    'services' => ['/services.php', 'Services'],
+    'contact'  => ['/contact.php', 'Contact Us'],
+    'about'    => ['/about.php', 'About Us'],
 ];
 ?>
 <nav>

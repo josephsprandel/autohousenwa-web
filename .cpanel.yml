@@ -9,6 +9,7 @@
 # Deliberately NOT deployed (host-managed, or not part of the site):
 #   .htaccess, php.ini, .user.ini  — cPanel edits these (MultiPHP INI Editor)
 #   ro/, volvo/, cgi-bin/, audio/  — legacy, not in this repo
+#   tools/                         — build scripts (tools/build-music.py writes music/)
 #
 # ra/ = temporary, unlinked design-concept page for Randall Architecture (review only,
 #   noindex; photos/fonts hot-linked from their site). Remove from here and delete
@@ -20,4 +21,4 @@ deployment:
     - export DEPLOYPATH=/home/autohous/public_html/
     - /bin/cp -f index.php services.php service_details.php contact.php about.php privacy.php terms.php sms-policy.php $DEPLOYPATH
     - /bin/cp -f favicon.ico 401.shtml 404.shtml 084ce9a124e7ecdbdd51d41edc42a2ba.html $DEPLOYPATH
-    - /bin/cp -Rf includes _img logos book ra concept $DEPLOYPATH
+    - /bin/cp -Rf includes _img logos book music ra concept $DEPLOYPATH

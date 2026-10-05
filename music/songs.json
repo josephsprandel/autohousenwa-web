@@ -1,0 +1,1664 @@
+[
+ {
+  "slug": "lobby",
+  "title": "Lobby",
+  "sub": "Coffee's Free",
+  "dur": 95.7,
+  "lyrics": [
+   {
+    "name": "Intro - spoken",
+    "lines": [
+     "Coffee's free. Wi-fi password's on the counter. We'll come get you."
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "Your car's ready."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "eight-to-six",
+  "title": "Eight to Six",
+  "sub": "",
+  "dur": 208.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Bay door up at eight, air compressor kicks on",
+     "Coffee on the toolbox, radio's on the wrong song",
+     "First key on the board's a wagon from Elkins",
+     "Two-forty on the clock and still not asking for anything"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Impact gun says good morning, lift goes up with a hum",
+     "Somebody's got a rattle only shows up over sixty-one",
+     "Bailey's on the phone saying \"Yes ma'am, we can see it\"",
+     "Writing down the noise exactly how she says it"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Eight to six, we keep 'em alive",
+     "Turn 'em back out to the highway",
+     "Don't need a hero, don't need a miracle",
+     "Just torque it right and go home",
+     "Eight to six, we keep 'em alive",
+     "Same as we did yesterday"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Lunch is a tailgate, somebody's phone on speaker",
+     "Tech in bay three singing with the parts washer",
+     "Timing belt's a two-day job, nobody rushes",
+     "Thing's gotta spin another hundred thousand after this"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Eight to six, we keep 'em alive",
+     "Turn 'em back out to the highway",
+     "Don't need a hero, don't need a miracle",
+     "Just torque it right and go home",
+     "Eight to six, we keep 'em alive",
+     "Same as we did yesterday"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Some days it's a battery, some days it's the whole front end",
+     "Some days a man just needs to hear it's not as bad as he figured",
+     "We've been here since '13, be here when you're back",
+     "Door's up at eight. Coffee's on. Bring the wagon in."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Eight to six, we keep 'em alive",
+     "Turn 'em back out to the highway",
+     "Don't need a hero, don't need a miracle",
+     "Just torque it right and go home",
+     "Eight to six, we keep 'em alive",
+     "Same as we did yesterday"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Bay door down at six.",
+     "Compressor cycles off.",
+     "Same as we did yesterday."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dead-battery-heart",
+  "title": "Dead Battery Heart",
+  "sub": "",
+  "dur": 191.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Key won't turn",
+     "Dash stays dark",
+     "Dead battery",
+     "In the Walmart park",
+     "Loose fan belt",
+     "Bleeping check engine light",
+     "Oil stain on the driveway",
+     "Same thing every night"
+    ]
+   },
+   {
+    "name": "Pre-chorus",
+    "lines": [
+     "Starter clicks",
+     "Then it quits",
+     "Sit here stuck again",
+     "Flat tire",
+     "Won't budge",
+     "And the tow truck's taking ten"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "My car won't start",
+     "My car won't start",
+     "My car won't start",
+     "Dead battery heart",
+     "My car won't start",
+     "No air, no spark"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Overheating",
+     "Steam in the rain",
+     "Broken radiator",
+     "Pulsing through my veins",
+     "Brakes go soft",
+     "Squeal like a cry",
+     "Worn-out wipers",
+     "Can't clear my eyes",
+     "Transmission slips",
+     "Gears won't hold",
+     "Exhaust rattling",
+     "And the cabin's cold"
+    ]
+   },
+   {
+    "name": "Pre-chorus",
+    "lines": [
+     "Starter clicks",
+     "Then it quits",
+     "Sit here stuck again",
+     "Flat tire",
+     "Won't budge",
+     "And the tow truck's taking ten"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "My car won't start",
+     "My car won't start",
+     "My car won't start",
+     "Dead battery heart",
+     "My car won't start",
+     "No air, no spark"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "I got jumper cables",
+     "A socket set",
+     "A folder full of bills",
+     "And one more dent",
+     "It's not one thing",
+     "It's the next",
+     "Baby, I'm a mechanic",
+     "Without the rest"
+    ]
+   },
+   {
+    "name": "Final chorus",
+    "lines": [
+     "My car won't start",
+     "My car won't start",
+     "My car won't start",
+     "Dead battery heart",
+     "My car won't start",
+     "My car won't start",
+     "No air, no spark"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "same-key-same-spot",
+  "title": "Same Key, Same Spot",
+  "sub": "",
+  "dur": 179.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Two hundred eighty thousand on the dash",
+     "Car-seat marks still pressed into the back",
+     "She learned to drive it in the Harps lot",
+     "It's hers now. Same key. Same spot."
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Cassette deck's still got the first tape in it",
+     "Nobody's pushed eject since '08",
+     "The dog hair's older than the dog",
+     "And the heater takes a minute, but it waits"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not the miles, it's who was in it",
+     "Every dent's a Tuesday somebody lived",
+     "It's not the miles, it's who was in it",
+     "You don't trade that in. You keep it going."
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Timing belt at ninety, then one-eighty",
+     "Brakes the summer she turned sixteen",
+     "Somebody kept the receipts in the glovebox",
+     "Somebody meant for this to keep being seen"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not the miles, it's who was in it",
+     "Every dent's a Tuesday somebody lived",
+     "It's not the miles, it's who was in it",
+     "You don't trade that in. You keep it going."
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Same key. Same spot.",
+     "Same key."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "volvo-people",
+  "title": "Volvo People",
+  "sub": "",
+  "dur": 113.0,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "She's got two hundred thousand on an XC70",
+     "A golden retriever and the hair to prove it",
+     "Kayak rack she used one time",
+     "Says she'll drive it till the wheels fall off",
+     "Then she'll put new wheels on"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Ooh, Volvo people",
+     "Don't trade it in, just keep it rolling",
+     "Ooh, Volvo people",
+     "Same key, same spot, same car since the kids were small"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "He bought the XC90 'cause it had three rows",
+     "Then they had a third kid just to fill it up",
+     "Thor's hammer headlights, heated seats",
+     "And he'll tell you all about the seatbelt",
+     "(Oh no, here he goes)"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Ooh, Volvo people",
+     "Don't trade it in, just keep it rolling",
+     "Ooh, Volvo people",
+     "Same key, same spot, same car since the kids were small"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Nineteen fifty-nine, a three-point belt",
+     "Volvo could've kept it, could've cashed it in",
+     "Gave it to the world for free instead",
+     "...Okay, that is a pretty good story"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "They want to know what broke and why it broke",
+     "They want to see the old part, hold it in their hand",
+     "They'll ask the tech about their timing belt",
+     "And what he thinks of their daughter's new boyfriend"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Ooh, Volvo people",
+     "Don't trade it in, just keep it rolling",
+     "Ooh, Volvo people",
+     "Same key, same spot, same car since the kids were small"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "timing-belt-waltz",
+  "title": "Timing Belt Waltz",
+  "sub": "",
+  "dur": 169.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Sticker says a hundred and five thousand miles",
+     "You're at a hundred and twenty, doing fine",
+     "Nothing's making noise, the engine's running smooth",
+     "That's the trouble with a timing belt. It never tells you."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It don't warn you, it don't whine",
+     "Runs like new and runs on time",
+     "Right up until the day",
+     "It lets go on the interstate"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Valves meet pistons at the speed of a mistake",
+     "Four thousand dollars for a two-hundred-dollar belt",
+     "Tow truck driver didn't say a word about it",
+     "Figured you already knew how that felt"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It don't warn you, it don't whine",
+     "Runs like new and runs on time",
+     "Right up until the day",
+     "It lets go on the interstate"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "So when the sticker says it's time, it's time",
+     "Water pump and tensioner, do it all at once",
+     "Two days in the bay and another hundred thousand",
+     "You won't think about it 'til the next one comes"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It don't warn you, it don't whine",
+     "Runs like new and runs on time",
+     "Right up until the day",
+     "It lets go on the interstate",
+     "So we change it, and you're on your way"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "it-doesnt-do-it-here",
+  "title": "It Doesn't Do It Here",
+  "sub": "",
+  "dur": 176.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Monday morning, hazards on, you came in hot",
+     "\"It's been doing it all week and it's getting worse\"",
+     "Whole crew gathered round, we leaned in close",
+     "And it idled like a brand-new car. Not a sound."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It doesn't do it here",
+     "(No, it doesn't do it here)",
+     "It was doing it the whole way here",
+     "On the highway, on the bridge, in the drive-through line",
+     "Every place in Arkansas but up on the lift",
+     "It doesn't do it here"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Only when it's raining, only turning left",
+     "Only up the hill on Old Wire in second gear",
+     "Only with the AC on and your mother-in-law in the car",
+     "That's a very specific noise, but okay. We hear you."
+    ]
+   },
+   {
+    "name": "Break - spoken",
+    "lines": [
+     "I got it on video. Hold on.",
+     "...Okay, that's the radio.",
+     "...Hear that? Right there. You hear it?"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It doesn't do it here",
+     "(No, it doesn't do it here)",
+     "It was doing it the whole way here",
+     "On the highway, on the bridge, in the drive-through line",
+     "Every place in Arkansas but up on the lift",
+     "It doesn't do it here"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Leave it with us overnight",
+     "We'll drive it like you do",
+     "Cold start in the morning",
+     "That's when it tells the truth"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "It doesn't do it here",
+     "(No, it doesn't do it here)",
+     "It was doing it the whole way here",
+     "On the highway, on the bridge, in the drive-through line",
+     "Every place in Arkansas but up on the lift",
+     "It doesn't do it here"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "...And there it is."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "wiper-blades",
+  "title": "Wiper Blades",
+  "sub": "",
+  "dur": 108.2,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Oh, the rain come down on 412",
+     "And the sky turned black as tar",
+     "I put the wipers on high, me boys",
+     "And they smeared it near and far"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Way, hey, the blades are gone",
+     "They squeak, they skip, they chatter on",
+     "The summer baked 'em hard as stone",
+     "So change 'em when the rain comes on"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Now the left one skips and the right one squeaks",
+     "And the middle's a smear of gray",
+     "I'm squinting like a captain, boys",
+     "And I've missed my turn twice today"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Way, hey, the blades are gone",
+     "They squeak, they skip, they chatter on",
+     "The summer baked 'em hard as stone",
+     "So change 'em when the rain comes on"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "Can't see a thing.",
+     "Is that a deer?",
+     "...That's a mailbox."
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Oh, a pair of blades and ten minutes' work",
+     "And the glass came clean as day",
+     "Once a year at least, the old man said",
+     "And I wish I'd listened, aye"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Way, hey, the blades are gone",
+     "They squeak, they skip, they chatter on",
+     "The summer baked 'em hard as stone",
+     "So change 'em when the rain comes on"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "squeal",
+  "title": "Squeal",
+  "sub": "",
+  "dur": 235.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Every time I touch the pedal",
+     "She cries out in the night",
+     "A high and lonely metal scream",
+     "At every single light"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "I turned the radio louder",
+     "I rolled the windows up",
+     "But some things you can't drown out",
+     "And some things you shouldn't"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Squeal! (She's trying to tell me)",
+     "Squeal! (Every single stop)",
+     "There's a little piece of metal in there",
+     "Built to scream before the pads run out",
+     "And I've been turning up the radio",
+     "For a month"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Now the squealing turned to grinding",
+     "Like a dragon in the wheel",
+     "I rolled into the shop, and the tech just shook his head",
+     "\"Last month this was pads,\" he said",
+     "\"Now it's pads and rotors too\""
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Squeal! (She's trying to tell me)",
+     "Squeal! (Every single stop)",
+     "There's a little piece of metal in there",
+     "Built to scream before the pads run out",
+     "And I've been turning up the radio",
+     "For a month"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "If you're out there, and you hear it",
+     "Don't turn up the radio",
+     "Turn into the parking lot"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Squeal! (She's trying to tell me)",
+     "Squeal! (Every single stop)",
+     "There's a little piece of metal in there",
+     "Built to scream before the pads run out",
+     "And I've been turning up the radio",
+     "For a month"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "check-engine",
+  "title": "Check Engine",
+  "sub": "It's Probably the Gas Cap",
+  "dur": 160.3,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Little orange light come on at the Sonic",
+     "Heart dropped like a wrench down a drain",
+     "Pulled over, popped the hood, stared at the engine",
+     "Like staring ever fixed a thing"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Check engine, check engine",
+     "Tighten up the cap and drive it again",
+     "Check engine, check engine",
+     "Half the time it's the cap, my friend"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Googled it at the red light, got nine hundred answers",
+     "Every one of 'em ended in \"could be\"",
+     "Buddy said it's the transmission, wife said it's nothing",
+     "Shop said \"Bring it by, we'll see\""
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Check engine, check engine",
+     "Tighten up the cap and drive it again",
+     "Check engine, check engine",
+     "Half the time it's the cap, my friend"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Plugged in the reader, code came up",
+     "P-zero-four-five-five",
+     "Fella didn't even look surprised",
+     "Said \"Go click it 'til it clicks three times\""
+    ]
+   },
+   {
+    "name": "Verse 4",
+    "lines": [
+     "Clicked it three times, drove it a couple days",
+     "Light went out on its own",
+     "Forty bucks for the scan and a lesson",
+     "And I'd pay it again"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Check engine, check engine",
+     "Tighten up the cap and drive it again",
+     "Check engine, check engine",
+     "Half the time it's the cap, my friend",
+     "Other half, bring it in"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bell-on-the-door",
+  "title": "Bell on the Door",
+  "sub": "",
+  "dur": 184.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Seven fifty-five, the lights come on",
+     "Coffee's dripping, radio low",
+     "Bays all empty, wrenches waiting",
+     "On a sound we all know"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "That's the bell on the door",
+     "That's the bell on the door",
+     "You don't know what you're holding up",
+     "And we won't make a thing of it",
+     "That's the bell on the door"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Somebody's kid got light-up shoes",
+     "The week your timing belt came due",
+     "A backpack, the green one, the one that she picked",
+     "She don't know your name, you don't know hers",
+     "That's about how it works"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "That's the bell on the door",
+     "That's the bell on the door",
+     "You don't know what you're holding up",
+     "And we won't make a thing of it",
+     "That's the bell on the door"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "January's slow, the lot gets quiet",
+     "Guys sweep a floor that's already clean",
+     "Then a minivan limps in on a check engine light",
+     "Best thing we've seen all week"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "We got the lifts, we got the scan tool",
+     "Guys who can hear a bad bearing from the street",
+     "None of it does a thing by itself",
+     "It's all just waiting on you"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "That's the bell on the door",
+     "That's the bell on the door",
+     "You don't know what you're holding up",
+     "Well, now you do. Forget I said it.",
+     "That's the bell on the door"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "Your car's ready.",
+     "See you in five thousand miles."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "not-an-investment",
+  "title": "Not an Investment",
+  "sub": "",
+  "dur": 148.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Book value says twenty-five hundred",
+     "Estimate says three",
+     "My momma always said",
+     "Son, there ain't nothin' free"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Fella at the counter said \"Take your time\"",
+     "I said \"That's more than the car is worth\"",
+     "He said \"Worth to who? You selling it?\"",
+     "I said \"No, I'm driving it Monday.\""
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not an investment, it's a ride",
+     "Never was gonna pay me back",
+     "Only question that was ever on the table",
+     "Is what it costs to keep it on the road"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "New one's five hundred a month",
+     "Plus taxes and insurance gets a bump",
+     "Three thousand once, or six thousand a year",
+     "Ain't a hard call when you add it up"
+    ]
+   },
+   {
+    "name": "Verse 4",
+    "lines": [
+     "Sure, it's old, and sure, it's ugly",
+     "And it still won't be worth a dime",
+     "But it'll start on Monday and the Monday after",
+     "Which is all I ever asked it for the whole time"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not an investment, it's a ride",
+     "Never was gonna pay me back",
+     "Only question that was ever on the table",
+     "Is what it costs to keep it on the road"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Sometimes the answer's \"Let her go\"",
+     "Shop'll tell you that too, when it's true",
+     "But \"more than it's worth\" ain't the answer",
+     "It's the thing you say before you think it through"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not an investment, it's a ride",
+     "Never was gonna pay me back",
+     "Only question that was ever on the table",
+     "Is what it costs to keep it on the road"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Fixed it. Still ugly. Still starts."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "need-an-alternator",
+  "title": "Need an Alternator",
+  "sub": "",
+  "dur": 215.0,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "My Toyota coughs at dawn",
+     "Battery light glowin' red",
+     "Turn the key, she thinks about it",
+     "Like she'd rather stay in bed",
+     "The radio fades away",
+     "At the light on Sunset Ave",
+     "Gauges jumpin' like they're nervous",
+     "Every time I touch the gas"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "I got a jump last week",
+     "Still she lost her spark",
+     "Now the headlights dim",
+     "And she stalls in the dark"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Need an alternator",
+     "Need an alternator",
+     "Blue Toyota, don't quit on me now",
+     "Need an alternator",
+     "Need an alternator",
+     "Get me home, I'll figure it out"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "There's grease on my knuckles",
+     "And a belt that likes to scream",
+     "Every time I hit the AC",
+     "Sounds like a cat in a machine",
+     "Bought a battery Tuesday",
+     "Bought another Friday night",
+     "Man at the parts store knows my name",
+     "That ain't a good sign"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "Mechanic said, \"It's tired\"",
+     "Like a mule in the rain",
+     "\"It ain't the battery, brother",
+     "It's the thing that charges the thing\""
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Need an alternator",
+     "Need an alternator",
+     "Blue Toyota, don't quit on me now",
+     "Need an alternator",
+     "Need an alternator",
+     "Get me home, I'll figure it out"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "I had tools in the trunk",
+     "And a video on my phone",
+     "Two hours in the Walmart lot",
+     "And I'm calling the shop from the curb, alone",
+     "One new part, one phone call",
+     "One more Saturday",
+     "Battery light goes dark at last",
+     "And I'm back out on my way"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Need an alternator",
+     "Need an alternator",
+     "Blue Toyota, don't quit on me now",
+     "Need an alternator",
+     "Need an alternator",
+     "Get me home, I'll figure it out"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "glad-that-it-was-me",
+  "title": "Glad That It Was Me",
+  "sub": "",
+  "dur": 178.5,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Somebody had to crawl under there",
+     "In January, in the slush and the salt",
+     "Somebody had to find the noise",
+     "Nobody else could. That wasn't your fault."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "And I'm glad, glad that it was me",
+     "(Glad that it was me)",
+     "Hands in the engine, you don't need to see",
+     "You just drive it home to your family",
+     "And I'm glad, glad that it was me"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Your daughter's in the back seat now",
+     "Learning every word on the radio",
+     "She'll never know the man who torqued her wheels on",
+     "And that's alright with me"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "And I'm glad, glad that it was me",
+     "(Glad that it was me)",
+     "Hands in the engine, you don't need to see",
+     "(You don't need to see)",
+     "You just drive it home to your family",
+     "And I'm glad, glad that it was me"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Brake clean in my eye",
+     "Blood in your engine bay",
+     "Somebody had to",
+     "Somebody had to",
+     "And I'd do it every day"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "And I'm glad, glad that it was me",
+     "(Glad that it was me)",
+     "Hands in the engine, you don't need to see",
+     "(You don't need to see)",
+     "You just drive it home to your family",
+     "And I'm glad, glad that it was me"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "extended-warranty",
+  "title": "Extended Warranty",
+  "sub": "",
+  "dur": 133.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Phone rings at dinner from a local number",
+     "Nobody local's ever called me before",
+     "Pick it up, there's a pause and a click",
+     "And a lady sounds real worried 'bout my car"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "We've been trying to reach you!",
+     "About your car's extended warranty!",
+     "We've been trying to reach you!",
+     "I know, you called four times today"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "They called about the car I sold in '17",
+     "They called about the one I backed into the Sonic",
+     "They called the shop at nine this morning",
+     "'Bout the warranty on the car up on our lift"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "We've been trying to reach you!",
+     "About your car's extended warranty!",
+     "We've been trying to reach you!",
+     "I know, you called four times today"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "You want the cheapest coverage there is?",
+     "Change your oil!",
+     "Check your belts!",
+     "Don't ignore the light!",
+     "(It still won't stop the calls)"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "We've been trying to reach you!",
+     "About your car's extended warranty!",
+     "We've been trying to reach you!",
+     "I know, you called four times today"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "Press one to speak to a representative.",
+     "Press two to be removed from our list.",
+     "...It won't work."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "fresh-oil",
+  "title": "Fresh Oil",
+  "sub": "",
+  "dur": 179.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Sticker in the window says it's been five thousand",
+     "I been driving like it doesn't count",
+     "Dipstick come out dark as Sunday coffee",
+     "Barely a quart left to talk about"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Fresh oil, fresh oil",
+     "Golden going in, black coming out",
+     "Five quarts and a filter, twenty minutes",
+     "Cheapest thing you'll ever do right"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Tech pulls the plug and it pours out slow",
+     "He don't say nothing, just gives me a look",
+     "New crush washer, torques it back down",
+     "Writes the next one on the sticker so I can't forget"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Fresh oil, fresh oil",
+     "Golden going in, black coming out",
+     "Five quarts and a filter, twenty minutes",
+     "Cheapest thing you'll ever do right"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Turn the key and the ticking goes quiet",
+     "Lifters all come up at once",
+     "Idle settles down where it ought to be",
+     "Like it's been waiting on me for a month"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "You can pay a little now",
+     "Or pay for the whole engine later",
+     "Ain't no third way, baby",
+     "Ain't no third way"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Fresh oil, fresh oil",
+     "Golden going in, black coming out",
+     "Five quarts and a filter, twenty minutes",
+     "Cheapest thing you'll ever do right"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Golden going in.",
+     "Black coming out."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "first-cold-morning",
+  "title": "First Cold Morning",
+  "sub": "",
+  "dur": 170.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "First cold morning, forty-one degrees",
+     "Frost on the windshield, coffee going cold",
+     "Little yellow light comes on the dash",
+     "Looks like a horseshoe with a scream inside"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not a leak, it's October",
+     "Cold air shrinks a little every night",
+     "Ten degrees down, one pound gone",
+     "Half the cars on 49 got the light on"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Called my sister, hers is on too",
+     "Neighbor says his came on around eight",
+     "The neighborhood Facebook has a theory",
+     "Somebody's blaming the roundabout"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It's not a leak, it's October",
+     "Cold air shrinks a little every night",
+     "Ten degrees down, one pound gone",
+     "Half the cars on 49 got the light on"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Check 'em when they're cold, before you drive",
+     "The number's on the door, not on the tire",
+     "The tire tells you the most that it can hold",
+     "The door tells you what it wants"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Filled 'em up at lunch, the light went out",
+     "By the afternoon it's seventy-four",
+     "Arkansas in October",
+     "Wear a jacket and a pair of shorts"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "It's not a leak, it's October",
+     "Cold air shrinks a little every night",
+     "Ten degrees down, one pound gone",
+     "But if it comes back on in June",
+     "Okay. That one's a leak."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "rotate-me",
+  "title": "Rotate Me",
+  "sub": "",
+  "dur": 153.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Front two wearing thin and the back two look brand new",
+     "Been riding on the same side since the spring of '22",
+     "You never even noticed, you just floor it out the drive",
+     "I'm the only thing between you and the road, and I'm getting tired"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Rotate me, baby, every five thousand miles",
+     "Front to back and back to front, keep me even for a while",
+     "Rotate me, baby, don't let me wear down on one side",
+     "Treat me right and I'll treat you right for forty thousand more miles"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Penny in the tread and you can see Abe's whole head",
+     "Cupping on the inside, singing louder than the radio",
+     "Shop said \"Bring her back in five thousand miles\"",
+     "You said yes, you said sure, and I never saw you again"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Rotate me, baby, every five thousand miles",
+     "Front to back and back to front, keep me even for a while",
+     "Rotate me, baby, don't let me wear down on one side",
+     "Treat me right and I'll treat you right for forty thousand more miles"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Ooh, a little balance",
+     "Ooh, a little air",
+     "Thirty-five PSI, baby, show me that you care"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Rotate me, baby, every five thousand miles",
+     "Front to back and back to front, keep me even for a while",
+     "Rotate me, baby, don't let me wear down on one side",
+     "Treat me right and I'll treat you right for forty thousand more miles"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "between-drive-and-denial",
+  "title": "Between Drive and Denial",
+  "sub": "",
+  "dur": 248.2,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Let's go!"
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Engine got excited when the light turned green",
+     "Car stayed put like it was studying the scene",
+     "Revved up loud and barely moved a foot",
+     "Said \"It's just deciding where to put the oomph\"",
+     "Started shifting funny back around the fall",
+     "Called it personality. Didn't call at all.",
+     "Buddy said, \"You oughta get that checked\"",
+     "I said, \"It's on the list.\" You oughta see that list."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I'm somewhere between Drive and denial",
+     "Been meaning to fix it for a while",
+     "Motor's making promises the wheels can't keep",
+     "My maintenance records ain't barely one page deep",
+     "If good intentions could get me on home",
+     "I'd be sittin' pretty and not singing this lonesome song"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Down at the shop I tried to make the sound",
+     "\"It goes wheee, then uh, then kind of clunks down\"",
+     "They listened real polite and wrote a couple notes",
+     "Never felt less qualified to own a throat",
+     "They asked about the service. I remembered it fine:",
+     "The time they recommended it. The time before that time.",
+     "Said \"Maybe next visit\" with a confident smile",
+     "That's how I got here. Between Drive and denial."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I'm somewhere between Drive and denial",
+     "Been meaning to fix it for a while",
+     "Motor's making promises the wheels can't keep",
+     "My maintenance record ain't barely one page deep",
+     "If good intentions could get me on home",
+     "I'd be sittin' pretty and not singing this sad, sad, song"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "They're doing the testing, I'm doing the math",
+     "Adding up the visits I decided to pass",
+     "Got a brand-new motto, gonna see how it goes:",
+     "\"Maybe next visit\" is how next visit grows"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Wheee. Then uh.",
+     "Then kind of clunks down.",
+     "Then kind of clunks down."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "cabin-air-filter",
+  "title": "Cabin Air Filter",
+  "sub": "",
+  "dur": 200.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "AC smells like a basement",
+     "Like a gym bag left out in the rain",
+     "You've been blaming the kids, you've been blaming the dog",
+     "You've been driving with the windows down since May"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "So we dropped the glovebox down",
+     "Unclipped the little door",
+     "And what we found in there",
+     "We can't unsee anymore"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Cabin air filter (cabin air filter)",
+     "Leaves, a Cheeto, and an acorn stash",
+     "Cabin air filter (cabin air filter)",
+     "You've been breathing this since 2019"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "It was white when it was new",
+     "Now it's the color of coffee grounds",
+     "Something built a nest in there",
+     "And something's very disappointed now"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "So we dropped the glovebox down",
+     "Unclipped the little door",
+     "And what we found in there",
+     "We can't unsee anymore"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Cabin air filter (cabin air filter)",
+     "Leaves, a Cheeto, and an acorn stash",
+     "Cabin air filter (cabin air filter)",
+     "You've been breathing this since 2019"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "In a world where nobody checks the cabin filter",
+     "One family kept breathing",
+     "About once a year. Takes ten minutes.",
+     "That's it. That's the movie."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Cabin air filter (cabin air filter)",
+     "Leaves, a Cheeto, and an acorn stash",
+     "Cabin air filter (cabin air filter)",
+     "You've been breathing this since 2019"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "71-south",
+  "title": "71 South",
+  "sub": "",
+  "dur": 124.6,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Seventy-one south.",
+     "Windows down.",
+     "Nothing wrong with the car."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "technicians-ballad",
+  "title": "Technician's Ballad",
+  "sub": "Brake Clean in My Eye",
+  "dur": 201.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "I hope you appreciate this ride",
+     "And you never think about the grind",
+     "You don't know what it's like",
+     "If you've never had brake clean in your eye"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "I left a blood stain in your engine bay",
+     "I know you'll never see",
+     "Somebody had to put this starter in",
+     "I'm glad that it was me"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Brake dust in my nostrils",
+     "Oil in my hair the next day",
+     "Drive it like you own it",
+     "You won't ever hear me complain",
+     "You won't ever hear me"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "I had you up on the lift all afternoon",
+     "Your coolant is sweeter than honey",
+     "I know you better than anybody ever will",
+     "This guy better not even mention money"
+    ]
+   },
+   {
+    "name": "Verse 4",
+    "lines": [
+     "They'll come get you Friday with the check",
+     "Won't look under the hood, they never do",
+     "My last test drive out to the county line",
+     "Is the longest I'm ever gonna get with you"
+    ]
+   },
+   {
+    "name": "Verse 5",
+    "lines": [
+     "The way every piece just slips into place",
+     "I can look into your headlights all day",
+     "Ain't nobody ever gonna say that to you",
+     "Not the way I say it, anyway"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Brake dust in my nostrils",
+     "Oil in my hair the next day",
+     "Drive it like you own it",
+     "You won't ever hear me complain"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Someday they'll quit putting money in",
+     "Let you sit 'til the tags go out of date",
+     "I'll be the only one who knows",
+     "Why you were worth it to begin with"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Brake clean in my eye.",
+     "Blood in your engine bay.",
+     "Drive it like you own it.",
+     "Things you'll never hear me say."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "stops-on-a-dime",
+  "title": "Stops on a Dime",
+  "sub": "",
+  "dur": 128.9,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Squeal at the stop sign, Tuesday on Main",
+     "Pads down to the metal, same old refrain",
+     "Rotors got a lip you could open a can on",
+     "Caliper's been dragging since Lord knows when"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Stops on a dime, stops on a dime",
+     "Gives you nine cents change every time",
+     "Pedal's up high and the wheel don't shake",
+     "Ain't nothing in this world like a brand-new brake"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Bleed 'em from the back, left and then right",
+     "Fluid come out brown, going in clear and bright",
+     "Torque the lugs in a star, ninety foot-pounds",
+     "Pull it out the bay and the squeal is gone"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Stops on a dime, stops on a dime",
+     "Gives you nine cents change every time",
+     "Pedal's up high and the wheel don't shake",
+     "Ain't nothing in this world like a brand-new brake"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Kid in the back seat, dog in the front",
+     "Long downhill grade on 71",
+     "Deer in the headlights, two in the morning",
+     "Glad somebody listened to the noise that was warning"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Stops on a dime, stops on a dime",
+     "Gives you nine cents change every time",
+     "Pedal's up high and the wheel don't shake",
+     "Ain't nothing in this world like a brand-new brake"
+    ]
+   },
+   {
+    "name": "Final chorus",
+    "lines": [
+     "Stops on a dime, stops on a dime",
+     "Gives you nine cents change every time",
+     "Pedal's up high and the wheel don't shake",
+     "Ain't nothing in this world like a brand-new brake",
+     "Ain't nothing in this world like a brand-new brake"
+    ]
+   }
+  ]
+ }
+]
