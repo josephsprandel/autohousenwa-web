@@ -13,7 +13,7 @@ $faqs = [
     [
       'q' => 'I lost the key to my wheel locks. Now what?',
       'a' => '<p>Most newer Volvos come with locking wheel bolts that are designed to resist removal tools, so a tire shop without the key usually has to turn you away. Before anything else, look in the spare-tire well, the glovebox, and the cargo-area side pockets; that is where the key usually hides.</p>
-<p>If it is truly gone, you have two options. A Volvo dealer can order a replacement key if you have the code card that came with the car. Or we can remove the locks and replace them with standard wheel bolts. It takes a few minutes, usually without even lifting the car. Bring your registration; since the locks are an anti-theft device, we confirm ownership before removing them. Call or text <a href="TEL">PHONE</a>.</p>',
+<p>If it is truly gone, you have two options. A Volvo dealer can order a replacement key if you have the code card that came with the car. Or we can remove the locks and replace them with standard wheel bolts. It takes a few minutes, usually without even lifting the car. Call or text <a href="TEL">PHONE</a>.</p>',
     ],
     [
       'q' => 'Something under my car hums or clicks after I shut it off. Is that normal?',
