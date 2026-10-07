@@ -17,6 +17,8 @@
         <a href="/terms.php">Terms of Service</a>
         <span class="footer-divider">|</span>
         <a href="/sms-policy.php">SMS Policy</a>
+        <span class="footer-divider">|</span>
+        <a href="/text-updates.php">Text Updates</a>
     </div>
     <p>&copy; <?php echo date("Y"); ?> AutoHouse Automotive Diagnostics &amp; Repair. All rights reserved.</p>
     <p>432 N Main Ave, Fayetteville, AR 72701 | <a href="tel:+14793012880" style="color:#fff;">(479) 301-2880</a></p>

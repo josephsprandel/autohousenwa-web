@@ -218,11 +218,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
     <h2 id="opt-in">How to Opt In</h2>
     <p>
-        Text messages are <strong>opt-in only</strong>. We send texts only to customers who check the optional consent box when they schedule online:
+        Text messages are <strong>opt-in only</strong>. There are two ways to opt in, and both use the same optional, unchecked consent box:
+    </p>
+    <p>
+        <strong>1. Our Text Updates page:</strong> <a href="https://autohousenwa.com/text-updates.php">autohousenwa.com/text-updates.php</a> (linked in the footer of every page). Enter your mobile number, check the consent box, and click <strong>Sign up for text updates</strong>.
+    </p>
+    <p>
+        <strong>2. When you schedule online:</strong>
     </p>
     <ol>
         <li>On <a href="https://autohousenwa.com">autohousenwa.com</a>, click <strong>Schedule Online</strong> (on any page).</li>
-        <li>The first step is <strong>Text Updates (Optional)</strong>, with an <strong>unchecked</strong> checkbox reading: <em>&ldquo;I agree to receive automated SMS messages from AutoHouse Automotive regarding my appointment and vehicle service. Msg &amp; data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Consent is not a condition of purchase or service.&rdquo;</em> The step also states the message frequency and links to this SMS Policy and our <a href="/privacy.php">Privacy Policy</a>.</li>
+        <li>The first step is <strong>Text Updates (Optional)</strong>, with an <strong>unchecked</strong> checkbox reading: <em>&ldquo;I agree to receive automated SMS messages from AutoHouse Automotive regarding my appointment and vehicle service. Message frequency varies (up to 5 messages per service visit, plus occasional maintenance reminders). Msg &amp; data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Consent is not a condition of purchase or service.&rdquo;</em> The step also states the message frequency and links to this SMS Policy and our <a href="/privacy.php">Privacy Policy</a>.</li>
         <li>Check the box to receive texts, or leave it unchecked. Either way, click <strong>Continue to Schedule</strong> and book as usual.</li>
         <li>The booking form that follows repeats the same optional checkbox, so you can change your choice before you book. Consent is recorded only if the box is checked when the appointment is booked.</li>
     </ol>

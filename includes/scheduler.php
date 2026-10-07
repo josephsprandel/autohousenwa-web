@@ -38,7 +38,7 @@
     <p class="sms-modal-intro">Would you like appointment confirmations, reminders, and vehicle status updates by text? This is optional &mdash; you can schedule either way. Message frequency varies; up to 5 messages per service visit.</p>
     <label class="sms-consent-label">
       <input type="checkbox" id="sms-consent-checkbox">
-      <span>I agree to receive automated SMS messages from AutoHouse Automotive regarding my appointment and vehicle service. Msg &amp; data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Consent is not a condition of purchase or service. &nbsp;<a href="/sms-policy.php" target="_blank">SMS Policy</a> &nbsp;|&nbsp; <a href="/privacy.php" target="_blank">Privacy Policy</a></span>
+      <span>I agree to receive automated SMS messages from AutoHouse Automotive regarding my appointment and vehicle service. Message frequency varies (up to 5 messages per service visit, plus occasional maintenance reminders). Msg &amp; data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Consent is not a condition of purchase or service. &nbsp;<a href="/sms-policy.php" target="_blank">SMS Policy</a> &nbsp;|&nbsp; <a href="/privacy.php" target="_blank">Privacy Policy</a></span>
     </label>
     <div class="sms-modal-actions">
       <button class="sms-modal-cancel" onclick="closeConsentModal()">Cancel</button>
