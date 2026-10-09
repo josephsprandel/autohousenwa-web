@@ -191,6 +191,8 @@ footer a:hover {
 .optin-submit:disabled { opacity:.6; cursor:progress; }
 .optin-msg { margin-top:1rem; padding:.85rem 1rem; border-radius:6px; }
 .optin-msg.ok { background:#e8f5ec; border:1px solid #8cc79f; color:#1d5b31; }
+.optin-msg.info { background:#eef3f9; border:1px solid #b8c8de; color:#1f3a5f; }
+.optin-note { margin:1rem 0 .4rem; font-size:.9rem; color:#555; }
 .optin-msg.err { background:#fdecea; border:1px solid #f0a59c; color:#8a2016; }
 .hp { position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
 </style>
@@ -224,6 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 $consent_version = 'web-2026-10-07';
 $consent_text = 'I agree to receive automated SMS messages from AutoHouse Automotive regarding my appointment and vehicle service. Message frequency varies (up to 5 messages per service visit, plus occasional maintenance reminders). Msg & data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Consent is not a condition of purchase or service.';
 $subscribed = isset($_GET['subscribed']);
+$not_subscribed = isset($_GET['not_subscribed']);
 $error = isset($_GET['error']) ? substr(strip_tags($_GET['error']), 0, 200) : '';
 ?>
 <div class="content-card">
@@ -251,8 +254,9 @@ $error = isset($_GET['error']) ? substr(strip_tags($_GET['error']), 0, 200) : ''
             <input type="tel" id="optin-phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(479) 555-0123" required>
         </div>
         <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <p class="optin-note">Text message consent (optional). Leave the box unchecked and we won&rsquo;t text you.</p>
         <label class="optin-consent">
-            <input type="checkbox" id="optin-consent" name="consent" value="yes" required>
+            <input type="checkbox" id="optin-consent" name="consent" value="yes">
             <span><?php echo htmlspecialchars($consent_text); ?> &nbsp;<a href="/sms-policy.php" target="_blank">SMS Policy</a> &nbsp;|&nbsp; <a href="/privacy.php" target="_blank">Privacy Policy</a></span>
         </label>
         <input type="hidden" name="consent_text" value="<?php echo htmlspecialchars($consent_text); ?>">
@@ -260,6 +264,7 @@ $error = isset($_GET['error']) ? substr(strip_tags($_GET['error']), 0, 200) : ''
         <input type="hidden" name="source_url" value="https://autohousenwa.com/text-updates.php">
         <button type="submit" class="optin-submit" id="optin-submit">Sign up for text updates</button>
         <div class="optin-msg ok" id="optin-ok" <?php echo $subscribed ? '' : 'hidden'; ?>>You&rsquo;re signed up for AutoHouse Automotive text updates. Reply <strong>STOP</strong> to any message to opt out, or <strong>HELP</strong> for help.</div>
+        <div class="optin-msg info" id="optin-none" <?php echo $not_subscribed ? '' : 'hidden'; ?>>You left the box unchecked, so you are <strong>not</strong> signed up for text messages. Check the box and submit again if you&rsquo;d like text updates.</div>
         <div class="optin-msg err" id="optin-err" <?php echo $error ? '' : 'hidden'; ?>><?php echo htmlspecialchars($error); ?></div>
     </form>
 
@@ -280,17 +285,17 @@ $error = isset($_GET['error']) ? substr(strip_tags($_GET['error']), 0, 200) : ''
 // Submit in place (JSON) when JavaScript is on; without it, the form posts normally and comes back here.
 (function () {
   var form = document.getElementById('optin-form'), btn = document.getElementById('optin-submit');
-  var ok = document.getElementById('optin-ok'), err = document.getElementById('optin-err');
+  var ok = document.getElementById('optin-ok'), none = document.getElementById('optin-none'), err = document.getElementById('optin-err');
   form.addEventListener('submit', function (e) {
     if (!window.fetch) return;
-    e.preventDefault(); ok.hidden = true; err.hidden = true;
-    if (!document.getElementById('optin-consent').checked) { err.textContent = 'Please tick the box to agree to text messages.'; err.hidden = false; return; }
-    var data = {}; new FormData(form).forEach(function (v, k) { data[k] = v; }); data.consent = true;
+    e.preventDefault(); ok.hidden = true; none.hidden = true; err.hidden = true;
+    var data = {}; new FormData(form).forEach(function (v, k) { data[k] = v; }); data.consent = document.getElementById('optin-consent').checked;
     btn.disabled = true; btn.textContent = 'Signing up…';
     fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
       .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
       .then(function (j) {
-        if (j.ok) { ok.hidden = false; form.reset(); }
+        if (j.ok && j.subscribed === false) { none.hidden = false; }
+        else if (j.ok) { ok.hidden = false; form.reset(); }
         else { err.textContent = j.error || 'Sorry, that didn’t go through. Please call us at (479) 301-2880.'; err.hidden = false; }
       })
       .catch(function () { err.textContent = 'Sorry, that didn’t go through. Please call us at (479) 301-2880.'; err.hidden = false; })
