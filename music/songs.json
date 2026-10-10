@@ -1,25 +1,5 @@
 [
  {
-  "slug": "lobby",
-  "title": "Lobby",
-  "sub": "Coffee's Free",
-  "dur": 95.7,
-  "lyrics": [
-   {
-    "name": "Intro - spoken",
-    "lines": [
-     "Coffee's free. Wi-fi password's on the counter. We'll come get you."
-    ]
-   },
-   {
-    "name": "Outro - spoken",
-    "lines": [
-     "Your car's ready."
-    ]
-   }
-  ]
- },
- {
   "slug": "eight-to-six",
   "title": "Eight to Six",
   "sub": "",
@@ -100,6 +80,122 @@
      "Bay door down at six.",
      "Compressor cycles off.",
      "Same as we did yesterday."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "somethings-living-in-my-engine",
+  "title": "Something's Living in My Engine",
+  "sub": "",
+  "dur": 97.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Found dog food in my air box",
+     "And I don't even own a dog",
+     "There's a nest behind the battery",
+     "Made of insulation and a sock"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Something's living in my engine",
+     "Something's paying zero rent",
+     "It chewed up a wiring harness",
+     "And now I know where my paycheck went"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "When the nights get cold, a warm engine",
+     "Is the nicest place on the block",
+     "I'd be mad, but I understand it",
+     "If I was three inches tall, I'd move in on the spot"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Something's living in my engine",
+     "Something's paying zero rent",
+     "It chewed up a wiring harness",
+     "And now I know where my paycheck went"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Pop the hood once in a while",
+     "Keep the pet food in a can with a lid",
+     "A car that sits all winter",
+     "Is a car that gets a tenant"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Something's living in my engine",
+     "Something's paying zero rent",
+     "It chewed up a wiring harness",
+     "And now I know where my paycheck went"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "I'm naming him Kevin."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "owners-manual",
+  "title": "Owner's Manual",
+  "sub": "",
+  "dur": 81.0,
+  "lyrics": [
+   {
+    "name": "Cantor",
+    "lines": [
+     "In the glovebox, wrapped in plastic",
+     "Lies the book no man has read"
+    ]
+   },
+   {
+    "name": "Choir",
+    "lines": [
+     "Owner's manual, owner's manual",
+     "All the answers, and we never knew"
+    ]
+   },
+   {
+    "name": "Cantor",
+    "lines": [
+     "What does the orange light mean, brother?"
+    ]
+   },
+   {
+    "name": "Choir",
+    "lines": [
+     "Page two hundred eighty-three"
+    ]
+   },
+   {
+    "name": "Spoken",
+    "lines": [
+     "Brother Dale called the shop about the light on his dash.",
+     "They asked him, \"Have you checked the manual?\"",
+     "Brother Dale has kept a vow of silence ever since."
+    ]
+   },
+   {
+    "name": "Choir",
+    "lines": [
+     "Aaaa-men"
     ]
    }
   ]
@@ -212,6 +308,104 @@
   ]
  },
  {
+  "slug": "red-means-stop",
+  "title": "Red Means Stop",
+  "sub": "",
+  "dur": 190.6,
+  "lyrics": [
+   {
+    "name": "Intro - spoken",
+    "lines": [
+     "Girls, he's staring at his dashboard again.",
+     "All those little lights, and he don't know a one."
+    ]
+   },
+   {
+    "name": "Verse 1 - Green",
+    "lines": [
+     "I'm the green light on your dashboard",
+     "I'm the easy one",
+     "Your headlights on, your blinker's on",
+     "Your cruise is set to run",
+     "I'm just telling you what's working",
+     "Nothing wrong at all",
+     "Green light on the dash, baby",
+     "You don't have to call",
+     "(Don't have to call)"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Green on the dash, honey, all is well",
+     "Yellow on the dash, get it checked, I can tell",
+     "But a red light on the dash (red light on the dash)",
+     "Pull it over, shut it off",
+     "Red light on the dash",
+     "Red light on the dash, red light on the dash",
+     "Red light on the dash, red light on the dash"
+    ]
+   },
+   {
+    "name": "Verse 2 - Yellow",
+    "lines": [
+     "I'm the yellow on your dashboard",
+     "Check engine, low tire, ABS",
+     "I'm not an emergency, sugar",
+     "But I'm not here to rest",
+     "Get it looked at this week",
+     "Don't let a month go by",
+     "Yellow light on the dash, baby, don't just let it ride",
+     "(Don't let it ride)"
+    ]
+   },
+   {
+    "name": "Verse 3 - Red",
+    "lines": [
+     "I'm the red light on your dashboard",
+     "I don't come around for fun",
+     "Oil pressure, overheating, brakes",
+     "When I show up, I'm the one",
+     "Find a safe place, pull it over",
+     "Turn the engine off",
+     "Red light on the dash, baby",
+     "That's when you stop"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "Now one more thing.",
+     "If that yellow engine light starts blinking...",
+     "(Blinking?)",
+     "...you treat it like red.",
+     "A blinking check engine light is a misfire, baby.",
+     "Slow down, pull in, and call somebody.",
+     "(Call somebody.)"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Green on the dash, honey, all is well",
+     "Yellow on the dash, get it checked, I can tell",
+     "But a red light on the dash (red light on the dash)",
+     "Or a blinking engine light",
+     "Pull it over, shut it off",
+     "Red light on the dash, red light on the dash",
+     "Red light on the dash, red light on the dash"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "...And blue on the dash? That just means your brights are on, honey.",
+     "Turn 'em off. You're blinding folks."
+    ]
+   }
+  ]
+ },
+ {
   "slug": "same-key-same-spot",
   "title": "Same Key, Same Spot",
   "sub": "",
@@ -267,6 +461,74 @@
     "lines": [
      "Same key. Same spot.",
      "Same key."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "parking-brake",
+  "title": "Parking Brake",
+  "sub": "",
+  "dur": 90.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Got in the car, I was running late",
+     "Drove thirty miles with the parking brake",
+     "Little red light, I didn't see",
+     "Smells like something's burning",
+     "It is me"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "PARKING BRAKE! How long has it been on?",
+     "PARKING BRAKE! The whole time, the whole time",
+     "PARKING BRAKE! Smoking out the back",
+     "PARKING BRAKE! Put it down, put it down"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Guy at the light looking at me weird",
+     "Hand on his nose like he even cared",
+     "Rear wheels hot, rear pads cooked",
+     "Shoulda looked, shoulda looked"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "PARKING BRAKE! How long has it been on?",
+     "PARKING BRAKE! The whole time, the whole time",
+     "PARKING BRAKE! Smoking out the back",
+     "PARKING BRAKE! Put it down, put it down"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "If you drove on it, get 'em checked",
+     "Glazed pads don't grip",
+     "Don't wait, don't wait"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "PARKING BRAKE! Look before you go",
+     "PARKING BRAKE! It's that little red glow",
+     "PARKING BRAKE! One, two, three, four",
+     "PARKING BRAKE!"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "...What's that smell? Oh no."
     ]
    }
   ]
@@ -490,6 +752,149 @@
   ]
  },
  {
+  "slug": "the-noise",
+  "title": "The Noise",
+  "sub": "",
+  "dur": 199.3,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "I walked up to the counter",
+     "With my hat in my hand",
+     "Said, \"There's a little noise, ma'am",
+     "That I don't understand\"",
+     "She said, \"Can you describe it?\"",
+     "And I said, \"Well, I'll try\"",
+     "Then I made a sound in public",
+     "That I can't justify"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It goes wub-wub-wub (wub-wub-wub)",
+     "Starts at forty-five (forty-five)",
+     "Gets louder at sixty (sixty)",
+     "Like it's coming alive (comin' alive)",
+     "Maybe it's a hum, now (hmmmm)",
+     "Maybe more of a growl (grrrowl)",
+     "It's been making that noise all week",
+     "Now I'm making it out loud"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "She asked me, \"When you're turning?",
+     "When you're braking? When it's cold?\"",
+     "Those are the right questions (right questions)",
+     "That's how the story's told",
+     "So I leaned on the counter",
+     "And I let the whole thing out",
+     "Half the waiting room joined in",
+     "Like they knew what it's about"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "It goes wub-wub-wub (wub-wub-wub)",
+     "Starts at forty-five (forty-five)",
+     "Gets louder at sixty (sixty)",
+     "Like it's coming alive (comin' alive)",
+     "Maybe it's a hum, now (hmmmm)",
+     "Maybe more of a growl (grrrowl)",
+     "It's been making that noise all week",
+     "Now I'm making it out loud"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "Then the tech walks out of the bay.",
+     "Wipes his hands. Looks right at me.",
+     "Says, \"Do it again.\"",
+     "\"Louder when you turn left?\"",
+     "...Yeah.",
+     "\"Front right wheel bearing.\"",
+     "He got it off my impression.",
+     "I've never been so proud."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "It went wub-wub-wub (wub-wub-wub)",
+     "Now it doesn't anymore (no more)",
+     "Got a brand-new bearing (bearing)",
+     "And a talent I didn't know before (didn't know)",
+     "So if your car is singing (singing)",
+     "Don't be shy, don't be meek",
+     "Come on in and do the noise",
+     "We hear a dozen every week"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-very-model-of-a-forum-certified-mechanic",
+  "title": "The Very Model of a Forum-Certified Mechanic",
+  "sub": "",
+  "dur": 79.0,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "I am the very model of a forum-certified mechanic",
+     "I've watched a dozen videos, I'm calm and never panic",
+     "I asked the chatbot what was wrong, it answered me in seconds flat",
+     "It's either sensors, or the timing, or a hundred things like that"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "He asked the chatbot what was wrong, it answered him in seconds flat",
+     "It's either sensors, or the timing, or a hundred things like that!"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "I read a thread from 2011 by a man called TurboDave",
+     "His car's a different model, but I trust him to the grave",
+     "I've ordered seven parts so far, I've thrown them at it one by one",
+     "The light is still illuminated, but I'm having so much fun"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "He's ordered seven parts so far, he's thrown them at it one by one",
+     "The light is still illuminated, but he's having so much fun!"
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "The comments say it's probably the coil, the next one says the plugs",
+     "The top reply says \"sell the car\" and gets a thousand little hugs",
+     "And now I've spent on parts what one diagnostic would have cost",
+     "I am the very model of a modern man who's slightly lost"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "He's spent on parts what one diagnostic would have cost",
+     "He is the very model of a modern man who's slightly lost!",
+     "...so, uh, what do you guys charge for a diagnostic?"
+    ]
+   }
+  ]
+ },
+ {
   "slug": "wiper-blades",
   "title": "Wiper Blades",
   "sub": "",
@@ -555,6 +960,98 @@
      "They squeak, they skip, they chatter on",
      "The summer baked 'em hard as stone",
      "So change 'em when the rain comes on"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "through-the-car-wash",
+  "title": "Through the Car Wash",
+  "sub": "",
+  "dur": 173.0,
+  "lyrics": [
+   {
+    "name": "Intro - spoken",
+    "lines": [
+     "Put it in neutral...",
+     "Hands off the wheel...",
+     "Don't... touch... the brake."
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "The light turned green, the sign said GO",
+     "A conveyor took my tire real slow",
+     "Now I can't steer and I can't stop",
+     "And something's dripping from the top"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Through the car wash (ooh-ooh)",
+     "Into the dark (ooh-ooh)",
+     "Big blue brushes coming for my car",
+     "Through the car wash (ooh-ooh)",
+     "I can't get out",
+     "Rolling through the soap and I just want to shout"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "The spinning monsters slap the glass",
+     "Pink foam crawling up my dash (outside, outside)",
+     "A voice says \"TRIPLE WAX\" in red",
+     "I didn't order that. I'm almost dead."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Through the car wash (ooh-ooh)",
+     "Into the dark (ooh-ooh)",
+     "Big blue brushes coming for my car",
+     "Through the car wash (ooh-ooh)",
+     "I can't get out",
+     "Rolling through the soap and I just want to shout"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "The roar. The giant dryer.",
+     "It's... it's coming down...",
+     "My mirrors fold in on their own.",
+     "I fold in on my own.",
+     "And then there's light."
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Out the other side, the sun hits chrome",
+     "The car looks better than the day I brought it home",
+     "And the guy at the end gives me a nod",
+     "For the underbody spray, thank God"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Through the car wash (ooh-ooh)",
+     "I made it out (ooh-ooh)",
+     "Shining like I'm brand new, there's no doubt",
+     "Through the car wash (ooh-ooh)",
+     "I'll come back next week",
+     "Same seat, same scream, same squeak"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "...Did my antenna make it?"
     ]
    }
   ]
@@ -709,6 +1206,81 @@
   ]
  },
  {
+  "slug": "auto-start-stop",
+  "title": "Auto Start-Stop",
+  "sub": "",
+  "dur": 168.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Rolling down College Avenue",
+     "Windows down and the radio loud",
+     "Light turns yellow, I'm slowing down",
+     "Light turns red and—",
+     "...it's fine. It's normal. It's saving gas.",
+     "Foot comes off and she's back, baby!"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Auto start! Auto stop!",
+     "Every red light, the engine drops",
+     "Nothing's broken, don't you call the shop",
+     "She'll be back when you lift up off—",
+     "—the brake!",
+     "The brake, the brake!"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Pulled up to the drive-thru speaker",
+     "Ordered me a number three",
+     "Engine quit, the kid said \"Ma'am, you okay?\"",
+     "I said \"It's not me, it's the—\"",
+     "...it's the car. She does that."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Auto start! Auto stop!",
+     "Every red light, the engine drops",
+     "Nothing's broken, don't you call the shop",
+     "She'll be back when you lift up off—",
+     "—the brake!",
+     "The brake!"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "There's a button by the shifter",
+     "Little A inside a ring",
+     "Push it once and she keeps running",
+     "But tomorrow she forgets everything",
+     "And if she quits on quitting",
+     "Won't shut down at the light",
+     "That's your battery getting tired",
+     "Get it tested 'fore it dies"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Auto start! Auto stop!",
+     "Every red light, the engine drops",
+     "Nothing's broken, don't you call the shop",
+     "She'll be back when you lift up off—",
+     "—the brake!",
+     "Auto start! Auto st—"
+    ]
+   }
+  ]
+ },
+ {
   "slug": "bell-on-the-door",
   "title": "Bell on the Door",
   "sub": "",
@@ -786,6 +1358,96 @@
     "lines": [
      "Your car's ready.",
      "See you in five thousand miles."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "objects-in-mirror",
+  "title": "Objects in Mirror",
+  "sub": "",
+  "dur": 174.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Sophomore year, I finally got my license",
+     "Mom's old wagon with a hundred thousand miles",
+     "I checked the mirror on the passenger side",
+     "And there were words down at the bottom all the while"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "Tiny little letters that I never read",
+     "Till I almost met a semi on the bypass"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Objects in mirror are closer than they appear",
+     "Everything you think is far away is already here",
+     "So turn your head, turn your head",
+     "Before you change lanes, turn your head",
+     "Objects in mirror are closer than they appear",
+     "(Closer than they appear)"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Now I'm thirty-four and I drive a minivan",
+     "Two kids in the back and a dog that's mostly hair",
+     "I still read that mirror every time I merge",
+     "'Cause the truck that's way back there is never way back there"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "Tiny little letters, they were right all along",
+     "I just had to almost die to learn it"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Objects in mirror are closer than they appear",
+     "Everything you think is far away is already here",
+     "So turn your head, turn your head",
+     "Before you change lanes, turn your head",
+     "Objects in mirror are closer than they appear",
+     "(Closer than they appear)"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "It's curved so you can see more",
+     "That's why it lies a little",
+     "A wider view, a smaller world",
+     "Everybody's closer than you think",
+     "(Closer than you think!)",
+     "Everybody's closer than you think!"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Objects in mirror are closer than they appear",
+     "Everything you think is far away is already here",
+     "So turn your head, turn your head",
+     "Before you change lanes, turn your head",
+     "Objects in mirror are closer than they appear"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "It's not broken.",
+     "It's working as intended."
     ]
    }
   ]
@@ -872,6 +1534,85 @@
     "name": "Outro",
     "lines": [
      "Fixed it. Still ugly. Still starts."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-estimate",
+  "title": "The Estimate",
+  "sub": "",
+  "dur": 220.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "High noon in the parking lot",
+     "Heat coming off the hood",
+     "Phone just buzzed up on the dash",
+     "And I know it's no good",
+     "One new message from the shop",
+     "I left it lying face down",
+     "A man can face a lot of things",
+     "But not that number. Not right now."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "The estimate (ahh-ahh)",
+     "The estimate (ahh-ahh)",
+     "There's a number in that phone, son",
+     "That I haven't seen yet",
+     "I could draw, I could run",
+     "But the car's still in their bay",
+     "So I sit here in the sun",
+     "And I wait. And I wait."
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "My imagination saddled up",
+     "And rode right out of town",
+     "Said, \"Transmission. Engine. Both of 'em.",
+     "Son, you'd best sit down.\"",
+     "A buzzard landed on the sign",
+     "Like he'd done this all before",
+     "I took a breath and thumbed it open",
+     "Like a man kicks in a door"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "...Front brake pads.",
+     "Pictures of 'em. Close-ups.",
+     "\"These are down to three millimeters. We'd do these now.\"",
+     "\"Rears have a while. We'll keep an eye on 'em.\"",
+     "\"Cabin filter's dirty. Your call.\"",
+     "...That's it?",
+     "That's... reasonable.",
+     "I came out here ready to die."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "The estimate (ahh-ahh)",
+     "The estimate (ahh-ahh)",
+     "Turns out the only outlaw",
+     "Was the one inside my head",
+     "They showed me what was urgent",
+     "And what could wait a while",
+     "So I rode off in the sunset",
+     "Wearing something like a smile"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "...Still gonna skip the cabin filter."
     ]
    }
   ]
@@ -970,6 +1711,85 @@
      "Need an alternator",
      "Need an alternator",
      "Get me home, I'll figure it out"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "he-brought-his-own-parts",
+  "title": "He Brought His Own Parts",
+  "sub": "",
+  "dur": 169.8,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Is he really bringing it to the shop?",
+     "Well, I heard... he brought his own parts.",
+     "His own parts?"
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "He pulled in on a Tuesday, a box beneath his arm",
+     "Said \"I found it online, babe, it's the same, so what's the harm?\"",
+     "Fourteen dollars shipping from a website overseas",
+     "He set it on the counter and he said \"Just put it in, please\""
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "(No, no, no) He brought his own parts",
+     "(No, no, no) Oh, it breaks my heart",
+     "If it fails next week, who's gonna pay?",
+     "(Who's gonna pay?) He'll pay the labor twice that way",
+     "(No, no, no) He brought his own parts"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "The box said \"fits all models,\" but the picture wasn't right",
+     "The bolt holes didn't line up, but he swore it'd be alright",
+     "We can't stand behind it, darling, don't know where it's been",
+     "And if it quits in a month, we'd do it all again"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "(No, no, no) He brought his own parts",
+     "(No, no, no) Oh, it breaks my heart",
+     "If it fails next week, who's gonna pay?",
+     "(Who's gonna pay?) He'll pay the labor twice that way",
+     "(No, no, no) He brought his own parts"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Then the man at the counter said, real gentle,",
+     "\"We'd love to fix it, with a part we can warranty.\"",
+     "And he looked down at that little box...",
+     "and he said, \"...can I still return this?\""
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "(No, no, no) He brought his own parts",
+     "(No, no, no) Oh, it breaks my heart",
+     "If it fails next week, who's gonna pay?",
+     "(Who's gonna pay?) He'll pay the labor twice that way",
+     "(No, no, no) He brought his own parts"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "(No, no, no...) He brought his own parts..."
     ]
    }
   ]
@@ -1109,6 +1929,93 @@
      "Press one to speak to a representative.",
      "Press two to be removed from our list.",
      "...It won't work."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-beeping",
+  "title": "The Beeping",
+  "sub": "",
+  "dur": 109.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "I bought a car with sensors (sensors)",
+     "To help me when I park (when I park)",
+     "It beeps at every mailbox",
+     "It beeps when it gets dark",
+     "It beeped at a leaf on Tuesday",
+     "It beeped at the wind last night",
+     "I backed out of my driveway",
+     "To the greatest beep chorus of my life"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Beep, beep, beep (beep, beep)",
+     "Faster as I go",
+     "Beep-beep-beep-beep (beep-beep)",
+     "Now it's one long tone",
+     "Is it a pole? Is it a cat?",
+     "Is it my own back bumper?",
+     "Beep, beep, beep (boop)",
+     "I can only wonder"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "I took it to the fellas",
+     "They pulled the bumper cover",
+     "A little bit of road grime",
+     "Was sitting right on top of a sensor",
+     "They wiped it with a towel",
+     "They checked the wiring too",
+     "Now it only beeps",
+     "When there's something there to beep to"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Beep, beep, beep (beep, beep)",
+     "Faster as I go",
+     "Beep-beep-beep-beep (beep-beep)",
+     "Now it's one long tone",
+     "Is it a pole? Is it a cat?",
+     "Is it my own back bumper?",
+     "Beep, beep, beep (boop)",
+     "I can only wonder"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "Son, a dirty sensor",
+     "Will cry wolf all day.",
+     "A clean one only hollers",
+     "When something's in the way."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Beep, beep, beep (beep, beep)",
+     "Only when it's true",
+     "Beep-beep-beep-beep (beep-beep)",
+     "That's the post. Don't hit it, Lou.",
+     "Is it a pole? It is a pole.",
+     "I'm glad I didn't bump her",
+     "Beep, beep, beep (boooop)"
+    ]
+   },
+   {
+    "name": "Outro - spoken",
+    "lines": [
+     "...Lou hit the pole."
     ]
    }
   ]
@@ -1264,6 +2171,253 @@
   ]
  },
  {
+  "slug": "old-eyes",
+  "title": "Old Eyes",
+  "sub": "",
+  "dur": 277.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Midnight on the highway",
+     "And the road has gone to gray",
+     "My headlights used to cut the dark",
+     "Now they kind of fade away",
+     "I'm squinting at the lines again",
+     "Leaning toward the glass",
+     "It's not my eyes that got old",
+     "It's the plastic on the lamps"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Old eyes, old eyes",
+     "Yellow and cloudy in the night",
+     "Old eyes, old eyes",
+     "The bulb's still burning bright",
+     "But it can't get through the haze",
+     "Of a hundred thousand days",
+     "Old eyes"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "The sun gets in the lenses",
+     "Bakes them year by year",
+     "Like varnish on a masterpiece",
+     "Foggy, not too clear",
+     "I held a light up to them",
+     "It barely made it out",
+     "A lot of light was in there",
+     "That just couldn't find the road"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Old eyes, old eyes",
+     "Yellow and cloudy in the night",
+     "Old eyes, old eyes",
+     "The bulb's still burning bright",
+     "But it can't get through the haze",
+     "Of a hundred thousand days",
+     "Old eyes"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "They sand it.",
+     "They polish it.",
+     "They seal it so the sun can't get it again.",
+     "Twenty minutes a side.",
+     "And the night comes back."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "New eyes, new eyes",
+     "Clear as a summer night",
+     "New eyes, new eyes",
+     "Now the bulb can do it right",
+     "I can see the deer before",
+     "The deer can see me",
+     "New eyes",
+     "New eyes"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "before-the-lake",
+  "title": "Before the Lake",
+  "sub": "",
+  "dur": 131.4,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Saturday morning, cooler in the back",
+     "Tube on the roof and the sunscreen packed",
+     "Hitch up the boat, we're Beaver Lake bound",
+     "But check a couple things before you leave town"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Before the lake, before the lake",
+     "Check your tires and check your brakes",
+     "Trailer lights and the safety chains",
+     "Before the lake"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Trailer tires sat out all winter long",
+     "Cracks in the sidewall, half the air gone",
+     "Cross the chains in an X underneath",
+     "Plug in the lights, have your buddy watch while you brake"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Before the lake, before the lake",
+     "Check your tires and check your brakes",
+     "Trailer lights and the safety chains",
+     "Before the lake"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "Don't be the guy on the side of 412 with the boat.",
+     "Everybody sees that guy.",
+     "Everybody."
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Pulling up the hill with a boat behind",
+     "Engine's working twice as hard this time",
+     "Coolant full and the oil looks clean",
+     "Backing down the ramp like a pro. Kind of."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Before the lake, before the lake",
+     "Check your tires and check your brakes",
+     "Trailer lights and the safety chains",
+     "Before the lake"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "temporary",
+  "title": "Temporary",
+  "sub": "",
+  "dur": 219.8,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Nobody checks on me...",
+     "Nobody ever checks on me..."
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Down in the dark, under the floor",
+     "Under the groceries, under the dog",
+     "Three years I waited, nobody came",
+     "Nobody even knows my pressure"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "You only need me when you're broken",
+     "You only need me when you're broken",
+     "You only love me on the shoulder of the interstate"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I'M TEMPORARY!",
+     "That's what it says on the side of me",
+     "Little yellow letters burning in my soul",
+     "I was never meant to make you whole"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Yo, they call me donut, call me spare",
+     "Skinny little rubber with the stretched-out air",
+     "You got four on the ground with the tread so fat",
+     "They get rotated. Me? Never that",
+     "I got feelings, I got PSI",
+     "Sixty when they made me, now it's twenty-five",
+     "So check me, check me when you fill your four",
+     "Or I'll be flat too when you lift the floor"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I'M TEMPORARY!",
+     "That's what it says on the side of me",
+     "Little yellow letters burning in my soul",
+     "I was never meant to make you whole"
+    ]
+   },
+   {
+    "name": "Breakdown",
+    "lines": [
+     "FIFTY! MILES! PER! HOUR!",
+     "FIFTY! MILES! PER! HOUR!",
+     "...it's printed right on me."
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Dear diary.",
+     "Today they put me back in the trunk.",
+     "They didn't even say thank you.",
+     "The real one got a brand new tire...",
+     "and I got the dark."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "I'M TEMPORARY!",
+     "That's what it says on the side of me",
+     "Little yellow letters burning in my soul",
+     "I was never meant to make you whole"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "...check my pressure."
+    ]
+   }
+  ]
+ },
+ {
   "slug": "rotate-me",
   "title": "Rotate Me",
   "sub": "",
@@ -1320,6 +2474,105 @@
      "Front to back and back to front, keep me even for a while",
      "Rotate me, baby, don't let me wear down on one side",
      "Treat me right and I'll treat you right for forty thousand more miles"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "lord-deliver-me-from-the-pothole",
+  "title": "Lord, Deliver Me From the Pothole",
+  "sub": "",
+  "dur": 207.4,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Can I get a witness this morning?"
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "I was driving down Highway 16 (well)",
+     "Minding my own business (yes)",
+     "When the road just opened up its mouth",
+     "And swallowed my right front wheel",
+     "I heard a BANG like judgment day",
+     "Felt it in my teeth, Lord",
+     "And ever since that morning",
+     "That car don't drive right"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Lord, deliver me (deliver me)",
+     "From the pothole (from the pothole)",
+     "I saw it too late (too late)",
+     "I saw it too late, Lord",
+     "Now my wheel is bent (it's bent)",
+     "And my steering's crooked",
+     "Lord, deliver me",
+     "From the pothole"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Now my steering wheel sits sideways (sideways)",
+     "When I'm going straight (straight)",
+     "It pulls a little to the right",
+     "Like it's trying to change lanes",
+     "And my front tires wear on the inside edge",
+     "Like a sinner's knees",
+     "I been praying on the shoulder",
+     "Lord, help me, please"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Lord, deliver me (deliver me)",
+     "From the pothole (from the pothole)",
+     "I saw it too late (too late)",
+     "I saw it too late, Lord",
+     "Now my wheel is bent (it's bent)",
+     "And my steering's crooked",
+     "Lord, deliver me",
+     "From the pothole"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "Church, I went to the shop.",
+     "They put it up on the rack, and they put the lasers on it.",
+     "And the lasers... do not lie.",
+     "He said, \"Your toe's out. Your camber's off.",
+     "And this rim's got a bend in it you could set a coffee cup in.\"",
+     "And I said, \"Can it be saved?\"",
+     "And he said...",
+     "\"It can be ALIGNED.\"",
+     "Can I get an amen?"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "I've been delivered (delivered)",
+     "From the pothole (from the pothole)",
+     "Straightened out my wheel (my wheel)",
+     "Set my steering right",
+     "Now I'm rolling true (rolling true)",
+     "Now I'm driving straight",
+     "I've been delivered",
+     "Hallelujah, I've been aligned"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Watch out on 16..."
     ]
    }
   ]
@@ -1399,6 +2652,102 @@
      "Wheee. Then uh.",
      "Then kind of clunks down.",
      "Then kind of clunks down."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "check-engine-light-pt-ii",
+  "title": "Check Engine Light, Pt. II",
+  "sub": "Nobody Reads My Codes",
+  "dur": 173.6,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "It's been fourteen months",
+     "Since you really looked at me"
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "I light up every morning when you turn the key",
+     "A little orange engine, that's the only shape of me",
+     "You put a piece of tape on me, you thought I couldn't see",
+     "Black electrical tape, is that all I am to you?"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "And I've been trying to tell you",
+     "Something's wrong inside",
+     "But you just turn the radio up louder (louder!)"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Nobody reads my codes!",
+     "I've got so much to say and nobody knows",
+     "I'm not a phase, I'm a P0420",
+     "Plug me in, plug me in, I'm begging you, please",
+     "Nobody reads my codes! (Nobody reads my codes!)"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Your cousin says it's probably the sensor",
+     "Your neighbor says it's probably the cap",
+     "I wrote it all down in a language only scanners speak",
+     "And you just think I'm being dramatic"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "And I've been trying to tell you",
+     "Something's wrong inside",
+     "But you just turn the radio up louder (louder!)"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Nobody reads my codes!",
+     "I've got so much to say and nobody knows",
+     "I'm not a phase, I'm a P0420",
+     "Plug me in, plug me in, I'm begging you, please",
+     "Nobody reads my codes! (Nobody reads my codes!)"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "And if I start to flash, if I start to blink",
+     "That's not a cry for attention",
+     "That's a cry for help!",
+     "Pull over! Pull over! Pull over!",
+     "Please pull over."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Nobody reads my codes!",
+     "I've got so much to say and nobody knows",
+     "I'm not a phase, I'm a P0420",
+     "Plug me in, plug me in, I'm begging you, please",
+     "Nobody reads my codes! (Nobody reads my codes!)"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "You said it was the gas cap.",
+     "It was never the gas cap."
     ]
    }
   ]
@@ -1484,6 +2833,75 @@
   ]
  },
  {
+  "slug": "keep-your-cool",
+  "title": "Keep Your Cool",
+  "sub": "",
+  "dur": 136.2,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "August in Arkansas, a hundred and three",
+     "Stuck at a light on 71B",
+     "Needle's climbing up toward the H",
+     "Little white cloud coming out of the grille"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Keep your cool, baby, keep your cool",
+     "Pull it over, shut it off, that's the rule",
+     "And whatever you do, leave that cap alone",
+     "That radiator's a pressure cooker, baby, leave it on"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Here's a trick your granddad knew",
+     "Crank the heater all the way, high and hot",
+     "It pulls the heat right off the engine",
+     "You'll be miserable. The engine won't."
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Keep your cool, baby, keep your cool",
+     "Pull it over, shut it off, that's the rule",
+     "And whatever you do, leave that cap alone",
+     "That radiator's a pressure cooker, baby, leave it on"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Coolant low? Well, it went somewhere",
+     "A hose, a pump, a radiator seam",
+     "Bring it in once it's cooled down",
+     "We'll pressure test it and find the leak"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Keep your cool, baby, keep your cool",
+     "Pull it over, shut it off, that's the rule",
+     "And whatever you do, leave that cap alone",
+     "That radiator's a pressure cooker, baby, leave it on"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "instrumental-35",
+  "title": "Instrumental 35",
+  "sub": "",
+  "dur": 130.7,
+  "lyrics": []
+ },
+ {
   "slug": "71-south",
   "title": "71 South",
   "sub": "",
@@ -1495,6 +2913,79 @@
      "Seventy-one south.",
      "Windows down.",
      "Nothing wrong with the car."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "luck-be-a-fuel-light",
+  "title": "Luck Be a Fuel Light",
+  "sub": "",
+  "dur": 214.6,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "The light came on in Johnson, pal, said thirty miles to go",
+     "Gas station on every corner, and I told every one of 'em no",
+     "'Cause a man who fills at a quarter tank, he never knows the thrill",
+     "Of watching that little number drop while he's coasting down the hill"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Luck be a fuel light, burning orange in the night",
+     "Thirty miles is what you promised, baby, and I'm feeling right",
+     "I passed the Casey's, passed the Walmart, passed the one on 412",
+     "Let it ride, little fuel light, I'm riding on you"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Now it's twenty, now it's twelve, now I'm turning off the air",
+     "Killed the radio, cracked the window, running on fumes and prayer",
+     "Tucked in behind a cattle truck down on 49",
+     "Drafting like it's Daytona, and the smell is not so fine"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Luck be a fuel light, burning orange in the night",
+     "Thirty miles is what you promised, baby, and I'm feeling right",
+     "I passed the Casey's, passed the Walmart, passed the one on 412",
+     "Let it ride, little fuel light, I'm riding on you"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Let me tell you something, pal.",
+     "The fuel pump lives inside the tank. The gas keeps it cool.",
+     "Run it down to nothing enough times, and that little guy cooks.",
+     "That's a bigger bill than a tank of gas.",
+     "...But what's life without a little risk."
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Then the number went to dashes, just a dash, a dash, a dash",
+     "The engine gave a little cough, like a gambler out of cash",
+     "She rolled up on the shoulder with a sigh and not a sound",
+     "Two miles from the nearest pump, and the rain is coming down"
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Luck be a fuel light, you were honest all along",
+     "You said thirty, I heard sixty, baby, that's where I went wrong",
+     "Now it's me and a red gas can, walking in the pouring rain",
+     "Next time, baby, I'll fill at a quarter...",
+     "Ah, who am I kidding."
     ]
    }
   ]
@@ -1657,6 +3148,376 @@
      "Pedal's up high and the wheel don't shake",
      "Ain't nothing in this world like a brand-new brake",
      "Ain't nothing in this world like a brand-new brake"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "brake-fluid-blues",
+  "title": "Brake Fluid Blues",
+  "sub": "",
+  "dur": 219.8,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Woke up this mornin'",
+     "Pressed my brakes, went soft",
+     "Woke up this mornin'",
+     "Pressed my brakes, they went soft",
+     "Been doing my job for years now",
+     "And nobody ever thought"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I got the brake fluid blues",
+     "I'm the one you never check",
+     "I got the brake fluid blues",
+     "Don't nobody give a heck",
+     "I drink the water from the air, Lord",
+     "And that's what's gonna bring you trouble next"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "I pull in every raindrop",
+     "Every bit of humid air",
+     "I pull in every raindrop",
+     "Every bit of that Arkansas air",
+     "Water boils down low, baby",
+     "When you need me, I won't be there"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I got the brake fluid blues",
+     "I'm the one you never check",
+     "I got the brake fluid blues",
+     "Don't nobody give a heck",
+     "I drink the water from the air, Lord",
+     "And that's what's gonna bring you trouble next"
+    ]
+   },
+   {
+    "name": "Bridge - spoken",
+    "lines": [
+     "See, brake fluid soaks up water.",
+     "Can't help it. It's made that way.",
+     "Every year it boils a little lower.",
+     "Rusts you from the inside.",
+     "Long downhill, hot brakes...",
+     "And the pedal goes to the floor."
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     "Flush me every couple years",
+     "Fresh and clear again",
+     "Flush me every couple years, now",
+     "Make me clear as gin",
+     "It's cheaper than the alternative",
+     "I'll stop you every time, my friend"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "hummmm",
+  "title": "Hummmm",
+  "sub": "",
+  "dur": 256.2,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Hmmmmmmmmm..."
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Started at forty, like a song stuck in your head",
+     "You thought it was the tires, 'cause that's what your brother said",
+     "Now it's fifty and it's louder, now it's sixty and it's mine",
+     "I'm the hum inside your wheel well and I'm running out of time"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "Turn the radio up, I'm still here",
+     "Roll the windows down, I'm still here"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "HUMMMMMM!",
+     "I GET LOUDER WHEN YOU GO!",
+     "HUMMMMMM!",
+     "EVERY MILE I GROW!",
+     "I'm not the engine, I'm not the road",
+     "I'M A BEARING AND I'M ABOUT TO GO!"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Yo, swerve to the left and I scream a little more",
+     "Swerve to the right and I'm quiet like before",
+     "Coast it in neutral, rev it to the sky",
+     "The engine don't change me, I'm the wheel, that's why",
+     "Speed is my volume, the road is my stage",
+     "Grinding my races in a little steel cage"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "Turn the radio up, I'm still here",
+     "Roll the windows down, I'm still here"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "HUMMMMMM!",
+     "I GET LOUDER WHEN YOU GO!",
+     "HUMMMMMM!",
+     "EVERY MILE I GROW!",
+     "I'm not the engine, I'm not the road",
+     "I'M A BEARING AND I'M ABOUT TO GO!"
+    ]
+   },
+   {
+    "name": "Breakdown",
+    "lines": [
+     "Forty! Fifty! Sixty! Seventy!",
+     "Forty! Fifty! Sixty! Seventy!",
+     "...okay, that's a grind now."
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "Don't wait for the grind.",
+     "The grind is the part where I take the hub with me."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "HUMMMMMM!",
+     "I GET LOUDER WHEN YOU GO!",
+     "HUMMMMMM!",
+     "EVERY MILE I GROW!",
+     "I'm not the engine, I'm not the road",
+     "I'M A BEARING AND I'M ABOUT TO GO!"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "New bearing. Hear that?",
+     "...Nothing. Beautiful."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "i-take-the-shake",
+  "title": "I Take the Shake",
+  "sub": "",
+  "dur": 213.4,
+  "lyrics": [
+   {
+    "name": "Intro",
+    "lines": [
+     "Every pothole...",
+     "Every hard launch...",
+     "I take it.",
+     "I take it all."
+    ]
+   },
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Rubber and steel, bolted in the dark",
+     "Between the engine and the frame, that's where I keep my heart",
+     "You stomp the gas at every light",
+     "I hold it down, I hold it tight"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "You never feel it (you never feel it)",
+     "'Cause I feel it for you"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I TAKE THE SHAKE!",
+     "So you don't have to feel it",
+     "I TAKE THE SHAKE!",
+     "Every crack, I conceal it",
+     "Ten years of torque and I never said a word",
+     "I TAKE THE SHAKE! (I take the shake)"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Yo, idle at the light and the mirror's got a blur",
+     "Coffee in the cupholder rippling, a little stir",
+     "Clunk when you drop it into drive, that's me",
+     "Thunk when you punch it off the line, that's me",
+     "I'm torn, I'm worn, my rubber's cracked in half",
+     "You just turned the radio up and laughed"
+    ]
+   },
+   {
+    "name": "Pre-Chorus",
+    "lines": [
+     "You never feel it (you never feel it)",
+     "'Cause I feel it for you"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "I TAKE THE SHAKE!",
+     "So you don't have to feel it",
+     "I TAKE THE SHAKE!",
+     "Every crack, I conceal it",
+     "Ten years of torque and I never said a word",
+     "I TAKE THE SHAKE! (I take the shake)"
+    ]
+   },
+   {
+    "name": "Breakdown",
+    "lines": [
+     "CLUNK! Into drive!",
+     "THUNK! Off the line!",
+     "SHAKE! At the light!",
+     "That's me! That's me! That's me!"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "I'm not asking for much.",
+     "Just look under there.",
+     "Shine a light on me.",
+     "Have somebody rock the engine...",
+     "and watch me move."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "I TAKE THE SHAKE!",
+     "So you don't have to feel it",
+     "I TAKE THE SHAKE!",
+     "Every crack, I conceal it",
+     "Ten years of torque and I never said a word",
+     "I TAKE THE SHAKE! (I take the shake)"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "...I took the shake."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "jump-start",
+  "title": "Jump Start",
+  "sub": "",
+  "dur": 157.0,
+  "lyrics": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     "Well, the Volvo's dead in the Walmart lot",
+     "Clickin' like a cricket and it's ninety-five hot",
+     "I got the cables, honey, I know what to do",
+     "Just grab that black one and clamp it right on through",
+     "Hold it right there, mister, put that clamp down",
+     "You're 'bout to light up half of Bentonville town",
+     "I've seen you do this, I know how it goes",
+     "Last time you did it, the sparks singed your clothes"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Red to the dead, then red to the good",
+     "Black to the good, like a smart man would",
+     "Last black on the metal, not on the post",
+     "Why's that, darlin'?",
+     "'Cause sparks love a battery the most",
+     "Let it run a few minutes, then turn the key",
+     "That's how you jump it, you and me"
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     "Well, I popped the hood and I looked inside",
+     "There ain't no battery, I near about cried",
+     "It's in the trunk, honey, it's been there all along",
+     "Then what's this thing with the plus sign on?",
+     "That's the jump post, baby, they put it up front",
+     "So you don't have to dig through the groceries and junk"
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     "Red to the dead, then red to the good",
+     "Black to the good, like a smart man would",
+     "Last black on the metal, not on the post",
+     "Why's that, darlin'?",
+     "'Cause sparks love a battery the most",
+     "Let it run a few minutes, then turn the key",
+     "That's how you jump it, you and me"
+    ]
+   },
+   {
+    "name": "Bridge",
+    "lines": [
+     "And once it starts, you're driving it straight in to get that battery tested.",
+     "It just needed a jump.",
+     "It's the third jump this month, Earl.",
+     "...Yes ma'am."
+    ]
+   },
+   {
+    "name": "Final Chorus",
+    "lines": [
+     "Red to the dead, then red to the good",
+     "Black to the good, like a smart man would",
+     "Last black on the metal, not on the post",
+     "Why's that, darlin'?",
+     "'Cause sparks love a battery the most",
+     "Let it run a few minutes, then turn the key",
+     "That's how you jump it, you and me"
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     "Now how do I take 'em off?",
+     "Backwards, honey. Just backwards."
     ]
    }
   ]
