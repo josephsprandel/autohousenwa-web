@@ -2,8 +2,11 @@
 
 The AutoHouse Automotive website (PHP, hosted on cPanel as account `autohous`).
 
-- **Shared parts:** `includes/nav.php`, `includes/footer.php`, `includes/scheduler.php`.
-  Every page includes all three. Change the nav/footer/scheduler there — once.
+- **Shared parts:** `includes/nav.php`, `includes/footer.php`, `includes/scheduler.php`,
+  `includes/portal-bar.php`. Every page includes them. Change the nav/footer/scheduler there — once.
+- **Current customers: Login here** = `includes/portal-bar.php`, the thin bar above the header that links to the
+  RO Engine customer portal (`https://autohouse.roengine.com/my`). Generated in RO Engine (Settings →
+  Communications → Customer portal → Put it on your website); paste a fresh copy from there to change it.
 - **Schedule Online** = the SMS-consent modal (`includes/scheduler.php`), then RO Engine's
   booking popup (`https://autohouse.roengine.com/embed/book.js`). The consent modal is the
   call-to-action carriers review for SMS (10DLC) registration: keep its wording, the

@@ -107,6 +107,7 @@ footer a:hover { text-decoration: underline; }
 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQRKRB8V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
+<?php include __DIR__ . '/includes/portal-bar.php'; ?>
 <header>
     <img src="/_img/autohouse2024.png" alt="AutoHouse Automotive Logo">
     <div>

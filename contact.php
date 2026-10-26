@@ -341,6 +341,7 @@ footer a:hover {
 height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 
+<?php include __DIR__ . '/includes/portal-bar.php'; ?>
 <header>
     <img src="/_img/autohouse2024.png" alt="AutoHouse Automotive Logo">
     <div>
